@@ -1,0 +1,10 @@
+*.ini
+_temp
+@*
+*.bak
+_*
+*.opt
+transcript
+*.wlf
+*.asm64
+*.rw64
