@@ -6,7 +6,7 @@ logic signed [7:0] out;
 
 initial begin
     start = 1'b0;
-    q_in = 4;
+    q_in = 6;
     m_in = -3;
 
     #1 start = 1'b1;

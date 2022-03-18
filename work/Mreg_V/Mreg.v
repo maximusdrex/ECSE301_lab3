@@ -14,12 +14,7 @@ always @(posedge clock) begin
     LD: begin
         M_out = load;
     end
-    HD: begin
-        M_out = M;
-    end
-    default: begin
-        M_out = load;
-    end
+    HD: ;
     endcase
 end
 

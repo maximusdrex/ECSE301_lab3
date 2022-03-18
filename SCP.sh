@@ -16,13 +16,13 @@ elsyn << //EOF
 read  /mgc/Leonardo/lib/ami05_typ.syn
 #read /mgc/Leonardo/lib/tsmc035_typ.syn
 
-#read $cktdir/work/Areg_V/Areg.v
-#read $cktdir/work/Mreg_V/Mreg.v
-#read $cktdir/work/Qreg_V/Qreg.v
-#read $cktdir/work/AddSub_V/AddSub.v
+read $cktdir/work/Areg_V/Areg.v
+read $cktdir/work/Mreg_V/Mreg.v
+read $cktdir/work/Qreg_V/Qreg.v
+read $cktdir/work/AddSub_V/AddSub.v
 read $cktdir/work/Control_V/ControlLogic.v
 
-#read {$cktdir/${in_d}/${comp}.v}
+read {$cktdir/work/TopModel_V/TopModel.v}
 
 
 pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize

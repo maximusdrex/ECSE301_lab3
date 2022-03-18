@@ -17,7 +17,7 @@ always @(posedge clock) begin
         A_out = 4'b0000;
     end
     Shift: begin
-        A_out = {A_out[3], A_out[3], A_out[2], A_out[1]}
+        A_out = {A_out[3], A_out[3], A_out[2], A_out[1]};
     end
     Hold: ;
     endcase

@@ -5,10 +5,8 @@ module AddSub(mult, control, A_in, A_out, clock);
 
     parameter Add = 1'b0 , Sub = 1'b1;
 
-    reg [3:0] A_out;
+    wire [3:0] A_out;
      
-    always @(posedge clock) begin
-        A_out = (control == Add) ? A_in + mult : A_in - mult;
-    end
+    assign A_out = (control == Add) ? A_in + mult : A_in - mult;
 
 endmodule
