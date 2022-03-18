@@ -1,0 +1,64 @@
+/mgc/Leonardo/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2009a.6 (Release Production Release, compiled Aug 17 2009 at 17:56:52)
+Copyright 1990-2009 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2009 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2009a.6 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/home/max/EECS301/lab3/leospec.his'
+Reading library file `/mgc/Leonardo/lib/ami05_typ.syn`...
+Library version = 3.0 Release : Patch (a) : 09/13/04
+Delays assume: Process=typical Temp= 27.0 C  Voltage=5.00 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+-- Reading file '/home/max/EECS301/lab3/work/Control_V/ControlLogic.v'...
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 45: Warning, system task enable ignored for synthesis
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 54: Warning, system task enable ignored for synthesis
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 63: Warning, system task enable ignored for synthesis
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 74: Warning, system task enable ignored for synthesis
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 112: Warning, system task enable ignored for synthesis
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 113: Warning, system task enable ignored for synthesis
+-- Loading module 'ControlLogic'
+-- Compiling root module 'ControlLogic'
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 25: Warning, PRES_STATE should be present in the 'always' condition.
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 42: Info, conditions are mutually exclusive; resolve without priority.
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 25: Info, case choices are mutually exclusive; inferring parallel case.
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 11: Warning, A is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 11: Warning, Q is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, M is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 14: Warning, count is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 13: Warning, NEXT_STATE is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, done is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, Adder is not always assigned. Storage may be needed..
+ERROR: Net is driven by multiple primitive gates --  NET: PWR 
+ PORT out OF TRUE: ix1  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ PORT out OF LATRS: lat_nx319  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ PORT out OF LATRS: lat_nx315  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ PORT out OF LATRS: lat_nx311  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+pre_optimize: design is not a view
+pre_optimize: design is not a view
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+optimize: design is not a view
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+WARNING: Trying to connect power net PWR to gnd net GND0
+ERROR: Net is driven by multiple primitive gates --  NET: A_sig(0) 
+ PORT out OF TRUE: ix1  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ PORT out OF LATRS: lat_nx315  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ PORT out OF LATRS: lat_nx311  PORT out OF BLOCK: work/ControlLogic/INTERFACE
+ERROR: netlist can not be optimized because of electrical problems
+-- Final Design Rule Check..
+optimize_timing: Cannot find technology cells with timing in design.
+Either the design is empty or it has not been mapped yet.
+Info: setting edif_write_arrays to FALSE
+FALSE
+write: present design is not set to a view
+write: present design is not set to a view
+CriticalPath
+report_delay: present design is not a view; cannot report delay

@@ -1,0 +1,235 @@
+(DELAYFILE
+ (SDFVERSION "2.0")
+ (DESIGN "Areg")
+ (DATE "Fri Mar  4 18:10:07 2022")
+ (VENDOR "Exemplar Logic, Inc., Alameda")
+ (PROGRAM "LeonardoSpectrum Level 3")
+ (VERSION "2009a.6")
+ (DIVIDER /)
+ (VOLTAGE)
+ (PROCESS)
+ (TEMPERATURE)
+ (TIMESCALE 1 ns)
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_out_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.66) (::0.81))
+   (IOPATH CLK QB (::0.71) (::0.57))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix152)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.39) (::0.41))
+   (IOPATH A1 Y (::0.42) (::0.41))
+   (IOPATH S0 Y (::0.33) (::0.36)))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.80) (::0.95))
+   (IOPATH CLK QB (::0.84) (::0.71))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "inv02")
+ (INSTANCE ix167)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.22) (::0.26)))))
+(CELL
+ (CELLTYPE "aoi22")
+ (INSTANCE ix169)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.31) (::0.34))
+   (IOPATH A1 Y (::0.41) (::0.40))
+   (IOPATH B0 Y (::0.22) (::0.21))
+   (IOPATH B1 Y (::0.35) (::0.26)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix142)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.39) (::0.41))
+   (IOPATH A1 Y (::0.42) (::0.41))
+   (IOPATH S0 Y (::0.33) (::0.36)))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.83) (::0.99))
+   (IOPATH CLK QB (::0.84) (::0.71))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "aoi22")
+ (INSTANCE ix175)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.31) (::0.34))
+   (IOPATH A1 Y (::0.41) (::0.40))
+   (IOPATH B0 Y (::0.22) (::0.21))
+   (IOPATH B1 Y (::0.35) (::0.26)))))
+(CELL
+ (CELLTYPE "mux21")
+ (INSTANCE ix132)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT S0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.39) (::0.41))
+   (IOPATH A1 Y (::0.42) (::0.41))
+   (IOPATH S0 Y (::0.33) (::0.36)))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_2)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.83) (::0.99))
+   (IOPATH CLK QB (::0.84) (::0.71))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "aoi22")
+ (INSTANCE ix181)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (PORT B1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.31) (::0.34))
+   (IOPATH A1 Y (::0.41) (::0.40))
+   (IOPATH B0 Y (::0.22) (::0.21))
+   (IOPATH B1 Y (::0.35) (::0.26)))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_3)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.86) (::1.02))
+   (IOPATH CLK QB (::0.78) (::0.64))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "ao21")
+ (INSTANCE ix122)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT B0 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.55) (::0.66))
+   (IOPATH A1 Y (::0.54) (::0.72))
+   (IOPATH B0 Y (::0.56) (::0.57)))))
+(CELL
+ (CELLTYPE "nor03")
+ (INSTANCE ix120)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (PORT A2 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.32) (::0.53))
+   (IOPATH A1 Y (::0.27) (::0.40))
+   (IOPATH A2 Y (::0.17) (::0.26)))))
+(CELL
+ (CELLTYPE "inv02")
+ (INSTANCE ix186)
+ (DELAY
+  (ABSOLUTE
+   (PORT A (::0.00) (::0.00))
+   (IOPATH A Y (::0.10) (::0.12)))))
+(CELL
+ (CELLTYPE "nor02_2x")
+ (INSTANCE ix11)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.27) (::0.28))
+   (IOPATH A1 Y (::0.22) (::0.22)))))
+(CELL
+ (CELLTYPE "nand02_2x")
+ (INSTANCE ix5)
+ (DELAY
+  (ABSOLUTE
+   (PORT A0 (::0.00) (::0.00))
+   (PORT A1 (::0.00) (::0.00))
+   (IOPATH A0 Y (::0.24) (::0.21))
+   (IOPATH A1 Y (::0.28) (::0.24)))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_out_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.66) (::0.81))
+   (IOPATH CLK QB (::0.71) (::0.57))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_out_2)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.66) (::0.81))
+   (IOPATH CLK QB (::0.71) (::0.57))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+(CELL
+ (CELLTYPE "dff")
+ (INSTANCE reg_A_out_3)
+ (DELAY
+  (ABSOLUTE
+   (PORT D (::0.00) (::0.00))
+   (PORT CLK (::0.00) (::0.00))
+   (IOPATH CLK Q (::0.66) (::0.81))
+   (IOPATH CLK QB (::0.71) (::0.57))))
+ (TIMINGCHECK
+   (SETUP D (posedge CLK) (0.38))
+   (HOLD D (posedge CLK) (-0.05))))
+)

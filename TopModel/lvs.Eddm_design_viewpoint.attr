@@ -1,0 +1,23 @@
+A 5 u Eddm_design_viewpoint 6220f1bba163.03.7f.00.01.01.00.4e.84 2 2 3 0
+V v 1 4 6220f1bba164.03.7f.00.01.01.00.4e.84
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 6220f1bbaed8.03.7f.00.01.01.00.4e.84
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/part" 1 Eddm_part 6220f19a13b3.03.7f.00.01.01.00.4e.84 6220f19a13b2.03.7f.00.01.01.00.4e.84
+R cspuv 1 "/home/max/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 622044583385.03.7f.00.01.01.01.4e.84 622044583385.03.7f.00.01.01.00.4e.84
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/max/EECS301/lab3/TopModel/lvs" 1 Eddm_ba_mgr 6220f1bba5f4.03.7f.00.01.01.00.4e.84 6220f1bba5f3.03.7f.00.01.01.00.4e.84
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/part" 1 Eddm_part 6220f19a13b3.03.7f.00.01.01.00.4e.84 6220f19a13b2.03.7f.00.01.01.00.4e.84
+R cspuv 1 "/home/max/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 622044583385.03.7f.00.01.01.01.4e.84 622044583385.03.7f.00.01.01.00.4e.84
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/max/EECS301/lab3/TopModel/lvs" 1 Eddm_ba_mgr 6220f1bba5f4.03.7f.00.01.01.00.4e.84 6220f1bba5f3.03.7f.00.01.01.00.4e.84

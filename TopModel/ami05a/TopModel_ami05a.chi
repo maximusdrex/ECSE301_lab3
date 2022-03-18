@@ -1,0 +1,2084 @@
+  Run on ubuntu (Linux 5.13.0-30-generic)
+
+/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.cir -o /home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.chi -nocou -gwl jwdb -wdb_folder -ezwave -outname TopModel_ami05a_04 
+
+
+
+***** PRE-PROCESSING ...
+
+1******* 3-Mar-22 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******13:35:35******
+
+0* Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
+
+0****     INPUT LISTING                                               
+
+0***********************************************************************
+    2  ** including /home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.spi
+    1  *
+    2  * .CONNECT statements
+    3  *
+    4  .CONNECT GND 0
+    5  
+    6  
+    7  * ELDO netlist generated with ICnet by 'max' on Thu Mar  3 2022 at 13:35:32
+    8  
+    9  *
+   10  * Globals.
+   11  *
+   12  .GLOBAL VDD GND
+   13  
+   14  *
+   15  * Component pathname : $ADK/parts/inv02
+   16  *
+   17  .SUBCKT INV02  A Y
+   18  
+   19          M_I$6 Y A VDD VDD P L=0.6U W=5.4U
+   20          M_I$5 Y A GND GND N L=0.6U W=3U
+   21  .ENDS INV02
+   22  
+   23  *
+   24  * Component pathname : $ADK/parts/aoi22
+   25  *
+   26  .SUBCKT AOI22  B1 A0 A1 B0 Y
+   27  
+   28          M_I$425 Y B0 N$9 GND N L=0.6U W=3U
+   29          M_I$426 Y B1 N$4 VDD P L=0.6U W=3.9U
+   30          M_I$12 N$8 A1 GND GND N L=0.6U W=3U
+   31          M_I$11 Y A0 N$8 GND N L=0.6U W=3U
+   32          M_I$7 Y B0 N$4 VDD P L=0.6U W=3.9U
+   33          M_I$6 N$4 A1 VDD VDD P L=0.6U W=3.9U
+   34          M_I$5 N$4 A0 VDD VDD P L=0.6U W=3.9U
+   35          M_I$13 N$9 B1 GND GND N L=0.6U W=3U
+   36  .ENDS AOI22
+   37  
+   38  *
+   39  * Component pathname : $ADK/parts/xnor2
+   40  *
+   41  .SUBCKT XNOR2  Y A0 A1
+   42  
+   43          M_I$218 N$213 A1 GND GND N L=0.6U W=3U
+   44          M_I$217 N$212 A0 N$213 GND N L=0.6U W=3U
+   45          M_I$9 N$212 A1 VDD VDD P L=0.6U W=3.9U
+   46          M_I$8 N$212 A0 VDD VDD P L=0.6U W=3.9U
+   47          M_I$7 N$3 N$212 GND GND N L=0.6U W=3U
+   48          M_I$6 Y A1 N$3 GND N L=0.6U W=3U
+   49          M_I$5 Y A0 N$3 GND N L=0.6U W=3U
+   50          M_I$4 Y A1 N$1 VDD P L=0.6U W=7.8U
+   51          M_I$3 Y N$212 VDD VDD P L=0.6U W=3.9U
+   52          M_I$2 N$1 A0 VDD VDD P L=0.6U W=7.8U
+   53  .ENDS XNOR2
+   54  
+   55  *
+   56  * Component pathname : $ADK/parts/mux21_ni
+   57  *
+   58  .SUBCKT MUX21_NI  S0 A0 A1 Y
+   59  
+   60          M_I$18 Y N$11 GND GND N L=0.6U W=1.5U
+   61          M_I$17 Y N$11 VDD VDD P L=0.6U W=2.7U
+   62          M_I$16 N$11 S0 N$7 VDD P L=0.6U W=5.4U
+   63          M_I$11 N$3 A1 GND GND N L=0.6U W=3U
+   64          M_I$10 N$11 S0 N$3 GND N L=0.6U W=3U
+   65          M_I$9 N$11 N$4 N$2 VDD P L=0.6U W=5.4U
+   66          M_I$8 N$2 A1 VDD VDD P L=0.6U W=5.4U
+   67          M_I$7 N$1 A0 GND GND N L=0.6U W=3U
+   68          M_I$6 N$11 N$4 N$1 GND N L=0.6U W=3U
+   69          M_I$4 N$7 A0 VDD VDD P L=0.6U W=5.4U
+   70          M_I$3 N$4 S0 GND GND N L=0.6U W=1.5U
+   71          M_I$2 N$4 S0 VDD VDD P L=0.6U W=2.7U
+   72  .ENDS MUX21_NI
+   73  
+   74  *
+   75  * Component pathname : $ADK/parts/xor2
+   76  *
+   77  .SUBCKT XOR2  Y A0 A1
+   78  
+   79          M_I$421 Y N$4 GND GND N L=0.6U W=1.5U
+   80          M_I$420 Y N$4 VDD VDD P L=0.6U W=2.7U
+   81          M_I$218 N$213 A1 GND GND N L=0.6U W=3U
+   82          M_I$217 N$212 A0 N$213 GND N L=0.6U W=3U
+   83          M_I$9 N$212 A1 VDD VDD P L=0.6U W=3.9U
+   84          M_I$8 N$212 A0 VDD VDD P L=0.6U W=3.9U
+   85          M_I$7 N$3 N$212 GND GND N L=0.6U W=3U
+   86          M_I$6 N$4 A1 N$3 GND N L=0.6U W=3U
+   87          M_I$5 N$4 A0 N$3 GND N L=0.6U W=3U
+   88          M_I$4 N$4 A1 N$1 VDD P L=0.6U W=7.8U
+   89          M_I$3 N$4 N$212 VDD VDD P L=0.6U W=3.9U
+   90          M_I$2 N$1 A0 VDD VDD P L=0.6U W=7.8U
+   91  .ENDS XOR2
+   92  
+   93  *
+   94  * Component pathname : /home/max/EECS301/lab3/AddSub_S/AddSub
+   95  *
+   96  .SUBCKT ADDSUB  MULT[0] MULT[1] MULT[2] MULT[3] A_IN[0] A_IN[1] A_IN[2]
+   97  + A_IN[3] A_OUT[0] A_OUT[1] A_OUT[2] A_OUT[3] CLOCK CONTROL
+   98  
+   99          X_IX213 NX10 NX212 INV02
+  100          X_IX211 NX12 NX212 A_IN[1] NX32 NX210 AOI22
+  101          X_IX43 NX42 MULT[3] CONTROL XNOR2
+  102          X_IX45 NX44 A_IN[3] NX42 XNOR2
+  103          X_IX47 A_OUT[3] NX219 NX44 XNOR2
+  104          X_IX1 NX0 MULT[2] CONTROL XNOR2
+  105          X_IX3 NX2 A_IN[2] NX0 XNOR2
+  106          X_IX49 A_OUT[2] NX210 NX2 XNOR2
+  107          X_IX11 NX10 MULT[1] CONTROL XNOR2
+  108          X_IX13 NX12 A_IN[1] NX10 XNOR2
+  109          X_IX220 NX2 NX0 NX210 NX219 MUX21_NI
+  110          X_IX33 MULT[0] CONTROL A_IN[0] NX32 MUX21_NI
+  111          X_IX51 A_OUT[1] NX32 NX12 XOR2
+  112          X_IX53 A_OUT[0] A_IN[0] MULT[0] XOR2
+  113  .ENDS ADDSUB
+  114  
+  115  *
+  116  * Component pathname : $ADK/parts/dff
+  117  *
+  118  .SUBCKT DFF  QB Q CLK D
+  119  
+  120          M_I$441 N$847 BCLK- N$851 GND N L=0.6U W=4.5U
+  121          M_I$440 N$849 N$847 VDD VDD P L=0.6U W=1.5U
+  122          M_I$439 N$847 BCLK- N$848 VDD P L=0.6U W=1.5U
+  123          M_I$438 N$848 N$849 VDD VDD P L=0.6U W=1.5U
+  124          M_I$437 N$847 BCLK N$845 VDD P L=0.6U W=8.1U
+  125          M_I$436 N$845 D VDD VDD P L=0.6U W=8.1U
+  126          M_I$452 BCLK BCLK- GND GND N L=0.6U W=3U
+  127          M_I$673 Q QB GND GND N L=0.6U W=3U
+  128          M_I$672 Q QB VDD VDD P L=0.6U W=5.4U
+  129          M_I$669 QB N$1074 GND GND N L=0.6U W=3U
+  130          M_I$675 QB N$1074 VDD VDD P L=0.6U W=5.4U
+  131          M_I$668 N$1071 N$1074 GND GND N L=0.6U W=1.5U
+  132          M_I$667 N$1073 N$1071 GND GND N L=0.6U W=1.5U
+  133          M_I$666 N$1074 BCLK- N$1073 GND N L=0.6U W=1.5U
+  134          M_I$665 N$1072 N$847 GND GND N L=0.6U W=4.5U
+  135          M_I$664 N$1074 BCLK N$1072 GND N L=0.6U W=4.5U
+  136          M_I$663 N$1071 N$1074 VDD VDD P L=0.6U W=1.5U
+  137          M_I$662 N$1074 BCLK N$1070 VDD P L=0.6U W=1.5U
+  138          M_I$661 N$1070 N$1071 VDD VDD P L=0.6U W=1.5U
+  139          M_I$660 N$1074 BCLK- N$1069 VDD P L=0.6U W=8.1U
+  140          M_I$659 N$1069 N$847 VDD VDD P L=0.6U W=8.1U
+  141          M_I$449 BCLK- CLK GND GND N L=0.6U W=3U
+  142          M_I$448 BCLK- CLK VDD VDD P L=0.6U W=5.4U
+  143          M_I$453 BCLK BCLK- VDD VDD P L=0.6U W=5.4U
+  144          M_I$445 N$849 N$847 GND GND N L=0.6U W=1.5U
+  145          M_I$444 N$852 N$849 GND GND N L=0.6U W=1.5U
+  146          M_I$443 N$847 BCLK N$852 GND N L=0.6U W=1.5U
+  147          M_I$442 N$851 D GND GND N L=0.6U W=4.5U
+  148  .ENDS DFF
+  149  
+  150  *
+  151  * Component pathname : /home/max/EECS301/lab3/Mreg_S/Mreg
+  152  *
+  153  .SUBCKT MREG  LOAD[0] LOAD[1] LOAD[2] LOAD[3] M_OUT[0] M_OUT[1] M_OUT[2]
+  154  + M_OUT[3] CLOCK CONTROL
+  155  
+  156          X_IX175 CLOCK NOT_CLOCK INV02
+  157          X_IX162 CONTROL M_3 LOAD[3] NX161 MUX21_NI
+  158          X_IX152 CONTROL M_2 LOAD[2] NX151 MUX21_NI
+  159          X_IX142 CONTROL M_1 LOAD[1] NX141 MUX21_NI
+  160          X_IX132 CONTROL M_0 LOAD[0] NX131 MUX21_NI
+  161          X_REG_M_3 N$DUMMY_ESC1[7] M_3 NOT_CLOCK NX161 DFF
+  162          X_REG_MO_3 N$DUMMY_ESC1[6] M_OUT[3] CLOCK M_3 DFF
+  163          X_REG_M_2 N$DUMMY_ESC1[5] M_2 NOT_CLOCK NX151 DFF
+  164          X_REG_MO_2 N$DUMMY_ESC1[4] M_OUT[2] CLOCK M_2 DFF
+  165          X_REG_M_1 N$DUMMY_ESC1[3] M_1 NOT_CLOCK NX141 DFF
+  166          X_REG_MO_1 N$DUMMY_ESC1[2] M_OUT[1] CLOCK M_1 DFF
+  167          X_REG_M_0 N$DUMMY_ESC1[1] M_0 NOT_CLOCK NX131 DFF
+  168          X_REG_MO_0 N$DUMMY_ESC1[0] M_OUT[0] CLOCK M_0 DFF
+  169  .ENDS MREG
+  170  
+  171  *
+  172  * Component pathname : $ADK/parts/nand02_2x
+  173  *
+  174  .SUBCKT NAND02_2X  Y A0 A1
+  175  
+  176          M_I$9 Y A1 VDD VDD P L=0.6U W=6U
+  177          M_I$8 Y A0 VDD VDD P L=0.6U W=6U
+  178          M_I$3 Y A0 N$5 GND N L=0.6U W=6U
+  179          M_I$2 N$5 A1 GND GND N L=0.6U W=6U
+  180  .ENDS NAND02_2X
+  181  
+  182  *
+  183  * Component pathname : $ADK/parts/nor02_2x
+  184  *
+  185  .SUBCKT NOR02_2X  A0 A1 Y
+  186  
+  187          M_I$5 Y A0 GND GND N L=0.6U W=3U
+  188          M_I$4 Y A1 GND GND N L=0.6U W=3U
+  189          M_I$3 Y A1 N$1 VDD P L=0.6U W=7.8U
+  190          M_I$2 N$1 A0 VDD VDD P L=0.6U W=7.8U
+  191  .ENDS NOR02_2X
+  192  
+  193  *
+  194  * Component pathname : $ADK/parts/nor03
+  195  *
+  196  .SUBCKT NOR03  A2 A0 A1 Y
+  197  
+  198          M_I$213 Y A0 GND GND N L=0.6U W=1.8U
+  199          M_I$211 Y A2 N$211 VDD P L=0.6U W=8.1U
+  200          M_I$5 Y A1 GND GND N L=0.6U W=1.8U
+  201          M_I$4 Y A2 GND GND N L=0.6U W=1.8U
+  202          M_I$3 N$211 A1 N$1 VDD P L=0.6U W=8.1U
+  203          M_I$2 N$1 A0 VDD VDD P L=0.6U W=8.1U
+  204  .ENDS NOR03
+  205  
+  206  *
+  207  * Component pathname : $ADK/parts/ao21
+  208  *
+  209  .SUBCKT AO21  A1 A0 B0 Y
+  210  
+  211          M_I$14 Y N$3 VDD VDD P L=0.6U W=2.7U
+  212          M_I$13 Y N$3 GND GND N L=0.6U W=1.5U
+  213          M_I$12 N$2 A1 GND GND N L=0.6U W=3U
+  214          M_I$11 N$3 A0 N$2 GND N L=0.6U W=3U
+  215          M_I$7 N$3 B0 N$1 VDD P L=0.6U W=3.9U
+  216          M_I$6 N$1 A1 VDD VDD P L=0.6U W=3.9U
+  217          M_I$5 N$1 A0 VDD VDD P L=0.6U W=3.9U
+  218          M_I$4 N$3 B0 GND GND N L=0.6U W=1.5U
+  219  .ENDS AO21
+  220  
+  221  *
+  222  * Component pathname : $ADK/parts/mux21
+  223  *
+  224  .SUBCKT MUX21  S0 A0 A1 Y
+  225  
+  226          M_I$5 Y S0 N$10 VDD P L=0.6U W=5.4U
+  227          M_I$13 N$6 A1 GND GND N L=0.6U W=3U
+  228          M_I$12 Y S0 N$6 GND N L=0.6U W=3U
+  229          M_I$17 Y N$7 N$5 VDD P L=0.6U W=5.4U
+  230          M_I$16 N$5 A1 VDD VDD P L=0.6U W=5.4U
+  231          M_I$7 N$4 A0 GND GND N L=0.6U W=3U
+  232          M_I$6 Y N$7 N$4 GND N L=0.6U W=3U
+  233          M_I$4 N$10 A0 VDD VDD P L=0.6U W=5.4U
+  234          M_I$3 N$7 S0 GND GND N L=0.6U W=1.5U
+  235          M_I$2 N$7 S0 VDD VDD P L=0.6U W=2.7U
+  236  .ENDS MUX21
+  237  
+  238  *
+  239  * Component pathname : /home/max/EECS301/lab3/Areg_S/Areg
+  240  *
+  241  .SUBCKT AREG  ADDER[0] ADDER[1] ADDER[2] ADDER[3] CONTROL[0] CONTROL[1]
+  242  + A_OUT[0] A_OUT[1] A_OUT[2] A_OUT[3] CLOCK
+  243  
+  244          X_IX5 NX4 CONTROL[1] CONTROL[0] NAND02_2X
+  245          X_IX11 CONTROL[0] CONTROL[1] NX10 NOR02_2X
+  246          X_IX120 CONTROL[1] NX185 CONTROL[0] NX119 NOR03
+  247          X_IX122 CONTROL[1] A_3 NX119 NX121 AO21
+  248          X_IX181 NX10 CONTROL[1] A_3 ADDER[2] NX180 AOI22
+  249          X_IX175 NX10 CONTROL[1] A_2 ADDER[1] NX174 AOI22
+  250          X_IX169 NX10 CONTROL[1] A_1 ADDER[0] NX168 AOI22
+  251          X_IX186 ADDER[3] NX185 INV02
+  252          X_IX167 CLOCK NOT_CLOCK INV02
+  253          X_IX132 NX4 NX178 NX180 NX131 MUX21
+  254          X_IX142 NX4 NX172 NX174 NX141 MUX21
+  255          X_IX152 NX4 NX164 NX168 NX151 MUX21
+  256          X_REG_AO_3 N$DUMMY_ESC1[4] A_OUT[3] CLOCK A_3 DFF
+  257          X_REG_AO_2 N$DUMMY_ESC1[3] A_OUT[2] CLOCK A_2 DFF
+  258          X_REG_AO_1 N$DUMMY_ESC1[2] A_OUT[1] CLOCK A_1 DFF
+  259          X_REG_A_3 N$DUMMY_ESC1[1] A_3 NOT_CLOCK NX121 DFF
+  260          X_REG_A_2 NX178 A_2 NOT_CLOCK NX131 DFF
+  261          X_REG_A_1 NX172 A_1 NOT_CLOCK NX141 DFF
+  262          X_REG_A_0 NX164 A_0 NOT_CLOCK NX151 DFF
+  263          X_REG_AO_0 N$DUMMY_ESC1[0] A_OUT[0] CLOCK A_0 DFF
+  264  .ENDS AREG
+  265  
+  266  *
+  267  * Component pathname : $ADK/parts/oai32
+  268  *
+  269  .SUBCKT OAI32  A2 B1 A0 A1 B0 Y
+  270  
+  271          M_I$471 Y A2 N$415 VDD P L=0.6U W=10.8U
+  272          M_I$470 Y A2 N$7 GND N L=0.6U W=4.5U
+  273          M_I$267 N$7 B1 GND GND N L=0.6U W=4.5U
+  274          M_I$265 Y B1 N$414 VDD P L=0.6U W=7.2U
+  275          M_I$5 N$7 B0 GND GND N L=0.6U W=4.5U
+  276          M_I$4 Y A1 N$7 GND N L=0.6U W=4.5U
+  277          M_I$3 Y A0 N$7 GND N L=0.6U W=4.5U
+  278          M_I$12 N$414 B0 VDD VDD P L=0.6U W=7.2U
+  279          M_I$2 N$415 A1 N$9 VDD P L=0.6U W=10.8U
+  280          M_I$1 N$9 A0 VDD VDD P L=0.6U W=10.8U
+  281  .ENDS OAI32
+  282  
+  283  *
+  284  * Component pathname : /home/max/EECS301/lab3/Qreg_S/Qreg
+  285  *
+  286  .SUBCKT QREG  LOAD[0] LOAD[1] LOAD[2] LOAD[3] CONTROL[0] CONTROL[1] Q_OUT[0]
+  287  + Q_OUT[1] Q_OUT[2] Q_OUT[3] Q_OUT[4] A_IN CLOCK
+  288  
+  289          X_IX5 NX4 CONTROL[1] CONTROL[0] NAND02_2X
+  290          X_IX11 CONTROL[0] CONTROL[1] NX10 NOR02_2X
+  291          X_IX223 NX10 A_IN CONTROL[1] LOAD[3] NX222 AOI22
+  292          X_IX217 NX10 CONTROL[1] Q_4 LOAD[2] NX216 AOI22
+  293          X_IX211 NX10 CONTROL[1] Q_3 LOAD[1] NX210 AOI22
+  294          X_IX203 NX10 CONTROL[1] Q_2 LOAD[0] NX202 AOI22
+  295          X_IX145 NX4 NX220 NX222 NX144 MUX21
+  296          X_IX155 NX4 NX214 NX216 NX154 MUX21
+  297          X_IX165 NX4 NX206 NX210 NX164 MUX21
+  298          X_IX175 NX4 NX199 NX202 NX174 MUX21
+  299          X_IX209 CLOCK NOT_CLOCK INV02
+  300          X_IX198 CONTROL[1] NX197 INV02
+  301          X_IX185 CONTROL[0] NX4 NX197 NX199 NX226 NX184 OAI32
+  302          X_REG_QO_4 N$DUMMY_ESC1[4] Q_OUT[4] CLOCK Q_4 DFF
+  303          X_REG_QO_3 N$DUMMY_ESC1[3] Q_OUT[3] CLOCK Q_3 DFF
+  304          X_REG_QO_2 N$DUMMY_ESC1[2] Q_OUT[2] CLOCK Q_2 DFF
+  305          X_REG_QO_1 N$DUMMY_ESC1[1] Q_OUT[1] CLOCK Q_1 DFF
+  306          X_REG_Q_0 NX226 Q_0 NOT_CLOCK NX184 DFF
+  307          X_REG_Q_4 NX220 Q_4 NOT_CLOCK NX144 DFF
+  308          X_REG_Q_3 NX214 Q_3 NOT_CLOCK NX154 DFF
+  309          X_REG_Q_2 NX206 Q_2 NOT_CLOCK NX164 DFF
+  310          X_REG_Q_1 NX199 Q_1 NOT_CLOCK NX174 DFF
+  311          X_REG_QO_0 N$DUMMY_ESC1[0] Q_OUT[0] CLOCK Q_0 DFF
+  312  .ENDS QREG
+  313  
+  314  *
+  315  * Component pathname : $ADK/parts/oai21
+  316  *
+  317  .SUBCKT OAI21  A0 A1 B0 Y
+  318  
+  319          M_I$5 N$7 B0 GND GND N L=0.6U W=3U
+  320          M_I$4 Y A1 N$7 GND N L=0.6U W=3U
+  321          M_I$3 Y A0 N$7 GND N L=0.6U W=3U
+  322          M_I$12 Y B0 VDD VDD P L=0.6U W=3.6U
+  323          M_I$2 Y A1 N$9 VDD P L=0.6U W=7.2U
+  324          M_I$1 N$9 A0 VDD VDD P L=0.6U W=7.2U
+  325  .ENDS OAI21
+  326  
+  327  *
+  328  * Component pathname : $ADK/parts/nand03
+  329  *
+  330  .SUBCKT NAND03  A1 Y A0 A2
+  331  
+  332          M_I$10 Y A2 VDD VDD P L=0.6U W=4.5U
+  333          M_I$9 Y A0 N$4 GND N L=0.6U W=4.5U
+  334          M_I$8 N$5 A2 GND GND N L=0.6U W=4.5U
+  335          M_I$7 N$4 A1 N$5 GND N L=0.6U W=4.5U
+  336          M_I$3 Y A1 VDD VDD P L=0.6U W=4.5U
+  337          M_I$2 Y A0 VDD VDD P L=0.6U W=4.5U
+  338  .ENDS NAND03
+  339  
+  340  *
+  341  * Component pathname : $ADK/parts/or02
+  342  *
+  343  .SUBCKT OR02  A0 A1 Y
+  344  
+  345          M_I$212 Y N$5 GND GND N L=0.6U W=1.5U
+  346          M_I$211 Y N$5 VDD VDD P L=0.6U W=2.7U
+  347          M_I$5 N$5 A0 GND GND N L=0.6U W=1.5U
+  348          M_I$4 N$5 A1 GND GND N L=0.6U W=1.5U
+  349          M_I$3 N$5 A1 N$1 VDD P L=0.6U W=3.9U
+  350          M_I$2 N$1 A0 VDD VDD P L=0.6U W=3.9U
+  351  .ENDS OR02
+  352  
+  353  *
+  354  * Component pathname : $ADK/parts/latch
+  355  *
+  356  .SUBCKT LATCH  Q CLK D
+  357  
+  358          M_I$222 Q N$17 GND GND N L=0.6U W=1.5U
+  359          M_I$221 Q N$17 VDD VDD P L=0.6U W=2.7U
+  360          M_I$15 N$10 CLK GND GND N L=0.6U W=1.5U
+  361          M_I$13 N$222 N$17 GND GND N L=0.6U W=1.5U
+  362          M_I$12 N$15 N$222 GND GND N L=0.6U W=1.5U
+  363          M_I$11 N$17 N$10 N$15 GND N L=0.6U W=1.5U
+  364          M_I$10 N$13 D GND GND N L=0.6U W=4.5U
+  365          M_I$9 N$17 CLK N$13 GND N L=0.6U W=4.5U
+  366          M_I$6 N$17 CLK N$15 VDD P L=0.6U W=1.5U
+  367          M_I$7 N$222 N$17 VDD VDD P L=0.6U W=2.7U
+  368          M_I$5 N$15 N$222 VDD VDD P L=0.6U W=1.5U
+  369          M_I$4 N$17 N$10 N$11 VDD P L=0.6U W=8.1U
+  370          M_I$3 N$11 D VDD VDD P L=0.6U W=8.1U
+  371          M_I$2 N$10 CLK VDD VDD P L=0.6U W=2.7U
+  372  .ENDS LATCH
+  373  
+  374  *
+  375  * Component pathname : $ADK/parts/and03
+  376  *
+  377  .SUBCKT AND03  A1 Y A0 A2
+  378  
+  379          M_I$430 Y A VDD VDD P L=0.6U W=2.7U
+  380          M_I$429 Y A GND GND N L=0.6U W=1.5U
+  381          M_I$426 A A2 VDD VDD P L=0.6U W=4.5U
+  382          M_I$425 A A0 N$416 GND N L=0.6U W=4.5U
+  383          M_I$424 N$417 A2 GND GND N L=0.6U W=4.5U
+  384          M_I$423 N$416 A1 N$417 GND N L=0.6U W=4.5U
+  385          M_I$419 A A1 VDD VDD P L=0.6U W=4.5U
+  386          M_I$418 A A0 VDD VDD P L=0.6U W=4.5U
+  387  .ENDS AND03
+  388  
+  389  *
+  390  * Component pathname : $ADK/parts/buf02
+  391  *
+  392  .SUBCKT BUF02  A Y
+  393  
+  394          M_I$614 Y N$411 VDD VDD P L=0.6U W=5.4U
+  395          M_I$615 Y N$411 GND GND N L=0.6U W=3U
+  396          M_I$411 N$411 A VDD VDD P L=0.6U W=2.7U
+  397          M_I$412 N$411 A GND GND N L=0.6U W=1.5U
+  398  .ENDS BUF02
+  399  
+  400  *
+  401  * Component pathname : $ADK/parts/inv01
+  402  *
+  403  .SUBCKT INV01  A Y
+  404  
+  405          M_I$411 Y A VDD VDD P L=0.6U W=2.7U
+  406          M_I$412 Y A GND GND N L=0.6U W=1.5U
+  407  .ENDS INV01
+  408  
+  409  *
+  410  * Component pathname : $ADK/parts/latchr
+  411  *
+  412  .SUBCKT LATCHR  QB R CLK D
+  413  
+  414          M_I$1954 N$3723 R GND GND N L=0.6U W=3U
+  415          M_I$1953 N$3723 R N$3722 VDD P L=0.6U W=3.6U
+  416          M_I$1244 N$3516 N$3723 VDD VDD P L=0.6U W=1.5U
+  417          M_I$1245 N$3108 N$3723 GND GND N L=0.6U W=1.5U
+  418          M_I$1749 N$3723 N$3929 GND GND N L=0.6U W=3U
+  419          M_I$1240 N$3929 CLK N$3516 VDD P L=0.6U W=1.5U
+  420          M_I$15 N$3100 CLK GND GND N L=0.6U W=1.5U
+  421          M_I$1242 N$3722 N$3929 VDD VDD P L=0.6U W=3.6U
+  422          M_I$1036 QB N$3723 GND GND N L=0.6U W=1.5U
+  423          M_I$10 N$13 D GND GND N L=0.6U W=4.5U
+  424          M_I$9 N$3929 CLK N$13 GND N L=0.6U W=4.5U
+  425          M_I$1035 QB N$3723 VDD VDD P L=0.6U W=2.7U
+  426          M_I$1447 N$3929 N$3100 N$3108 GND N L=0.6U W=1.5U
+  427          M_I$4 N$3929 N$3100 N$11 VDD P L=0.6U W=8.1U
+  428          M_I$3 N$11 D VDD VDD P L=0.6U W=8.1U
+  429          M_I$2 N$3100 CLK VDD VDD P L=0.6U W=2.7U
+  430  .ENDS LATCHR
+  431  
+  432  *
+  433  * Component pathname : $ADK/parts/nor02ii
+  434  *
+  435  .SUBCKT NOR02II  A0 A1 Y
+  436  
+  437          MP1 N$208 A1 VDD VDD P L=0.6U W=2.7U
+  438          MN1 N$208 A1 GND GND N L=0.6U W=1.5U
+  439          MN4 Y A0 GND GND N L=0.6U W=1.5U
+  440          MN2 Y N$208 GND GND N L=0.6U W=1.5U
+  441          MP4 Y N$208 N$4 VDD P L=0.6U W=3.9U
+  442          MP2 N$4 A0 VDD VDD P L=0.6U W=3.9U
+  443  .ENDS NOR02II
+  444  
+  445  *
+  446  * Component pathname : $ADK/parts/buf08
+  447  *
+  448  .SUBCKT BUF08  A Y
+  449  
+  450          M_I$1023 Y N$411 VDD VDD P L=0.6U W=5.4U
+  451          M_I$1022 Y N$411 GND GND N L=0.6U W=3U
+  452          M_I$1021 Y N$411 VDD VDD P L=0.6U W=5.4U
+  453          M_I$1020 Y N$411 GND GND N L=0.6U W=3U
+  454          M_I$817 Y N$411 VDD VDD P L=0.6U W=5.4U
+  455          M_I$818 Y N$411 GND GND N L=0.6U W=3U
+  456          M_I$614 Y N$411 VDD VDD P L=0.6U W=5.4U
+  457          M_I$615 Y N$411 GND GND N L=0.6U W=3U
+  458          M_I$411 N$411 A VDD VDD P L=0.6U W=5.4U
+  459          M_I$412 N$411 A GND GND N L=0.6U W=3U
+  460  .ENDS BUF08
+  461  
+  462  *
+  463  * Component pathname : $ADK/parts/inv08
+  464  *
+  465  .SUBCKT INV08  A Y
+  466  
+  467          M_I$618 Y A GND GND N L=0.6U W=3U
+  468          M_I$617 Y A VDD VDD P L=0.6U W=5.4U
+  469          M_I$616 Y A GND GND N L=0.6U W=3U
+  470          M_I$619 Y A VDD VDD P L=0.6U W=5.4U
+  471          M_I$412 Y A VDD VDD P L=0.6U W=5.4U
+  472          M_I$413 Y A GND GND N L=0.6U W=3U
+  473          M_I$6 Y A VDD VDD P L=0.6U W=5.4U
+  474          M_I$5 Y A GND GND N L=0.6U W=3U
+  475  .ENDS INV08
+  476  
+  477  *
+  478  * Component pathname : $ADK/parts/aoi21
+  479  *
+  480  .SUBCKT AOI21  A0 A1 B0 Y
+  481  
+  482          M_I$12 N$8 A1 GND GND N L=0.6U W=3U
+  483          M_I$11 Y A0 N$8 GND N L=0.6U W=3U
+  484          M_I$7 Y B0 N$4 VDD P L=0.6U W=3.9U
+  485          M_I$6 N$4 A1 VDD VDD P L=0.6U W=3.9U
+  486          M_I$5 N$4 A0 VDD VDD P L=0.6U W=3.9U
+  487          M_I$13 Y B0 GND GND N L=0.6U W=1.5U
+  488  .ENDS AOI21
+  489  
+  490  *
+  491  * Component pathname : $ADK/parts/nor04
+  492  *
+  493  .SUBCKT NOR04  A3 A2 A0 A1 Y
+  494  
+  495          M_I$415 Y A3 GND GND N L=0.6U W=3U
+  496          M_I$416 Y A3 N$418 VDD P L=0.6U W=10.8U
+  497          M_I$213 Y A0 GND GND N L=0.6U W=3U
+  498          M_I$211 N$418 A2 N$211 VDD P L=0.6U W=10.8U
+  499          M_I$5 Y A1 GND GND N L=0.6U W=3U
+  500          M_I$4 Y A2 GND GND N L=0.6U W=3U
+  501          M_I$3 N$211 A1 N$1 VDD P L=0.6U W=10.8U
+  502          M_I$2 N$1 A0 VDD VDD P L=0.6U W=10.8U
+  503  .ENDS NOR04
+  504  
+  505  *
+  506  * Component pathname : /home/max/EECS301/lab3/Control_S/ControlLogic
+  507  *
+  508  .SUBCKT CONTROLLOGIC  Q_IN[0] Q_IN[1] Q_SIG[0] Q_SIG[1] A_SIG[0] A_SIG[1]
+  509  + ADDER_SIG M_SIG DONE_SIG START CLOCK
+  510  
+  511          X_IX129 NX397 NX356 PRES_STATE_0 NX128 NOR03
+  512          X_IX197 PRES_STATE_1 NX440 NX375 NX196 AO21
+  513          X_IX135 COUNT_0 NX411 NX517 NX134 AO21
+  514          X_IX139 NX134 NX128 NX355 NX357 AO21
+  515          X_IX516 NX408 NX517 INV02
+  516          X_IX458 NX517 NX459 INV02
+  517          X_IX439 NX408 NX440 INV02
+  518          X_IX417 NX357 NX416 INV02
+  519          X_IX3 NX414 NX2 INV02
+  520          X_IX429 NX82 NOT_NX82 INV02
+  521          X_IX374 Q_IN[0] NX373 INV02
+  522          X_IX83 NX517 NX72 NX68 NX82 OAI21
+  523          X_IX372 Q_IN[1] NX373 NX375 NX371 OAI21
+  524          X_IX69 NX440 NX68 PRES_STATE_1 PRES_STATE_0 NAND03
+  525          X_IX19 NX414 NX18 NX371 NX416 NAND03
+  526          X_IX415 NX517 NOT_PRES_STATE_0 NX414 OR02
+  527          X_IX53 NEXT_STATE_0 START NX52 OR02
+  528          X_IX147 NEXT_STATE_2 START NX146 OR02
+  529          X_IX31 NEXT_STATE_1 START NX30 OR02
+  530          X_LAT_Q_OUT_1 Q_SIG[1] NX22 NX68 LATCH
+  531          X_LAT_Q_OUT_0 Q_SIG[0] NX22 NOT_NX82 LATCH
+  532          X_LAT_A_OUT_1 A_SIG[1] NX22 NOT_PRES_STATE_0 LATCH
+  533          X_LAT_A_OUT_0 A_SIG[0] NX444 NX196 LATCH
+  534          X_LAT_DONE DONE_SIG NX444 NX355 LATCH
+  535          X_LAT_M_OUT M_SIG NX444 PRES_STATE_0 LATCH
+  536          X_LAT_COUNT_0 COUNT_0 NX446 NX94 LATCH
+  537          X_LAT_NEXT_STATE_0 NEXT_STATE_0 NX444 NX44 LATCH
+  538          X_LAT_COUNT_2 COUNT_2 NX446 NX356 LATCH
+  539          X_LAT_NEXT_STATE_2 NEXT_STATE_2 NX444 NX357 LATCH
+  540          X_LAT_NEXT_STATE_1 NEXT_STATE_1 NX444 NX18 LATCH
+  541          X_LAT_ADDER ADDER_SIG NX2 PRES_STATE_1 LATCH
+  542          X_IX111 NX406 NX440 NX110 NOR02_2X
+  543          X_IX95 COUNT_0 NX440 NX94 NOR02_2X
+  544          X_IX157 NOT_PRES_STATE_0 NX355 NX517 PRES_STATE_1 AND03
+  545          X_IX456 NX400 NX457 BUF02
+  546          X_LAT_COUNT_1__U3 NX5 NX411 BUF02
+  547          X_LAT_COUNT_1__U2 NX5 COUNT_1 INV01
+  548          X_LAT_COUNT_1__U1 NX5 GND NX446 NX448 LATCHR
+  549          X_IX401 COUNT_0 NX411 NX400 NOR02II
+  550          X_IX447 NX110 NX448 BUF08
+  551          X_IX445 NOT_NX82 NX446 INV08
+  552          X_IX407 COUNT_1 COUNT_0 NX457 NX406 AOI21
+  553          X_REG_PRES_STATE_2 NX408 N$DUMMY_ESC1[0] CLOCK NX146 DFF
+  554          X_REG_PRES_STATE_1 NX397 PRES_STATE_1 CLOCK NX30 DFF
+  555          X_REG_PRES_STATE_0 NOT_PRES_STATE_0 PRES_STATE_0 CLOCK NX52 DFF
+  556          X_IX45 NX394 PRES_STATE_0 PRES_STATE_1 NX517 NX44 NOR04
+  557          X_IX395 NX394 Q_IN[1] Q_IN[0] XNOR2
+  558          X_IX384 NX383 COUNT_2 NX457 XNOR2
+  559          X_IX443 NX444 NX397 NX440 NAND02_2X
+  560          X_IX23 NX22 NX397 NX440 NAND02_2X
+  561          X_IX73 NX72 NOT_PRES_STATE_0 PRES_STATE_1 NAND02_2X
+  562          X_IX123 NX356 NX383 NX459 NAND02_2X
+  563          X_IX376 PRES_STATE_0 PRES_STATE_1 NX517 NX375 NOR03
+  564  .ENDS CONTROLLOGIC
+  565  
+  566  *
+  567  * MAIN CELL: Component pathname : /home/max/EECS301/lab3/TopModel
+  568  *
+  569          X_ADDSUB1 N$1[0] N$1[1] N$1[2] N$1[3] OUT[4] OUT[5] OUT[6] OUT[7]
+  570  + N$2[0] N$2[1] N$2[2] N$2[3] CLK ADDCONTROL ADDSUB
+  571          X_MREG1 MIN[0] MIN[1] MIN[2] MIN[3] N$1[0] N$1[1] N$1[2] N$1[3]
+  572  + CLK N$62 MREG
+  573          X_AREG1 N$2[0] N$2[1] N$2[2] N$2[3] ACONTROL[0] ACONTROL[1] OUT[4]
+  574  + OUT[5] OUT[6] OUT[7] CLK AREG
+  575          X_QREG1 QIN[0] QIN[1] QIN[2] QIN[3] QCONTROL[0] QCONTROL[1] Q[0]
+  576  + OUT[0] OUT[1] OUT[2] OUT[3] OUT[4] CLK QREG
+  577          X_CONTROLLOGIC1 Q[0] OUT[0] QCONTROL[0] QCONTROL[1] ACONTROL[0]
+  578  + ACONTROL[1] ADDCONTROL N$62 DONE START CLK CONTROLLOGIC
+  579  *
+  580  *end
+    2  
+    3  ** including /mgc/adk3_1/technology/ic/models/VDD_5.mod
+    1  Vgdmodel GND 0   DC 0.0v
+    2  Vddmodel VDD GND DC 5.0v
+    3  
+    3  
+    4  ** including /mgc/adk3_1/technology/ic/models/ami05.mod
+    1  * DATE: Jan 25/99
+    2  * LOT: n8bn                  WAF: 03
+    3  * Temperature_parameters=Default
+    4  * ***temp fix*** .lib NOM
+    5  .MODEL NOTCHEDROW C
+    6  .MODEL HR R
+    7  .MODEL N NMOS (                                LEVEL   = 53
+    8  +VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
+    9  +XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.7086
+   10  +K1      = 0.8354582      K2      = -0.088431      K3      = 41.4403818
+   11  +K3B     = -14            W0      = 6.480766E-7    NLX     = 1E-10
+   12  +DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
+   13  +DVT0    = 3.6139113      DVT1    = 0.3795745      DVT2    = -0.1399976
+   14  +U0      = 533.6953445    UA      = 7.558023E-10   UB      = 1.181167E-18
+   15  +UC      = 2.582756E-11   VSAT    = 1.300981E5     A0      = 0.5292985
+   16  +AGS     = 0.1463715      B0      = 1.283336E-6    B1      = 1.408099E-6
+   17  +KETA    = -0.0173166     A1      = 0              A2      = 1
+   18  +RDSW    = 2.268366E3     PRWG    = -1E-3          PRWB    = 6.320549E-5
+   19  +WR      = 1              WINT    = 2.043512E-7    LINT    = 3.034496E-8
+   20  +XL      = 0              XW      = 0              DWG     = -1.446149E-8
+   21  +DWB     = 2.077539E-8    VOFF    = -0.1137226     NFACTOR = 1.2880596
+   22  +CIT     = 0              CDSC    = 1.506004E-4    CDSCD   = 0
+   23  +CDSCB   = 0              ETA0    = 3.815372E-4    ETAB    = -1.029178E-3
+   24  +DSUB    = 2.173055E-4    PCLM    = 0.6171774      PDIBLC1 = 0.185986
+   25  +PDIBLC2 = 3.473187E-3    PDIBLCB = -1E-3          DROUT   = 0.4037723
+   26  +PSCBE1  = 5.998012E9     PSCBE2  = 3.788068E-8    PVAG    = 0.012927
+   27  +DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
+   28  +UTE     = -1.5           KT1     = -0.11          KT1L    = 0
+   29  +KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
+   30  +UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
+   31  +WLN     = 1              WW      = 0              WWN     = 1
+   32  +WWL     = 0              LL      = 0              LLN     = 1
+   33  +LW      = 0              LWN     = 1              LWL     = 0
+   34  +CAPMOD  = 2              XPART   = 0.4            CGDO    = 1.99E-10
+   35  +CGSO    = 1.99E-10       CGBO    = 0              CJ      = 4.233802E-4
+   36  +PB      = 0.9899238      MJ      = 0.4495859      CJSW    = 3.825632E-10
+   37  +PBSW    = 0.1082556      MJSW    = 0.1083618      PVTH0   = 0.0212852
+   38  +PRDSW   = -16.1546703    PK2     = 0.0253069      WKETA   = 0.0188633
+   39  +LKETA   = 0.0204965       )
+   40  *
+   41  .MODEL P PMOS (                                LEVEL   = 53
+   42  +VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
+   43  +XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = -0.9179952
+   44  +K1      = 0.5575604      K2      = 0.010265       K3      = 14.0655075
+   45  +K3B     = -2.3032921     W0      = 1.147829E-6    NLX     = 1.114768E-10
+   46  +DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
+   47  +DVT0    = 2.2896412      DVT1    = 0.5213085      DVT2    = -0.1337987
+   48  +U0      = 202.4540953    UA      = 2.290194E-9    UB      = 9.779742E-19
+   49  +UC      = -3.69771E-11   VSAT    = 1.307891E5     A0      = 0.8356881
+   50  +AGS     = 0.1568774      B0      = 2.365956E-6    B1      = 5E-6
+   51  +KETA    = -5.769328E-3   A1      = 0              A2      = 1
+   52  +RDSW    = 2.746814E3     PRWG    = 2.34865E-3     PRWB    = 0.0172298
+   53  +WR      = 1              WINT    = 2.586255E-7    LINT    = 7.205014E-8
+   54  +XL      = 0              XW      = 0              DWG     = -2.133054E-8
+   55  +DWB     = 9.857534E-9    VOFF    = -0.0837499     NFACTOR = 1.2415529
+   56  +CIT     = 0              CDSC    = 4.363744E-4    CDSCD   = 0
+   57  +CDSCB   = 0              ETA0    = 0.11276        ETAB    = -2.9484E-3
+   58  +DSUB    = 0.3389402      PCLM    = 4.9847806      PDIBLC1 = 2.481735E-5
+   59  +PDIBLC2 = 0.01           PDIBLCB = 0              DROUT   = 0.9975107
+   60  +PSCBE1  = 3.497872E9     PSCBE2  = 4.974352E-9    PVAG    = 10.9914549
+   61  +DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
+   62  +UTE     = -1.5           KT1     = -0.11          KT1L    = 0
+   63  +KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
+   64  +UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
+   65  +WLN     = 1              WW      = 0              WWN     = 1
+   66  +WWL     = 0              LL      = 0              LLN     = 1
+   67  +LW      = 0              LWN     = 1              LWL     = 0
+   68  +CAPMOD  = 2              XPART   = 0.4            CGDO    = 2.4E-10
+   69  +CGSO    = 2.4E-10        CGBO    = 0              CJ      = 7.273568E-4
+   70  +PB      = 0.9665597      MJ      = 0.4959837      CJSW    = 3.114708E-10
+   71  +PBSW    = 0.99           MJSW    = 0.2653654      PVTH0   = 9.420541E-3
+   72  +PRDSW   = -231.2571566   PK2     = 1.396684E-3    WKETA   = 1.862966E-3
+   73  +LKETA   = 5.728589E-3     )
+   74  * ***temp fix*** .ENDL
+   75  *END
+    4  
+    5  .PROBE TRAN V(CLK) V(START) V(OUT[0]) V(OUT[1]) V(OUT[2]) V(OUT[3]) V(OUT[4])
+    6  + V(OUT[5]) V(OUT[6]) V(OUT[7]) V(ACONTROL[0]) V(ACONTROL[1]) V(ADDCONTROL)
+    7  + V(QCONTROL[0]) V(QCONTROL[1]) V(Q[0])
+    8  
+    9  VFORCE__START START GND pattern 1 0 0 1n 1n 10n 1100
+   10  
+   11  VFORCE__CLK CLK GND pattern 1 0 0 1n 1n 10n 0011 R
+   12  
+   13  VFORCE__MIN_0_0 MIN[0] GND dc 5
+   14  VFORCE__MIN_0_1 MIN[1] GND dc 5
+   15  
+   16  VFORCE__MIN_2_0 MIN[2] GND dc 0
+   17  VFORCE__MIN_2_1 MIN[3] GND dc 0
+   18  
+   19  VFORCE__QIN_1 QIN[1] GND dc 5
+   20  
+   21  VFORCE__QIN_0_0 QIN[0] GND dc 0
+   22  VFORCE__QIN_0_1 QIN[2] GND dc 0
+   23  VFORCE__QIN_0_2
+   24  + QIN[3] GND dc 0
+   25  
+   26  
+   27  
+   28  
+   29  .OPTION NOASCII
+   30  .OPTION MODWL
+   31  .OPTION ENGNOT
+   32  .OPTION AEX
+   33  
+   34  .TEMP 27 
+   35  
+   36  .TRAN  0 800N 0 
+   37  .END
+
+End of file 
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 87:Some X or device instances connected in parallel have been merged into a single instance.
++   This may cause some unexpected warning messages. See Eldo documentation for detail.
++   To prevent this merging, please use .option nocatmx .
+Warning 1615: In file "/home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.cir" line 36:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 4.000e-08 s.
+
+***** 0  error(s). 
+***** 2  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION 
+
+
+Memory space allocated (bytes): 139378688
+1567 elements
+850 nodes 
+8 input signals
+Detail about objects and nodes found in the design...
+Number of nodes                     850
+Number of intrinsic nodes           0
+Number of input signals             8
+Number of resistors                 0
+Number of floating capacitors       0
+Number of grounded capacitors       0
+Number of inductors                 0
+Number of voltage sources           7
+Number of current sources           0
+Number of dependent sources         0
+Number of diodes                    0
+Number of BJT                       0
+Number of JFET                      0
+Number of MOS                       1555
+Number of SWITCHES                  0
+Number of transmission lines        0
+Total number of elements            1562
+Number of devices merged using M factor1
+
+Eldo VERSION : ELDO 2009.2c (64 bits) Mon Jun  7 11:38:13 GMT 2010
+
+*** DATE:  3-Mar-2022 13:35:35
+
+*** TITLE: * Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
+
+TEMPERATURE : 27.000000 degrees C
+
+1*************** 3-Mar-2022 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************13:35:35*****************
+
+0* Component: /home/max/EECS301/lab3/TopM
+0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+ DEVICE          MOS
+ MODEL: N
+ TYPE            N
+ LEVEL 53 : Bsim3v3 version 3.1
+
+  names    values    units     names    values    units     names    values    units   
+  -----    ------    -----     -----    ------    -----     -----    ------    -----   
+VER     = 3.1000E+00 -       MOBMOD  = 1          -       CAPMOD  = 2          -      
+VFBFLAG = 0          -       NQSMOD  = 0          -       NOIMOD  = 1          -      
+DERIV   = 1          -       BINFLAG = 0          -       PARAMCHK= 0          -      
+IIMOD   = 0          -       FNLEV   = 0          -       
+
+ * Threshold voltage related model parameters *
+   ------------------------------------------  
+VTH0    = 7.0860E-01 V       DELVTO  = 0.0        V       K1      = 8.3546E-01 V^1/2  
+K2      =-8.8431E-02 -       NCH     = 1.7000E+17 At/cm^3 K3      = 4.1440E+01 -      
+K3B     =-1.4000E+01 1/V     DVT0    = 3.6139E+00 -       DVT1    = 3.7957E-01 -      
+DVT2    =-1.4000E-01 1/V     DVT0W   = 0.0        -       DVT1W   = 5.3000E+06 1/m    
+DVT2W   =-3.2000E-02 1/V     DSUB    = 2.1731E-04 -       ETA0    = 3.8154E-04 -      
+ETAB    =-1.0292E-03 1/V     
+
+ * Subthreshold related parameters *
+   -------------------------------  
+NFACTOR = 1.2881E+00 -       CDSC    = 1.5060E-04 F/m^2   CDSCB   = 0.0        F/Vm^2 
+CDSCD   = 0.0        F/Vm^2  VOFF    =-1.1372E-01 V       CIT     = 0.0        F/m^2  
+
+ * Mobility related model parameters *
+   ---------------------------------  
+UA      = 7.5580E-10 m/V     UB      = 1.1812E-18 (m/V)^2 UC      = 2.5828E-11 m/V^2  
+U0      = 5.3370E-02 unit1   
+
+ * Saturation related parameters *
+   -----------------------------  
+PCLM    = 6.1718E-01 -       KETA    =-1.7317E-02 1/V     DELTA   = 1.0000E-02 V      
+A0      = 5.2930E-01 -       A1      = 0.0        1/V     A2      = 1.0000E+00 -      
+B0      = 1.2833E-06 m       B1      = 1.4081E-06 m       PVAG    = 1.2927E-02 -      
+PDIBLC1 = 1.8599E-01 -       PDIBLC2 = 3.4732E-03 -       PDIBLCB =-1.0000E-03 1/V    
+DROUT   = 4.0377E-01 -       VSAT    = 1.3010E+05 m/s     PSCBE1  = 5.9980E+09 V/m    
+PSCBE2  = 3.7881E-08 m/V     PRWB    = 6.3205E-05 V^-1/2  PRWG    =-1.0000E-03 1/V    
+RDSW    = 2.2684E+03 Ohm.um  AGS     = 1.4637E-01 1/V     
+
+ * Geometry modulation related parameters *
+   --------------------------------------  
+LREF    = 0.0        m       WREF    = 0.0        m       LINT    = 3.0345E-08 m      
+DLC     = 3.0345E-08 m       LL      = 0.0        m       LW      = 0.0        m      
+LWL     = 0.0        m       LLN     = 1.0000E+00 -       LWN     = 1.0000E+00 -      
+WINT    = 2.0435E-07 m       DWC     = 2.0435E-07 m       WL      = 0.0        m      
+WW      = 0.0        m       WWL     = 0.0        m       WLN     = 1.0000E+00 -      
+WWN     = 1.0000E+00 -       WR      = 1.0000E+00 -       W0      = 6.4808E-07 m      
+DWG     =-1.4461E-08 m/V     DWB     = 2.0775E-08 m/V^1/2 
+
+ * Temperature effect parameters *
+   -----------------------------  
+UPDATEPHI= 0          -       AT      = 3.3000E+04 m/sec   UTE     =-1.5000E+00 -      
+KT1     =-1.1000E-01 V       KT2     = 2.2000E-02 -       KT1L    = 0.0        mV     
+UA1     = 4.3100E-09 m/V     UB1     =-7.6100E-18 (m/V)^2 UC1     =-5.6000E-11 m/V^2  
+PRT     = 0.0        Ohm.um  RDSWTPOS= 1          -       
+
+ * Overlap capacitance related and dynamic model parameters *
+   --------------------------------------------------------  
+XPART   = 4.0000E-01 -       CLC     = 1.0000E-07 m       CLE     = 6.0000E-01 -      
+CGDO    = 1.9900E-10 F/m     CGDL    = 0.0        F/m     CGSO    = 1.9900E-10 F/m    
+CGSL    = 0.0        F/m     CGBO    = 0.0        F/m     CKAPPA  = 6.0000E-01 V      
+CF      = 7.4302E-11 F/m     ELM     = 5.0000E+00 -       VFBCV   =-1.0000E+00 -      
+
+ * Substrate current related model parameters *
+   ----------------------------------------------
+ALPHA0  = 0.0        m/V     BETA0   = 3.0000E+01 V       
+
+ * Process and parameters extraction related model parameters *
+   ----------------------------------------------------------  
+TOX     = 1.4100E-08 m       DTOXCV  = 0.0        m       NGATE   = 0.0        At/cm^3
+NLX     = 1.0000E-10 m       XL      = 0.0        m       XW      = 0.0        m      
+ND      = 1.0000E+20 At/cm^3 
+
+ * Noise effect related model parameters *
+   -------------------------------------  
+THMLEV  = 0          -       FLKLEV  = 0          -       AF      = 1.0000E+00 -      
+KF      = 0.0        -       EF      = 1.0000E+00 -       NSTAR   = 2.0000E+14 -      
+FLKFLAG = 0.0        -       NOIFLAG = 0.0        -       NOIA    = 1.0000E+20 unit2  
+NOIB    = 5.0000E+04 1/V     NOIC    =-1.4000E-12 unit3   EM      = 4.1000E+07 V/m    
+
+ * Sidewall parasitic capacitances at gate side *
+   --------------------------------------------  
+MJSWG   = 1.0836E-01 -       PBSWG   = 1.0826E-01 V       CJSWG   = 3.8256E-10 F/m    
+WPEMOD  = 0.0        -       SCREF   = 1.0000E-06 m       KVTH0WE = 0.0        V      
+K2WE    = 0.0        -       KU0WE   = 0.0        -       WEB     = 0.0        -      
+WEC     = 0.0        -       
+
+ * Binning Parameters *
+   -------------------  
+BINUNIT = 1.0000E+00 -       
+* Display only non null Binning Parameters *
+PK2     = 2.5307E-02 -       LKETA   = 2.0497E-02 -       WKETA   = 1.8863E-02 -      
+PRDSW   =-1.6155E+01 -       PVTH0   = 2.1285E-02 -       
+   ------------------------------------------------------------------------  
+
+ *** Common extrinsic model parameters ***
+OPTACM  = 0          -       ALEV    = 0          -       RLEV    = 4          -      
+ * Access resistances related parameters *
+RD      = 0.0        Ohm     RS      = 0.0        Ohm     RSH     = 0.0        Ohm/Sq.
+RDC     = 0.0        Ohm     RSC     = 0.0        Ohm     
+ * Geometry related parameters *
+LD      = 3.0345E-08 m       WD      = 2.0435E-07 m       DL      = 0.0        m      
+DW      = 0.0        m       LDIF    = 0.0        m       HDIF    = 0.0        m      
+WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
+XJ      = 1.5000E-07 m       
+ * Static bulk-diode related parameters *
+DIOLEV  = 6          -       JS      = 1.0000E-04 A/m^2   JSW     = 0.0        A/m    
+IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
+ * Dynamic bulk-diode related parameters *
+DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
+CBS     = 0.0        F       CJ      = 4.2338E-04 F/m^2   CJSW    = 3.8256E-10 F/m    
+FC      = 0.0        -       MJ      = 4.4959E-01 -       MJSW    = 1.0836E-01 -      
+TT      = 0.0        s       PB      = 9.8992E-01 V       PBSW    = 1.0826E-01 V      
+ * Temperature related Parameters 
+EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
+TNOM    = 2.7000E+01 degC    TLEV    = 0          -       TLEVC   = 0          -      
+TLEVI   = 3          -       XTI     = 3.0000E+00 -       
+ * Temperature Access Resistance related parameters * TLEVR = 1 
+TRD1    = 0.0        1/degK  TRS1    = 0.0        1/degK  TRSH1   = 0.0        1/degK 
+TRD2    = 0.0        unit4   TRS2    = 0.0        unit4   TRSH2   = 0.0        unit4  
+
+unit1 represents m^2/V/sec
+unit2 represents V^-1.m^-2
+unit3 represents V^-1.m^2
+unit4 represents 1/degK^2
+
+ DEVICE          MOS
+ MODEL: P
+ TYPE            P
+ LEVEL 53 : Bsim3v3 version 3.1
+
+  names    values    units     names    values    units     names    values    units   
+  -----    ------    -----     -----    ------    -----     -----    ------    -----   
+VER     = 3.1000E+00 -       MOBMOD  = 1          -       CAPMOD  = 2          -      
+VFBFLAG = 0          -       NQSMOD  = 0          -       NOIMOD  = 1          -      
+DERIV   = 1          -       BINFLAG = 0          -       PARAMCHK= 0          -      
+IIMOD   = 0          -       FNLEV   = 0          -       
+
+ * Threshold voltage related model parameters *
+   ------------------------------------------  
+VTH0    =-9.1800E-01 V       DELVTO  = 0.0        V       K1      = 5.5756E-01 V^1/2  
+K2      = 1.0265E-02 -       NCH     = 1.7000E+17 At/cm^3 K3      = 1.4066E+01 -      
+K3B     =-2.3033E+00 1/V     DVT0    = 2.2896E+00 -       DVT1    = 5.2131E-01 -      
+DVT2    =-1.3380E-01 1/V     DVT0W   = 0.0        -       DVT1W   = 5.3000E+06 1/m    
+DVT2W   =-3.2000E-02 1/V     DSUB    = 3.3894E-01 -       ETA0    = 1.1276E-01 -      
+ETAB    =-2.9484E-03 1/V     
+
+ * Subthreshold related parameters *
+   -------------------------------  
+NFACTOR = 1.2416E+00 -       CDSC    = 4.3637E-04 F/m^2   CDSCB   = 0.0        F/Vm^2 
+CDSCD   = 0.0        F/Vm^2  VOFF    =-8.3750E-02 V       CIT     = 0.0        F/m^2  
+
+ * Mobility related model parameters *
+   ---------------------------------  
+UA      = 2.2902E-09 m/V     UB      = 9.7797E-19 (m/V)^2 UC      =-3.6977E-11 m/V^2  
+U0      = 2.0245E-02 unit1   
+
+ * Saturation related parameters *
+   -----------------------------  
+PCLM    = 4.9848E+00 -       KETA    =-5.7693E-03 1/V     DELTA   = 1.0000E-02 V      
+A0      = 8.3569E-01 -       A1      = 0.0        1/V     A2      = 1.0000E+00 -      
+B0      = 2.3660E-06 m       B1      = 5.0000E-06 m       PVAG    = 1.0991E+01 -      
+PDIBLC1 = 2.4817E-05 -       PDIBLC2 = 1.0000E-02 -       PDIBLCB = 0.0        1/V    
+DROUT   = 9.9751E-01 -       VSAT    = 1.3079E+05 m/s     PSCBE1  = 3.4979E+09 V/m    
+PSCBE2  = 4.9744E-09 m/V     PRWB    = 1.7230E-02 V^-1/2  PRWG    = 2.3486E-03 1/V    
+RDSW    = 2.7468E+03 Ohm.um  AGS     = 1.5688E-01 1/V     
+
+ * Geometry modulation related parameters *
+   --------------------------------------  
+LREF    = 0.0        m       WREF    = 0.0        m       LINT    = 7.2050E-08 m      
+DLC     = 7.2050E-08 m       LL      = 0.0        m       LW      = 0.0        m      
+LWL     = 0.0        m       LLN     = 1.0000E+00 -       LWN     = 1.0000E+00 -      
+WINT    = 2.5863E-07 m       DWC     = 2.5863E-07 m       WL      = 0.0        m      
+WW      = 0.0        m       WWL     = 0.0        m       WLN     = 1.0000E+00 -      
+WWN     = 1.0000E+00 -       WR      = 1.0000E+00 -       W0      = 1.1478E-06 m      
+DWG     =-2.1331E-08 m/V     DWB     = 9.8575E-09 m/V^1/2 
+
+ * Temperature effect parameters *
+   -----------------------------  
+UPDATEPHI= 0          -       AT      = 3.3000E+04 m/sec   UTE     =-1.5000E+00 -      
+KT1     =-1.1000E-01 V       KT2     = 2.2000E-02 -       KT1L    = 0.0        mV     
+UA1     = 4.3100E-09 m/V     UB1     =-7.6100E-18 (m/V)^2 UC1     =-5.6000E-11 m/V^2  
+PRT     = 0.0        Ohm.um  RDSWTPOS= 1          -       
+
+ * Overlap capacitance related and dynamic model parameters *
+   --------------------------------------------------------  
+XPART   = 4.0000E-01 -       CLC     = 1.0000E-07 m       CLE     = 6.0000E-01 -      
+CGDO    = 2.4000E-10 F/m     CGDL    = 0.0        F/m     CGSO    = 2.4000E-10 F/m    
+CGSL    = 0.0        F/m     CGBO    = 0.0        F/m     CKAPPA  = 6.0000E-01 V      
+CF      = 7.4302E-11 F/m     ELM     = 5.0000E+00 -       VFBCV   =-1.0000E+00 -      
+
+ * Substrate current related model parameters *
+   ----------------------------------------------
+ALPHA0  = 0.0        m/V     BETA0   = 3.0000E+01 V       
+
+ * Process and parameters extraction related model parameters *
+   ----------------------------------------------------------  
+TOX     = 1.4100E-08 m       DTOXCV  = 0.0        m       NGATE   = 0.0        At/cm^3
+NLX     = 1.1148E-10 m       XL      = 0.0        m       XW      = 0.0        m      
+ND      = 1.0000E+20 At/cm^3 
+
+ * Noise effect related model parameters *
+   -------------------------------------  
+THMLEV  = 0          -       FLKLEV  = 0          -       AF      = 1.0000E+00 -      
+KF      = 0.0        -       EF      = 1.0000E+00 -       NSTAR   = 2.0000E+14 -      
+FLKFLAG = 0.0        -       NOIFLAG = 0.0        -       NOIA    = 9.9000E+18 unit2  
+NOIB    = 2.4000E+03 1/V     NOIC    = 1.4000E-12 unit3   EM      = 4.1000E+07 V/m    
+
+ * Sidewall parasitic capacitances at gate side *
+   --------------------------------------------  
+MJSWG   = 2.6537E-01 -       PBSWG   = 9.9000E-01 V       CJSWG   = 3.1147E-10 F/m    
+WPEMOD  = 0.0        -       SCREF   = 1.0000E-06 m       KVTH0WE = 0.0        V      
+K2WE    = 0.0        -       KU0WE   = 0.0        -       WEB     = 0.0        -      
+WEC     = 0.0        -       
+
+ * Binning Parameters *
+   -------------------  
+BINUNIT = 1.0000E+00 -       
+* Display only non null Binning Parameters *
+PK2     = 1.3967E-03 -       LKETA   = 5.7286E-03 -       WKETA   = 1.8630E-03 -      
+PRDSW   =-2.3126E+02 -       PVTH0   = 9.4205E-03 -       
+   ------------------------------------------------------------------------  
+
+ *** Common extrinsic model parameters ***
+OPTACM  = 0          -       ALEV    = 0          -       RLEV    = 4          -      
+ * Access resistances related parameters *
+RD      = 0.0        Ohm     RS      = 0.0        Ohm     RSH     = 0.0        Ohm/Sq.
+RDC     = 0.0        Ohm     RSC     = 0.0        Ohm     
+ * Geometry related parameters *
+LD      = 7.2050E-08 m       WD      = 2.5863E-07 m       DL      = 0.0        m      
+DW      = 0.0        m       LDIF    = 0.0        m       HDIF    = 0.0        m      
+WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
+XJ      = 1.5000E-07 m       
+ * Static bulk-diode related parameters *
+DIOLEV  = 6          -       JS      = 1.0000E-04 A/m^2   JSW     = 0.0        A/m    
+IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
+ * Dynamic bulk-diode related parameters *
+DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
+CBS     = 0.0        F       CJ      = 7.2736E-04 F/m^2   CJSW    = 3.1147E-10 F/m    
+FC      = 0.0        -       MJ      = 4.9598E-01 -       MJSW    = 2.6537E-01 -      
+TT      = 0.0        s       PB      = 9.6656E-01 V       PBSW    = 9.9000E-01 V      
+ * Temperature related Parameters 
+EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
+TNOM    = 2.7000E+01 degC    TLEV    = 0          -       TLEVC   = 0          -      
+TLEVI   = 3          -       XTI     = 3.0000E+00 -       
+ * Temperature Access Resistance related parameters * TLEVR = 1 
+TRD1    = 0.0        1/degK  TRS1    = 0.0        1/degK  TRSH1   = 0.0        1/degK 
+TRD2    = 0.0        unit4   TRS2    = 0.0        unit4   TRSH2   = 0.0        unit4  
+
+unit1 represents m^2/V/sec
+unit2 represents V^-1.m^-2
+unit3 represents V^-1.m^2
+unit4 represents 1/degK^2
+
+
+
+
+
+1*************** 3-Mar-2022 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************13:35:35*****************
+
+0* Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
+0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+
+
+*** DC Control Options : 
+
+GMIN           = 1.00e-12 NMAXSIZE       = 60000    ITL1           = 100      
+GRAMP          = 0        NETSIZE        = 100      VMINDC         = UNDEF    
+VMAXDC         = UNDEF    
+
+*** Initial Accuracy Control Options (May be adjusted during simulation): 
+
+ITOL           = 1.00e-06 EPS            = 5.00e-03 VNTOL          = 1.00e-06 
+RELTOL         = 1.00e-03 RELERR         = 5.00e-02 PIVREL         = 1.00e-03 
+PIVTOL         = 1.00e-16 ABSTOL         = 1.00e-12 FLXTOL         = 1.00e-11 
+MAXORD         = 2.00e+00 
+
+*** Time-step Control Options : 
+
+ZOOMTIME       = 1.00e+00 STEP           = 0.00e+00 STARTSMP       = 0.00e+00 
+FREQSMP        = 0.00e+00 COURESOL       = 0.00e+00 TRTOL          = 7.00e+00 
+HMIN           = 1.00e-12 ITL3           = 3        ITL4           = 13       
+FT             = 1.25e-01 DCLOG          = 1.00e+00 LVLTIM         = 2        
+LVLCNV         = 2        DVDT           = -1       RELVAR         = 1.50e-01 
+ABSVAR         = 2.00e-01 SAMPLE         = 0.00e+00 HMAX           = UNDEF    
+
+
+*** MosFet default Options : 
+
+SCALE          = 1.00e+00 SCALM          = 1.00e+00 SCALEBSIM      = 1.00e+00 
+DEFAD          = UNDEF    DEFAS          = UNDEF    DEFPD          = UNDEF    
+DEFPS          = UNDEF    DEFW           = 1.00e-04 DEFL           = 1.00e-04 
+DEFNRD         = UNDEF    DEFNRS         = UNDEF    XA             = 6.00e-06 
+LIMRMOS        = UNDEF    SHRINK         = 1.00e+00 
+
+*** General Information Options : 
+
+SDA            = 0        CPTIME         = UNDEF    STAT           = 0        
+TIMEDIV        = 0        SIMUDIV        = 10       SAVETIME       = 0        
+MAXTRAN        = 1000     MAXNODES       = 200000   MAXV           = 1.00e+13 
+LIMPROBE       = 10000    FLICKER_NOISE  = 0        THERMAL_NOISE  = 0        
+TNOM           = 2.70e+01 TMAX           = UNDEF    
+SPICDC         = 0        SPIOUT         = 0        NEWTON         = 0        
+OSR            = 0        TRAP           = 1        GEAR           = 0        
+BE             = 0        PROBEOP        = 0        NOLAT          = 0        
+NWLAT          = 0        ANALOG         = 0        BBDEBUG        = 0        
+NOSIZECHK      = 0        QTRUNC         = 0        UNBOUND        = 0        
+LCAPOP         = 0        NOAEX          = 1        AEX            = 1        
+AEX            = 1        STVER          = 0        MOTOROLA       = 0        
+AMS            = 0        ASPEC          = 0        INPUT          = 0        
+NOINIT         = 0        PSF            = 0        WSF            = 0        
+WSFASCII       = 0        NOBIN          = 0        NOCOU          = 1        
+WL             = 0        NODE           = 0        LIST           = 0        
+SPI3BIN        = 0        SPI3ASC        = 0        NOMOD          = 0        
+WSF            = 0        WSFASCII       = 0        NOBIN          = 0        
+NOCOU          = 1        RMOS           = 0        NWRMOS         = 1        
+NONWRMOS       = 0        USEDEFAP       = 0        NOASCII        = 1        
+ASCII          = 0        MIXED          = 0        SWITCH         = 0        
+USERSWITCH     = 0        TIMING         = 0        MODWL          = 1        
+ULOGIC         = 0        
+
+
+
+***> DC CPU TIME 1s 450ms <***
+
+DC:23 iterations FOR DC analysis
+
+
+
+
+1*************** 3-Mar-2022 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************13:35:35*****************
+
+0* Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
+0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+  NODE         VOLTAGE    
+ VDD       5.0000     
+ CLK       0.0000     
+ MIN[0]       5.0000     
+ MIN[1]       5.0000     
+ QIN[1]       5.0000     
+ START       1.0000     
+ X_MREG1.NOT_CLOCK       5.0000     
+ X_MREG1.X_REG_M_3.BCLK-       7.8038N    
+ X_MREG1.X_REG_M_3.BCLK       5.0000     
+ X_MREG1.X_REG_M_3.N$1074       5.0000     
+ X_MREG1.X_REG_M_3.N$1071       16.7953N   
+ X_MREG1.X_REG_MO_3.BCLK-       5.0000     
+ X_MREG1.X_REG_MO_3.BCLK       7.8038N    
+ X_MREG1.X_REG_MO_3.N$1074       125.6183N  
+ X_MREG1.X_REG_MO_3.N$1071       5.0000     
+ X_MREG1.X_REG_M_2.BCLK-       7.8038N    
+ X_MREG1.X_REG_M_2.BCLK       5.0000     
+ X_MREG1.X_REG_M_2.N$1074       5.0000     
+ X_MREG1.X_REG_M_2.N$1071       16.7953N   
+ X_MREG1.X_REG_MO_2.BCLK-       5.0000     
+ X_MREG1.X_REG_MO_2.BCLK       7.8038N    
+ X_MREG1.X_REG_MO_2.N$1074       125.6183N  
+ X_MREG1.X_REG_MO_2.N$1071       5.0000     
+ X_MREG1.X_REG_M_1.BCLK-       7.8038N    
+ X_MREG1.X_REG_M_1.BCLK       5.0000     
+ X_MREG1.X_REG_M_1.N$1074       5.0000     
+ X_MREG1.X_REG_M_1.N$1071       16.7953N   
+ X_MREG1.X_REG_MO_1.BCLK-       5.0000     
+ X_MREG1.X_REG_MO_1.BCLK       7.8038N    
+ X_MREG1.X_REG_MO_1.N$1074       125.6183N  
+ X_MREG1.X_REG_MO_1.N$1071       5.0000     
+ X_MREG1.X_REG_M_0.BCLK-       7.8038N    
+ X_MREG1.X_REG_M_0.BCLK       5.0000     
+ X_MREG1.X_REG_M_0.N$1074       5.0000     
+ X_MREG1.X_REG_M_0.N$1071       16.7953N   
+ X_MREG1.X_REG_MO_0.BCLK-       5.0000     
+ X_MREG1.X_REG_MO_0.BCLK       7.8038N    
+ X_MREG1.X_REG_MO_0.N$1074       125.6183N  
+ X_MREG1.X_REG_MO_0.N$1071       5.0000     
+ X_AREG1.NOT_CLOCK       5.0000     
+ X_AREG1.X_REG_AO_3.BCLK-       5.0000     
+ X_AREG1.X_REG_AO_3.BCLK       7.8038N    
+ X_AREG1.X_REG_AO_3.N$1074       125.6183N  
+ X_AREG1.X_REG_AO_3.N$1071       5.0000     
+ X_AREG1.X_REG_AO_2.BCLK-       5.0000     
+ X_AREG1.X_REG_AO_2.BCLK       7.8038N    
+ X_AREG1.X_REG_AO_2.N$1074       125.6183N  
+ X_AREG1.X_REG_AO_2.N$1071       5.0000     
+ X_AREG1.X_REG_AO_1.BCLK-       5.0000     
+ X_AREG1.X_REG_AO_1.BCLK       7.8038N    
+ X_AREG1.X_REG_AO_1.N$1074       125.6183N  
+ X_AREG1.X_REG_AO_1.N$1071       5.0000     
+ X_AREG1.X_REG_A_3.BCLK-       7.8038N    
+ X_AREG1.X_REG_A_3.BCLK       5.0000     
+ X_AREG1.X_REG_A_3.N$1074       5.0000     
+ X_AREG1.X_REG_A_3.N$1071       16.7953N   
+ X_AREG1.X_REG_A_2.BCLK-       7.8038N    
+ X_AREG1.X_REG_A_2.BCLK       5.0000     
+ X_AREG1.X_REG_A_2.N$1074       5.0000     
+ X_AREG1.X_REG_A_2.N$1071       16.7953N   
+ X_AREG1.X_REG_A_1.BCLK-       7.8038N    
+ X_AREG1.X_REG_A_1.BCLK       5.0000     
+ X_AREG1.X_REG_A_1.N$1074       5.0000     
+ X_AREG1.X_REG_A_1.N$1071       16.7953N   
+ X_AREG1.X_REG_A_0.BCLK-       7.8038N    
+ X_AREG1.X_REG_A_0.BCLK       5.0000     
+ X_AREG1.X_REG_A_0.N$1074       5.0000     
+ X_AREG1.X_REG_A_0.N$1071       16.7953N   
+ X_AREG1.X_REG_AO_0.BCLK-       5.0000     
+ X_AREG1.X_REG_AO_0.BCLK       7.8038N    
+ X_AREG1.X_REG_AO_0.N$1074       125.6183N  
+ X_AREG1.X_REG_AO_0.N$1071       5.0000     
+ X_QREG1.NOT_CLOCK       5.0000     
+ X_QREG1.X_REG_QO_4.BCLK-       5.0000     
+ X_QREG1.X_REG_QO_4.BCLK       7.8038N    
+ X_QREG1.X_REG_QO_4.N$1074       125.6183N  
+ X_QREG1.X_REG_QO_4.N$1071       5.0000     
+ X_QREG1.X_REG_QO_3.BCLK-       5.0000     
+ X_QREG1.X_REG_QO_3.BCLK       7.8038N    
+ X_QREG1.X_REG_QO_3.N$1074       125.6183N  
+ X_QREG1.X_REG_QO_3.N$1071       5.0000     
+ X_QREG1.X_REG_QO_2.BCLK-       5.0000     
+ X_QREG1.X_REG_QO_2.BCLK       7.8038N    
+ X_QREG1.X_REG_QO_2.N$1074       125.6183N  
+ X_QREG1.X_REG_QO_2.N$1071       5.0000     
+ X_QREG1.X_REG_QO_1.BCLK-       5.0000     
+ X_QREG1.X_REG_QO_1.BCLK       7.8038N    
+ X_QREG1.X_REG_QO_1.N$1074       125.6183N  
+ X_QREG1.X_REG_QO_1.N$1071       5.0000     
+ X_QREG1.X_REG_Q_0.BCLK-       7.8038N    
+ X_QREG1.X_REG_Q_0.BCLK       5.0000     
+ X_QREG1.X_REG_Q_0.N$1074       5.0000     
+ X_QREG1.X_REG_Q_0.N$1071       16.7953N   
+ X_QREG1.X_REG_Q_4.BCLK-       7.8038N    
+ X_QREG1.X_REG_Q_4.BCLK       5.0000     
+ X_QREG1.X_REG_Q_4.N$1074       5.0000     
+ X_QREG1.X_REG_Q_4.N$1071       16.7953N   
+ X_QREG1.X_REG_Q_3.BCLK-       7.8038N    
+ X_QREG1.X_REG_Q_3.BCLK       5.0000     
+ X_QREG1.X_REG_Q_3.N$1074       5.0000     
+ X_QREG1.X_REG_Q_3.N$1071       16.7953N   
+ X_QREG1.X_REG_Q_2.BCLK-       7.8038N    
+ X_QREG1.X_REG_Q_2.BCLK       5.0000     
+ X_QREG1.X_REG_Q_2.N$1074       5.0000     
+ X_QREG1.X_REG_Q_2.N$1071       16.7953N   
+ X_QREG1.X_REG_Q_1.BCLK-       7.8038N    
+ X_QREG1.X_REG_Q_1.BCLK       5.0000     
+ X_QREG1.X_REG_Q_1.N$1074       5.0000     
+ X_QREG1.X_REG_Q_1.N$1071       16.7953N   
+ X_QREG1.X_REG_QO_0.BCLK-       5.0000     
+ X_QREG1.X_REG_QO_0.BCLK       7.8038N    
+ X_QREG1.X_REG_QO_0.N$1074       125.6183N  
+ X_QREG1.X_REG_QO_0.N$1071       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.BCLK-       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.BCLK       7.8038N    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1074       119.6376N  
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1071       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.BCLK-       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.BCLK       7.8038N    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1074       125.6183N  
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1071       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.BCLK-       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.BCLK       7.8038N    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1074       119.6376N  
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1071       5.0000     
+ X_MREG1.X_REG_M_3.N$1073       1.5667M    
+ X_MREG1.X_REG_M_3.N$1070       5.0000     
+ X_MREG1.X_REG_MO_3.N$1073       62.8092N   
+ X_MREG1.X_REG_MO_3.N$1070       1.0632     
+ X_MREG1.X_REG_M_2.N$1073       1.5667M    
+ X_MREG1.X_REG_M_2.N$1070       5.0000     
+ X_MREG1.X_REG_MO_2.N$1073       62.8092N   
+ X_MREG1.X_REG_MO_2.N$1070       1.0632     
+ X_MREG1.X_REG_M_1.N$1073       1.5667M    
+ X_MREG1.X_REG_M_1.N$1070       5.0000     
+ X_MREG1.X_REG_MO_1.N$1073       62.8092N   
+ X_MREG1.X_REG_MO_1.N$1070       1.0632     
+ X_MREG1.X_REG_M_0.N$1073       1.5667M    
+ X_MREG1.X_REG_M_0.N$1070       5.0000     
+ X_MREG1.X_REG_MO_0.N$1073       62.8092N   
+ X_MREG1.X_REG_MO_0.N$1070       1.0632     
+ X_AREG1.X_REG_AO_3.N$1073       62.8092N   
+ X_AREG1.X_REG_AO_3.N$1070       1.0632     
+ X_AREG1.X_REG_AO_2.N$1073       62.8092N   
+ X_AREG1.X_REG_AO_2.N$1070       1.0632     
+ X_AREG1.X_REG_AO_1.N$1073       62.8092N   
+ X_AREG1.X_REG_AO_1.N$1070       1.0632     
+ X_AREG1.X_REG_A_3.N$1073       1.5667M    
+ X_AREG1.X_REG_A_3.N$1070       5.0000     
+ X_AREG1.X_REG_A_2.N$1073       1.5667M    
+ X_AREG1.X_REG_A_2.N$1070       5.0000     
+ X_AREG1.X_REG_A_1.N$1073       1.5667M    
+ X_AREG1.X_REG_A_1.N$1070       5.0000     
+ X_AREG1.X_REG_A_0.N$1073       1.5667M    
+ X_AREG1.X_REG_A_0.N$1070       5.0000     
+ X_AREG1.X_REG_AO_0.N$1073       62.8092N   
+ X_AREG1.X_REG_AO_0.N$1070       1.0632     
+ X_QREG1.X_REG_QO_4.N$1073       62.8092N   
+ X_QREG1.X_REG_QO_4.N$1070       1.0632     
+ X_QREG1.X_REG_QO_3.N$1073       62.8092N   
+ X_QREG1.X_REG_QO_3.N$1070       1.0632     
+ X_QREG1.X_REG_QO_2.N$1073       62.8092N   
+ X_QREG1.X_REG_QO_2.N$1070       1.0632     
+ X_QREG1.X_REG_QO_1.N$1073       62.8092N   
+ X_QREG1.X_REG_QO_1.N$1070       1.0632     
+ X_QREG1.X_REG_Q_0.N$1073       1.5667M    
+ X_QREG1.X_REG_Q_0.N$1070       5.0000     
+ X_QREG1.X_REG_Q_4.N$1073       1.5667M    
+ X_QREG1.X_REG_Q_4.N$1070       5.0000     
+ X_QREG1.X_REG_Q_3.N$1073       1.5667M    
+ X_QREG1.X_REG_Q_3.N$1070       5.0000     
+ X_QREG1.X_REG_Q_2.N$1073       1.5667M    
+ X_QREG1.X_REG_Q_2.N$1070       5.0000     
+ X_QREG1.X_REG_Q_1.N$1073       1.5667M    
+ X_QREG1.X_REG_Q_1.N$1070       5.0000     
+ X_QREG1.X_REG_QO_0.N$1073       62.8092N   
+ X_QREG1.X_REG_QO_0.N$1070       1.0632     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1073       59.8188N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1070       1.0632     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1073       62.8092N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1070       1.0632     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1073       59.8188N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1070       1.0632     
+ X_MREG1.N$DUMMY_ESC1[7]       7.8038N    
+ X_MREG1.N$DUMMY_ESC1[6]       5.0000     
+ X_MREG1.N$DUMMY_ESC1[5]       7.8038N    
+ X_MREG1.N$DUMMY_ESC1[4]       5.0000     
+ X_MREG1.N$DUMMY_ESC1[3]       7.8038N    
+ X_MREG1.N$DUMMY_ESC1[2]       5.0000     
+ X_MREG1.N$DUMMY_ESC1[1]       7.8038N    
+ X_MREG1.N$DUMMY_ESC1[0]       5.0000     
+ X_MREG1.X_REG_M_3.N$847       120.0266N  
+ X_MREG1.X_REG_M_3.N$849       5.0000     
+ X_MREG1.X_REG_MO_3.N$847       33.1767N   
+ X_MREG1.X_REG_MO_3.N$849       5.0000     
+ X_MREG1.X_REG_M_2.N$847       120.0266N  
+ X_MREG1.X_REG_M_2.N$849       5.0000     
+ X_MREG1.X_REG_MO_2.N$847       33.1767N   
+ X_MREG1.X_REG_MO_2.N$849       5.0000     
+ X_MREG1.X_REG_M_1.N$847       120.0266N  
+ X_MREG1.X_REG_M_1.N$849       5.0000     
+ X_MREG1.X_REG_MO_1.N$847       33.1767N   
+ X_MREG1.X_REG_MO_1.N$849       5.0000     
+ X_MREG1.X_REG_M_0.N$847       120.0266N  
+ X_MREG1.X_REG_M_0.N$849       5.0000     
+ X_MREG1.X_REG_MO_0.N$847       33.1767N   
+ X_MREG1.X_REG_MO_0.N$849       5.0000     
+ X_AREG1.NX178       7.8038N    
+ X_AREG1.NX172       7.8038N    
+ X_AREG1.NX164       7.8038N    
+ X_AREG1.N$DUMMY_ESC1[4]       5.0000     
+ X_AREG1.N$DUMMY_ESC1[3]       5.0000     
+ X_AREG1.N$DUMMY_ESC1[2]       5.0000     
+ X_AREG1.N$DUMMY_ESC1[1]       7.8038N    
+ X_AREG1.A_0       5.0000     
+ X_AREG1.N$DUMMY_ESC1[0]       5.0000     
+ X_AREG1.X_REG_AO_3.N$847       33.1767N   
+ X_AREG1.X_REG_AO_3.N$849       5.0000     
+ X_AREG1.X_REG_AO_2.N$847       33.1767N   
+ X_AREG1.X_REG_AO_2.N$849       5.0000     
+ X_AREG1.X_REG_AO_1.N$847       33.1767N   
+ X_AREG1.X_REG_AO_1.N$849       5.0000     
+ X_AREG1.X_REG_A_3.N$847       120.0266N  
+ X_AREG1.X_REG_A_3.N$849       5.0000     
+ X_AREG1.X_REG_A_2.N$847       120.0266N  
+ X_AREG1.X_REG_A_2.N$849       5.0000     
+ X_AREG1.X_REG_A_1.N$847       120.0266N  
+ X_AREG1.X_REG_A_1.N$849       5.0000     
+ X_AREG1.X_REG_A_0.N$847       120.0266N  
+ X_AREG1.X_REG_A_0.N$849       5.0000     
+ X_AREG1.X_REG_AO_0.N$847       33.1767N   
+ X_AREG1.X_REG_AO_0.N$849       5.0000     
+ X_QREG1.NX220       7.8038N    
+ X_QREG1.NX214       7.8038N    
+ X_QREG1.NX206       7.8038N    
+ X_QREG1.NX199       7.8038N    
+ X_QREG1.NX226       7.8038N    
+ X_QREG1.N$DUMMY_ESC1[4]       5.0000     
+ X_QREG1.N$DUMMY_ESC1[3]       5.0000     
+ X_QREG1.N$DUMMY_ESC1[2]       5.0000     
+ X_QREG1.N$DUMMY_ESC1[1]       5.0000     
+ X_QREG1.Q_1       5.0000     
+ X_QREG1.Q_0       5.0000     
+ X_QREG1.N$DUMMY_ESC1[0]       5.0000     
+ X_QREG1.X_REG_QO_4.N$847       33.1767N   
+ X_QREG1.X_REG_QO_4.N$849       5.0000     
+ X_QREG1.X_REG_QO_3.N$847       33.1767N   
+ X_QREG1.X_REG_QO_3.N$849       5.0000     
+ X_QREG1.X_REG_QO_2.N$847       33.1767N   
+ X_QREG1.X_REG_QO_2.N$849       5.0000     
+ X_QREG1.X_REG_QO_1.N$847       33.1767N   
+ X_QREG1.X_REG_QO_1.N$849       5.0000     
+ X_QREG1.X_REG_Q_0.N$847       120.0266N  
+ X_QREG1.X_REG_Q_0.N$849       5.0000     
+ X_QREG1.X_REG_Q_4.N$847       120.0266N  
+ X_QREG1.X_REG_Q_4.N$849       5.0000     
+ X_QREG1.X_REG_Q_3.N$847       120.0266N  
+ X_QREG1.X_REG_Q_3.N$849       5.0000     
+ X_QREG1.X_REG_Q_2.N$847       120.0266N  
+ X_QREG1.X_REG_Q_2.N$849       5.0000     
+ X_QREG1.X_REG_Q_1.N$847       120.0266N  
+ X_QREG1.X_REG_Q_1.N$849       5.0000     
+ X_QREG1.X_REG_QO_0.N$847       33.1767N   
+ X_QREG1.X_REG_QO_0.N$849       5.0000     
+ X_CONTROLLOGIC1.NX397       5.0000     
+ X_CONTROLLOGIC1.PRES_STATE_1       7.8038N    
+ X_CONTROLLOGIC1.NX408       5.0000     
+ X_CONTROLLOGIC1.NOT_PRES_STATE_0       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$847       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$849       16.7953N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$847       33.1721N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$849       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$847       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$849       16.7953N   
+ OUT[1]       7.8038N    
+ OUT[2]       7.8038N    
+ OUT[3]       7.8038N    
+ X_MREG1.X_REG_M_3.N$848       1.0632     
+ X_MREG1.X_REG_M_3.N$1072       4.3012     
+ X_MREG1.X_REG_M_3.N$1069       5.0000     
+ X_MREG1.X_REG_M_3.N$852       60.0133N   
+ X_MREG1.X_REG_MO_3.N$848       4.9882     
+ X_MREG1.X_REG_MO_3.N$1072       59.1351N   
+ X_MREG1.X_REG_MO_3.N$1069       5.0000     
+ X_MREG1.X_REG_MO_3.N$852       5.8927A    
+ X_MREG1.X_REG_M_2.N$848       1.0632     
+ X_MREG1.X_REG_M_2.N$1072       4.3012     
+ X_MREG1.X_REG_M_2.N$1069       5.0000     
+ X_MREG1.X_REG_M_2.N$852       60.0133N   
+ X_MREG1.X_REG_MO_2.N$848       4.9882     
+ X_MREG1.X_REG_MO_2.N$1072       59.1351N   
+ X_MREG1.X_REG_MO_2.N$1069       5.0000     
+ X_MREG1.X_REG_MO_2.N$852       5.8927A    
+ X_MREG1.X_REG_M_1.N$848       1.0632     
+ X_MREG1.X_REG_M_1.N$1072       4.3012     
+ X_MREG1.X_REG_M_1.N$1069       5.0000     
+ X_MREG1.X_REG_M_1.N$852       60.0133N   
+ X_MREG1.X_REG_MO_1.N$848       4.9882     
+ X_MREG1.X_REG_MO_1.N$1072       59.1351N   
+ X_MREG1.X_REG_MO_1.N$1069       5.0000     
+ X_MREG1.X_REG_MO_1.N$852       5.8927A    
+ X_MREG1.X_REG_M_0.N$848       1.0632     
+ X_MREG1.X_REG_M_0.N$1072       4.3012     
+ X_MREG1.X_REG_M_0.N$1069       5.0000     
+ X_MREG1.X_REG_M_0.N$852       60.0133N   
+ X_MREG1.X_REG_MO_0.N$848       4.9882     
+ X_MREG1.X_REG_MO_0.N$1072       59.1351N   
+ X_MREG1.X_REG_MO_0.N$1069       5.0000     
+ X_MREG1.X_REG_MO_0.N$852       5.8927A    
+ X_AREG1.X_REG_AO_3.N$848       4.9882     
+ X_AREG1.X_REG_AO_3.N$1072       59.1351N   
+ X_AREG1.X_REG_AO_3.N$1069       5.0000     
+ X_AREG1.X_REG_AO_3.N$852       5.8927A    
+ X_AREG1.X_REG_AO_2.N$848       4.9882     
+ X_AREG1.X_REG_AO_2.N$1072       59.1351N   
+ X_AREG1.X_REG_AO_2.N$1069       5.0000     
+ X_AREG1.X_REG_AO_2.N$852       5.8927A    
+ X_AREG1.X_REG_AO_1.N$848       4.9882     
+ X_AREG1.X_REG_AO_1.N$1072       59.1351N   
+ X_AREG1.X_REG_AO_1.N$1069       5.0000     
+ X_AREG1.X_REG_AO_1.N$852       5.8927A    
+ X_AREG1.X_REG_A_3.N$848       1.0632     
+ X_AREG1.X_REG_A_3.N$1072       4.3012     
+ X_AREG1.X_REG_A_3.N$1069       5.0000     
+ X_AREG1.X_REG_A_3.N$852       60.0133N   
+ X_AREG1.X_REG_A_2.N$848       1.0632     
+ X_AREG1.X_REG_A_2.N$1072       4.3012     
+ X_AREG1.X_REG_A_2.N$1069       5.0000     
+ X_AREG1.X_REG_A_2.N$852       60.0133N   
+ X_AREG1.X_REG_A_1.N$848       1.0632     
+ X_AREG1.X_REG_A_1.N$1072       4.3012     
+ X_AREG1.X_REG_A_1.N$1069       5.0000     
+ X_AREG1.X_REG_A_1.N$852       60.0133N   
+ X_AREG1.X_REG_A_0.N$848       1.0632     
+ X_AREG1.X_REG_A_0.N$1072       4.3012     
+ X_AREG1.X_REG_A_0.N$1069       5.0000     
+ X_AREG1.X_REG_A_0.N$852       60.0133N   
+ X_AREG1.X_REG_AO_0.N$851       16.5883N   
+ X_AREG1.X_REG_AO_0.N$848       4.9882     
+ X_AREG1.X_REG_AO_0.N$845       918.8972M  
+ X_AREG1.X_REG_AO_0.N$1072       59.1351N   
+ X_AREG1.X_REG_AO_0.N$1069       5.0000     
+ X_AREG1.X_REG_AO_0.N$852       5.2946A    
+ X_QREG1.X_REG_QO_4.N$848       4.9882     
+ X_QREG1.X_REG_QO_4.N$1072       59.1351N   
+ X_QREG1.X_REG_QO_4.N$1069       5.0000     
+ X_QREG1.X_REG_QO_4.N$852       5.8927A    
+ X_QREG1.X_REG_QO_3.N$848       4.9882     
+ X_QREG1.X_REG_QO_3.N$1072       59.1351N   
+ X_QREG1.X_REG_QO_3.N$1069       5.0000     
+ X_QREG1.X_REG_QO_3.N$852       5.8927A    
+ X_QREG1.X_REG_QO_2.N$848       4.9882     
+ X_QREG1.X_REG_QO_2.N$1072       59.1351N   
+ X_QREG1.X_REG_QO_2.N$1069       5.0000     
+ X_QREG1.X_REG_QO_2.N$852       5.8927A    
+ X_QREG1.X_REG_QO_1.N$851       16.5883N   
+ X_QREG1.X_REG_QO_1.N$848       4.9882     
+ X_QREG1.X_REG_QO_1.N$845       918.8972M  
+ X_QREG1.X_REG_QO_1.N$1072       59.1351N   
+ X_QREG1.X_REG_QO_1.N$1069       5.0000     
+ X_QREG1.X_REG_QO_1.N$852       5.2946A    
+ X_QREG1.X_REG_Q_0.N$848       1.0632     
+ X_QREG1.X_REG_Q_0.N$1072       4.3012     
+ X_QREG1.X_REG_Q_0.N$1069       5.0000     
+ X_QREG1.X_REG_Q_0.N$852       60.0133N   
+ X_QREG1.X_REG_Q_4.N$848       1.0632     
+ X_QREG1.X_REG_Q_4.N$1072       4.3012     
+ X_QREG1.X_REG_Q_4.N$1069       5.0000     
+ X_QREG1.X_REG_Q_4.N$852       60.0133N   
+ X_QREG1.X_REG_Q_3.N$848       1.0632     
+ X_QREG1.X_REG_Q_3.N$1072       4.3012     
+ X_QREG1.X_REG_Q_3.N$1069       5.0000     
+ X_QREG1.X_REG_Q_3.N$852       60.0133N   
+ X_QREG1.X_REG_Q_2.N$848       1.0632     
+ X_QREG1.X_REG_Q_2.N$1072       4.3012     
+ X_QREG1.X_REG_Q_2.N$1069       5.0000     
+ X_QREG1.X_REG_Q_2.N$852       60.0133N   
+ X_QREG1.X_REG_Q_1.N$848       1.0632     
+ X_QREG1.X_REG_Q_1.N$1072       4.3012     
+ X_QREG1.X_REG_Q_1.N$1069       5.0000     
+ X_QREG1.X_REG_Q_1.N$852       60.0133N   
+ X_QREG1.X_REG_QO_0.N$851       16.5883N   
+ X_QREG1.X_REG_QO_0.N$848       4.9882     
+ X_QREG1.X_REG_QO_0.N$845       918.8972M  
+ X_QREG1.X_REG_QO_0.N$1072       59.1351N   
+ X_QREG1.X_REG_QO_0.N$1069       5.0000     
+ X_QREG1.X_REG_QO_0.N$852       5.2946A    
+ X_CONTROLLOGIC1.N$DUMMY_ESC1[0]       7.8038N    
+ X_CONTROLLOGIC1.X_IX157.N$417       37.0399M   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$848       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1072       2.3755F    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$1069       4.9729     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$852       1.5667M    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$848       4.9905     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1072       59.1351N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$1069       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$852       5.7140A    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$848       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1072       2.3755F    
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$1069       4.9729     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$852       1.5667M    
+ X_CONTROLLOGIC1.X_IX73.N$5       4.3751     
+ N$1[0]       7.8038N    
+ N$1[1]       7.8038N    
+ N$1[2]       7.8038N    
+ N$1[3]       7.8038N    
+ OUT[4]       7.8038N    
+ OUT[5]       7.8038N    
+ OUT[6]       7.8038N    
+ OUT[7]       7.8038N    
+ Q[0]       7.8038N    
+ OUT[0]       7.8038N    
+ X_ADDSUB1.X_IX33.N$4       5.0000     
+ X_ADDSUB1.X_IX53.N$212       5.0000     
+ X_MREG1.M_3       5.0000     
+ X_MREG1.M_2       5.0000     
+ X_MREG1.M_1       5.0000     
+ X_MREG1.M_0       5.0000     
+ X_AREG1.A_3       5.0000     
+ X_AREG1.A_2       5.0000     
+ X_AREG1.A_1       5.0000     
+ X_QREG1.Q_4       5.0000     
+ X_QREG1.Q_3       5.0000     
+ X_QREG1.Q_2       5.0000     
+ X_CONTROLLOGIC1.PRES_STATE_0       7.8038N    
+ X_CONTROLLOGIC1.NX440       7.8038N    
+ X_CONTROLLOGIC1.NX517       7.8038N    
+ X_CONTROLLOGIC1.NX459       5.0000     
+ X_CONTROLLOGIC1.NX373       5.0000     
+ X_CONTROLLOGIC1.NX72       5.0000     
+ X_CONTROLLOGIC1.NX68       5.0000     
+ X_CONTROLLOGIC1.NX22       5.0000     
+ X_CONTROLLOGIC1.NX444       5.0000     
+ X_CONTROLLOGIC1.X_IX415.N$5       17.6579N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_DONE.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$10       17.1557N   
+ X_CONTROLLOGIC1.X_IX157.A       5.0000     
+ X_CONTROLLOGIC1.X_IX395.N$212       5.0000     
+ X_ADDSUB1.X_IX33.N$3       19.8621N   
+ X_ADDSUB1.X_IX33.N$2       5.0000     
+ X_ADDSUB1.X_IX53.N$213       29.0580M   
+ X_ADDSUB1.X_IX53.N$3       1.0727N    
+ X_ADDSUB1.X_IX53.N$1       5.0000     
+ X_MREG1.X_REG_MO_3.N$851       16.5883N   
+ X_MREG1.X_REG_MO_3.N$845       918.8975M  
+ X_MREG1.X_REG_MO_2.N$851       16.5883N   
+ X_MREG1.X_REG_MO_2.N$845       918.8975M  
+ X_MREG1.X_REG_MO_1.N$851       16.5883N   
+ X_MREG1.X_REG_MO_1.N$845       918.8975M  
+ X_MREG1.X_REG_MO_0.N$851       16.5883N   
+ X_MREG1.X_REG_MO_0.N$845       918.8975M  
+ X_AREG1.X_REG_AO_3.N$851       16.5883N   
+ X_AREG1.X_REG_AO_3.N$845       918.8975M  
+ X_AREG1.X_REG_AO_2.N$851       16.5883N   
+ X_AREG1.X_REG_AO_2.N$845       918.8975M  
+ X_AREG1.X_REG_AO_1.N$851       16.5883N   
+ X_AREG1.X_REG_AO_1.N$845       918.8975M  
+ X_QREG1.X_REG_QO_4.N$851       16.5883N   
+ X_QREG1.X_REG_QO_4.N$845       918.8975M  
+ X_QREG1.X_REG_QO_3.N$851       16.5883N   
+ X_QREG1.X_REG_QO_3.N$845       918.8975M  
+ X_QREG1.X_REG_QO_2.N$851       16.5883N   
+ X_QREG1.X_REG_QO_2.N$845       918.8975M  
+ X_CONTROLLOGIC1.X_IX129.N$211       4.9541     
+ X_CONTROLLOGIC1.X_IX197.N$2       6.5999N    
+ X_CONTROLLOGIC1.X_IX83.N$7       15.6531N   
+ X_CONTROLLOGIC1.X_IX83.N$9       5.0000     
+ X_CONTROLLOGIC1.X_IX372.N$9       5.0000     
+ X_CONTROLLOGIC1.X_IX69.N$4       50.1753M   
+ X_CONTROLLOGIC1.X_IX69.N$5       14.2256M   
+ X_CONTROLLOGIC1.X_IX415.N$1       5.0000     
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$13       16.5608N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$11       918.8972M  
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$13       16.5608N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$11       918.8972M  
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$13       4.3012     
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$11       5.0000     
+ X_CONTROLLOGIC1.X_IX157.N$416       37.0399M   
+ X_CONTROLLOGIC1.X_IX45.N$211       5.0000     
+ X_CONTROLLOGIC1.X_IX45.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX395.N$213       29.0580M   
+ X_CONTROLLOGIC1.X_IX395.N$3       1.0727N    
+ X_CONTROLLOGIC1.X_IX395.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX443.N$5       4.3751     
+ X_CONTROLLOGIC1.X_IX23.N$5       4.3751     
+ X_CONTROLLOGIC1.X_IX376.N$211       5.0000     
+ X_CONTROLLOGIC1.X_IX376.N$1       5.0000     
+ X_ADDSUB1.X_IX33.N$11       53.1409N   
+ X_ADDSUB1.X_IX53.N$4       5.0000     
+ X_CONTROLLOGIC1.NX375       5.0000     
+ X_CONTROLLOGIC1.NX355       17.1557N   
+ X_CONTROLLOGIC1.NX414       5.0000     
+ X_CONTROLLOGIC1.NX2       7.8038N    
+ X_CONTROLLOGIC1.NX82       31.3062N   
+ X_CONTROLLOGIC1.NOT_NX82       5.0000     
+ X_CONTROLLOGIC1.NX371       31.3062N   
+ X_CONTROLLOGIC1.NX446       7.8038N    
+ X_CONTROLLOGIC1.NX394       5.0000     
+ X_CONTROLLOGIC1.X_IX197.N$3       17.6579N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$17       33.1215N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$17       33.1215N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$17       33.1215N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$17       33.1215N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_DONE.N$17       5.0000     
+ X_CONTROLLOGIC1.X_LAT_DONE.N$222       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$17       5.0000     
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$222       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$10       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$17       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$222       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$10       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$17       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$222       17.1557N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$17       33.1215N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$10       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3100       5.0000     
+ DONE       17.1557N   
+ X_CONTROLLOGIC1.X_IX197.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX372.N$7       15.6531N   
+ X_CONTROLLOGIC1.X_IX19.N$4       3.7716N    
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_1.N$15       33.4393N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$15       33.4393N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$13       16.5608N   
+ X_CONTROLLOGIC1.X_LAT_Q_OUT_0.N$11       918.8972M  
+ X_CONTROLLOGIC1.X_LAT_A_OUT_1.N$15       33.4393N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$15       33.4393N   
+ X_CONTROLLOGIC1.X_LAT_DONE.N$15       5.0000     
+ X_CONTROLLOGIC1.X_LAT_DONE.N$13       4.3012     
+ X_CONTROLLOGIC1.X_LAT_DONE.N$11       5.0000     
+ X_CONTROLLOGIC1.X_LAT_M_OUT.N$15       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$15       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$15       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$15       33.4393N   
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$13       50.1452N   
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$11       5.0000     
+ X_CONTROLLOGIC1.X_IX45.N$418       5.0000     
+ N$2[0]       17.1557N   
+ N$62       17.1557N   
+ ACONTROL[0]       5.0000     
+ ACONTROL[1]       5.0000     
+ QCONTROL[0]       5.0000     
+ QCONTROL[1]       5.0000     
+ X_ADDSUB1.NX32       5.0000     
+ X_MREG1.X_IX162.N$4       5.0000     
+ X_MREG1.X_IX152.N$4       5.0000     
+ X_MREG1.X_IX142.N$4       5.0000     
+ X_MREG1.X_IX132.N$4       5.0000     
+ X_AREG1.NX4       14.7322N   
+ X_AREG1.NX10       3.6243N    
+ X_AREG1.NX168       74.3557N   
+ X_AREG1.X_IX132.N$7       5.0000     
+ X_AREG1.X_IX142.N$7       5.0000     
+ X_AREG1.X_IX152.N$7       5.0000     
+ X_QREG1.NX4       14.7322N   
+ X_QREG1.NX10       3.6243N    
+ X_QREG1.NX222       5.0000     
+ X_QREG1.NX216       74.3557N   
+ X_QREG1.NX210       74.0942N   
+ X_QREG1.NX202       74.3557N   
+ X_QREG1.NX197       7.8038N    
+ X_QREG1.NX184       5.0000     
+ X_QREG1.X_IX145.N$7       5.0000     
+ X_QREG1.X_IX155.N$7       5.0000     
+ X_QREG1.X_IX165.N$7       5.0000     
+ X_QREG1.X_IX175.N$7       5.0000     
+ X_CONTROLLOGIC1.NX196       5.0000     
+ X_CONTROLLOGIC1.NEXT_STATE_0       17.1557N   
+ X_CONTROLLOGIC1.NEXT_STATE_2       17.1557N   
+ X_CONTROLLOGIC1.NEXT_STATE_1       5.0000     
+ X_CONTROLLOGIC1.NX44       9.1202N    
+ X_CONTROLLOGIC1.X_IX53.N$5       4.9826     
+ X_CONTROLLOGIC1.X_IX147.N$5       4.9826     
+ X_CONTROLLOGIC1.X_IX31.N$5       35.1145N   
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$17       106.5213N  
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$17       100.9232N  
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$17       106.5213N  
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$222       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3929       120.0408N  
+ X_MREG1.X_IX162.N$7       944.4892M  
+ X_MREG1.X_IX162.N$3       19.8621N   
+ X_MREG1.X_IX162.N$2       5.0000     
+ X_MREG1.X_IX162.N$1       26.5705N   
+ X_MREG1.X_IX152.N$7       944.4892M  
+ X_MREG1.X_IX152.N$3       19.8621N   
+ X_MREG1.X_IX152.N$2       5.0000     
+ X_MREG1.X_IX152.N$1       26.5705N   
+ X_MREG1.X_IX142.N$7       944.4892M  
+ X_MREG1.X_IX142.N$3       298.6476A  
+ X_MREG1.X_IX142.N$2       4.9535     
+ X_MREG1.X_IX142.N$1       25.9829N   
+ X_MREG1.X_IX132.N$7       944.4892M  
+ X_MREG1.X_IX132.N$3       298.6476A  
+ X_MREG1.X_IX132.N$2       4.9535     
+ X_MREG1.X_IX132.N$1       25.9829N   
+ X_AREG1.X_IX5.N$5       7.3661N    
+ X_AREG1.X_IX11.N$1       4.9431     
+ X_AREG1.X_IX120.N$211       4.9433     
+ X_AREG1.X_IX122.N$2       24.3647N   
+ X_AREG1.X_IX181.N$8       37.1779N   
+ X_AREG1.X_IX175.N$8       37.1779N   
+ X_AREG1.X_IX169.N$9       27.7915N   
+ X_AREG1.X_IX169.N$4       968.7467M  
+ X_AREG1.X_IX169.N$8       37.1779N   
+ X_AREG1.X_IX132.N$10       5.0000     
+ X_AREG1.X_IX132.N$4       4.1543     
+ X_AREG1.X_IX142.N$10       5.0000     
+ X_AREG1.X_IX142.N$4       4.1543     
+ X_AREG1.X_IX152.N$10       5.0000     
+ X_AREG1.X_IX152.N$6       29.0742M   
+ X_AREG1.X_IX152.N$5       5.0000     
+ X_AREG1.X_IX152.N$4       4.1543     
+ X_QREG1.X_IX5.N$5       7.3661N    
+ X_QREG1.X_IX11.N$1       4.9431     
+ X_QREG1.X_IX223.N$9       29.0580M   
+ X_QREG1.X_IX223.N$4       5.0000     
+ X_QREG1.X_IX223.N$8       536.3390P  
+ X_QREG1.X_IX217.N$9       27.7915N   
+ X_QREG1.X_IX217.N$4       968.7467M  
+ X_QREG1.X_IX217.N$8       37.1779N   
+ X_QREG1.X_IX211.N$9       74.0942N   
+ X_QREG1.X_IX211.N$4       990.6955M  
+ X_QREG1.X_IX211.N$8       37.0471N   
+ X_QREG1.X_IX203.N$9       27.7915N   
+ X_QREG1.X_IX203.N$4       968.7467M  
+ X_QREG1.X_IX203.N$8       37.1779N   
+ X_QREG1.X_IX145.N$10       5.0000     
+ X_QREG1.X_IX145.N$6       536.3389P  
+ X_QREG1.X_IX145.N$5       5.0000     
+ X_QREG1.X_IX145.N$4       4.1543     
+ X_QREG1.X_IX155.N$10       5.0000     
+ X_QREG1.X_IX155.N$6       29.0742M   
+ X_QREG1.X_IX155.N$5       5.0000     
+ X_QREG1.X_IX155.N$4       4.1543     
+ X_QREG1.X_IX165.N$10       5.0000     
+ X_QREG1.X_IX165.N$6       29.0742M   
+ X_QREG1.X_IX165.N$5       5.0000     
+ X_QREG1.X_IX165.N$4       4.1543     
+ X_QREG1.X_IX175.N$10       5.0000     
+ X_QREG1.X_IX175.N$6       29.0742M   
+ X_QREG1.X_IX175.N$5       5.0000     
+ X_QREG1.X_IX175.N$4       4.1543     
+ X_QREG1.X_IX185.N$415       5.0000     
+ X_QREG1.X_IX185.N$7       4.2733     
+ X_QREG1.X_IX185.N$414       5.0000     
+ X_QREG1.X_IX185.N$9       5.0000     
+ X_QREG1.X_REG_Q_0.N$851       2.3837F    
+ X_QREG1.X_REG_Q_0.N$845       4.9415     
+ X_CONTROLLOGIC1.X_IX53.N$1       4.9919     
+ X_CONTROLLOGIC1.X_IX147.N$1       4.9919     
+ X_CONTROLLOGIC1.X_IX31.N$1       1.8279     
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$13       16.5608N   
+ X_CONTROLLOGIC1.X_LAT_A_OUT_0.N$11       918.8972M  
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$15       69.9803N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$13       4.3012     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_0.N$11       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$15       67.1812N   
+ X_CONTROLLOGIC1.X_LAT_ADDER.N$15       69.9803N   
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3722       5.0000     
+ ADDCONTROL       5.0000     
+ X_ADDSUB1.X_IX43.N$212       5.0000     
+ X_ADDSUB1.X_IX1.N$212       5.0000     
+ X_ADDSUB1.X_IX11.N$212       5.0000     
+ X_MREG1.X_IX162.N$11       53.1409N   
+ X_MREG1.X_IX152.N$11       53.1409N   
+ X_MREG1.X_IX142.N$11       51.9657N   
+ X_MREG1.X_IX132.N$11       51.9657N   
+ X_AREG1.NX131       5.0000     
+ X_AREG1.NX141       5.0000     
+ X_AREG1.NX151       5.0000     
+ X_QREG1.NX144       5.0000     
+ X_QREG1.NX154       5.0000     
+ X_QREG1.NX164       5.0000     
+ X_QREG1.NX174       5.0000     
+ X_CONTROLLOGIC1.COUNT_0       5.0000     
+ X_CONTROLLOGIC1.NX52       17.4277N   
+ X_CONTROLLOGIC1.NX146       17.4277N   
+ X_CONTROLLOGIC1.NX30       5.0000     
+ X_CONTROLLOGIC1.NX94       19.0331N   
+ X_CONTROLLOGIC1.COUNT_2       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3723       5.0000     
+ X_ADDSUB1.X_IX43.N$213       536.3390P  
+ X_ADDSUB1.X_IX43.N$3       15.8556N   
+ X_ADDSUB1.X_IX43.N$1       5.0000     
+ X_ADDSUB1.X_IX1.N$213       536.3390P  
+ X_ADDSUB1.X_IX1.N$3       15.8556N   
+ X_ADDSUB1.X_IX1.N$1       5.0000     
+ X_ADDSUB1.X_IX11.N$213       536.3390P  
+ X_ADDSUB1.X_IX11.N$3       15.8556N   
+ X_ADDSUB1.X_IX11.N$1       5.0000     
+ X_ADDSUB1.X_IX33.N$7       944.4892M  
+ X_ADDSUB1.X_IX33.N$1       26.5705N   
+ X_AREG1.X_REG_A_2.N$851       2.3837F    
+ X_AREG1.X_REG_A_2.N$845       4.9415     
+ X_AREG1.X_REG_A_1.N$851       2.3837F    
+ X_AREG1.X_REG_A_1.N$845       4.9415     
+ X_AREG1.X_REG_A_0.N$851       2.3837F    
+ X_AREG1.X_REG_A_0.N$845       4.9415     
+ X_QREG1.X_REG_Q_4.N$851       2.3837F    
+ X_QREG1.X_REG_Q_4.N$845       4.9415     
+ X_QREG1.X_REG_Q_3.N$851       2.3837F    
+ X_QREG1.X_REG_Q_3.N$845       4.9415     
+ X_QREG1.X_REG_Q_2.N$851       2.3837F    
+ X_QREG1.X_REG_Q_2.N$845       4.9415     
+ X_QREG1.X_REG_Q_1.N$851       2.3837F    
+ X_QREG1.X_REG_Q_1.N$845       4.9415     
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$13       50.1452N   
+ X_CONTROLLOGIC1.X_LAT_COUNT_0.N$11       5.0000     
+ X_CONTROLLOGIC1.X_IX95.N$1       921.0866M  
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3516       1.0632     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$3108       60.0204N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$851       4.3012     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_2.N$845       5.0000     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$851       16.5860N   
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_1.N$845       918.8972M  
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$851       4.3012     
+ X_CONTROLLOGIC1.X_REG_PRES_STATE_0.N$845       5.0000     
+ X_ADDSUB1.NX10       31.7111N   
+ X_ADDSUB1.NX212       5.0000     
+ X_ADDSUB1.NX42       31.7111N   
+ X_ADDSUB1.NX0       31.7111N   
+ X_ADDSUB1.X_IX45.N$212       5.0000     
+ X_ADDSUB1.X_IX3.N$212       5.0000     
+ X_ADDSUB1.X_IX13.N$212       5.0000     
+ X_MREG1.NX161       5.0000     
+ X_MREG1.NX151       5.0000     
+ X_MREG1.NX141       5.0000     
+ X_MREG1.NX131       5.0000     
+ X_CONTROLLOGIC1.NX5       17.1557N   
+ X_CONTROLLOGIC1.COUNT_1       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U3.N$411       5.0000     
+ X_ADDSUB1.X_IX211.N$8       29.9587N   
+ X_ADDSUB1.X_IX45.N$213       29.0580M   
+ X_ADDSUB1.X_IX45.N$3       1.0727N    
+ X_ADDSUB1.X_IX45.N$1       5.0000     
+ X_ADDSUB1.X_IX3.N$213       29.0580M   
+ X_ADDSUB1.X_IX3.N$3       1.0727N    
+ X_ADDSUB1.X_IX3.N$1       5.0000     
+ X_ADDSUB1.X_IX13.N$213       29.0580M   
+ X_ADDSUB1.X_IX13.N$3       1.0727N    
+ X_ADDSUB1.X_IX13.N$1       5.0000     
+ X_MREG1.X_REG_M_3.N$851       2.3837F    
+ X_MREG1.X_REG_M_3.N$845       4.9415     
+ X_MREG1.X_REG_M_2.N$851       2.3837F    
+ X_MREG1.X_REG_M_2.N$845       4.9415     
+ X_MREG1.X_REG_M_1.N$851       2.3837F    
+ X_MREG1.X_REG_M_1.N$845       4.9415     
+ X_MREG1.X_REG_M_0.N$851       2.3837F    
+ X_MREG1.X_REG_M_0.N$845       4.9415     
+ X_CONTROLLOGIC1.X_IX407.N$8       24.3647N   
+ X_ADDSUB1.NX12       5.0000     
+ X_ADDSUB1.NX210       29.9587N   
+ X_ADDSUB1.NX44       5.0000     
+ X_ADDSUB1.NX2       5.0000     
+ X_ADDSUB1.X_IX49.N$212       5.0000     
+ X_ADDSUB1.X_IX220.N$4       17.1557N   
+ X_ADDSUB1.X_IX51.N$212       29.9587N   
+ X_CONTROLLOGIC1.NX411       7.8038N    
+ X_CONTROLLOGIC1.X_IX135.N$3       5.0000     
+ X_CONTROLLOGIC1.X_IX401.N$208       5.0000     
+ X_ADDSUB1.X_IX211.N$9       14.9793N   
+ X_ADDSUB1.X_IX211.N$4       5.0000     
+ X_ADDSUB1.X_IX49.N$213       536.3390P  
+ X_ADDSUB1.X_IX49.N$3       15.8556N   
+ X_ADDSUB1.X_IX49.N$1       5.0000     
+ X_ADDSUB1.X_IX220.N$7       5.0000     
+ X_ADDSUB1.X_IX220.N$3       4.1543     
+ X_ADDSUB1.X_IX220.N$2       5.0000     
+ X_ADDSUB1.X_IX220.N$1       29.0657M   
+ X_ADDSUB1.X_IX51.N$213       14.9793N   
+ X_ADDSUB1.X_IX51.N$3       4.1637     
+ X_ADDSUB1.X_IX51.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX135.N$2       536.3390P  
+ X_CONTROLLOGIC1.X_IX135.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX401.N$4       4.9671     
+ N$2[2]       31.7111N   
+ X_ADDSUB1.X_IX220.N$11       5.0000     
+ X_ADDSUB1.X_IX51.N$4       5.0000     
+ X_AREG1.NX180       74.3557N   
+ X_CONTROLLOGIC1.NX134       17.1557N   
+ X_CONTROLLOGIC1.NX400       8.4594N    
+ X_CONTROLLOGIC1.X_IX456.N$411       5.0000     
+ X_AREG1.X_IX181.N$9       27.7915N   
+ X_AREG1.X_IX181.N$4       968.7467M  
+ X_AREG1.X_IX132.N$6       29.0742M   
+ X_AREG1.X_IX132.N$5       5.0000     
+ N$2[1]       17.1557N   
+ X_ADDSUB1.NX219       17.1557N   
+ X_ADDSUB1.X_IX47.N$212       5.0000     
+ X_AREG1.NX174       74.3557N   
+ X_CONTROLLOGIC1.NX457       7.8038N    
+ X_CONTROLLOGIC1.X_IX384.N$212       5.0000     
+ X_ADDSUB1.X_IX47.N$213       536.3390P  
+ X_ADDSUB1.X_IX47.N$3       15.8556N   
+ X_ADDSUB1.X_IX47.N$1       5.0000     
+ X_AREG1.X_IX175.N$9       27.7915N   
+ X_AREG1.X_IX175.N$4       968.7467M  
+ X_AREG1.X_IX142.N$6       29.0742M   
+ X_AREG1.X_IX142.N$5       5.0000     
+ X_CONTROLLOGIC1.X_IX407.N$4       981.7088M  
+ X_CONTROLLOGIC1.X_IX384.N$213       4.1543     
+ X_CONTROLLOGIC1.X_IX384.N$3       26.5227N   
+ X_CONTROLLOGIC1.X_IX384.N$1       921.0866M  
+ N$2[3]       31.7111N   
+ X_AREG1.NX185       5.0000     
+ X_AREG1.NX119       4.4825N    
+ X_AREG1.X_IX122.N$3       48.7294N   
+ X_CONTROLLOGIC1.NX406       48.7294N   
+ X_CONTROLLOGIC1.NX110       5.0000     
+ X_CONTROLLOGIC1.NX383       53.0455N   
+ X_CONTROLLOGIC1.X_IX447.N$411       7.8038N    
+ X_AREG1.X_IX120.N$1       4.9991     
+ X_AREG1.X_IX122.N$1       981.7088M  
+ X_CONTROLLOGIC1.X_IX111.N$1       5.0000     
+ X_CONTROLLOGIC1.X_IX123.N$5       3.6004N    
+ X_AREG1.NX121       5.0000     
+ X_CONTROLLOGIC1.NX356       5.0000     
+ X_CONTROLLOGIC1.NX128       6.8353N    
+ X_CONTROLLOGIC1.NX448       5.0000     
+ X_CONTROLLOGIC1.X_IX139.N$3       5.0000     
+ X_AREG1.X_REG_A_3.N$851       2.3837F    
+ X_AREG1.X_REG_A_3.N$845       4.9415     
+ X_CONTROLLOGIC1.X_IX129.N$1       4.9541     
+ X_CONTROLLOGIC1.X_IX139.N$2       29.0580M   
+ X_CONTROLLOGIC1.X_IX139.N$1       5.0000     
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$13       2.0068F    
+ X_CONTROLLOGIC1.X_LAT_COUNT_2.N$11       4.9420     
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$13       2.3835F    
+ X_CONTROLLOGIC1.X_LAT_COUNT_1__U1.N$11       4.9404     
+ X_CONTROLLOGIC1.NX357       17.1557N   
+ X_CONTROLLOGIC1.NX416       5.0000     
+ X_CONTROLLOGIC1.NX18       5.0000     
+ X_CONTROLLOGIC1.X_IX19.N$5       1.8858N    
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$13       4.3012     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_2.N$11       5.0000     
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$13       16.5608N   
+ X_CONTROLLOGIC1.X_LAT_NEXT_STATE_1.N$11       918.8972M  
+
+
+
+   VOLTAGE SOURCE CURRENT
+
+NAME      CURRENT      VOLTAGE      POWER        
+VGDMODEL   0.0000       0.0000       0.0000      
+VDDMODEL  -7.6832U      5.0000      -38.4158U    
+VFORCE__START   0.0000       1.0000       0.0000      
+VFORCE__CLK   0.0000       0.0000       0.0000      
+VFORCE__MIN_0_0   0.0000       5.0000       0.0000      
+VFORCE__MIN_0_1   0.0000       5.0000       0.0000      
+VFORCE__QIN_1   0.0000       5.0000       0.0000      
+
+   TOTAL POWER DISSIPATION:  38.4158U    WATTS
+
+
+
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=1.000000e-03
+
+................................................
+Simulation progress           : 10% (t = 80.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 170    ( 0h  0mn  0s 170)
+................................................
+Simulation progress           : 20% (t = 160.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 160    ( 0h  0mn  0s 330)
+................................................
+Simulation progress           : 30% (t = 240.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 140    ( 0h  0mn  0s 480)
+................................................
+Simulation progress           : 40% (t = 320.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 150    ( 0h  0mn  0s 630)
+................................................
+Simulation progress           : 50% (t = 400.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 150    ( 0h  0mn  0s 780)
+................................................
+Simulation progress           : 60% (t = 480.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 130    ( 0h  0mn  0s 910)
+................................................
+Simulation progress           : 70% (t = 560.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 160    ( 0h  0mn  1s  70)
+................................................
+Simulation progress           : 80% (t = 640.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 150    ( 0h  0mn  1s 220)
+................................................
+Simulation progress           : 90% (t = 720.1606 N)
+Elapsed CPU time              :  0h  0mn  0s 170    ( 0h  0mn  1s 390)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 130    ( 0h  0mn  1s 520)
+
+
+
+1*************** 3-Mar-2022 ***********************  ELDO 2009.2c (64 bits)  (v7.2_4.1)  ***********************13:35:35*****************
+
+0* Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+
+
+    NUNODS NCNODS NUMNOD   NUMEL   DIODES    BJT  JFET  MOSFET
+
+        31    850    850    1562        0      0     0    1555
+
+
+    NSTOP    NTERM    PERSPA  
+
+      844     6598 9.907e+01
+
+    NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
+
+       406       0       0       0       0
+
+  DIGITAL  INWCALL    ITERNW   MEMSIZE
+
+        0     4907 2.175e+00  143941632
+
+    NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
+
+      188313         5720         4   7.21e-01   0.000e+00%
+
+
+  TRANSIENT JOB TIME                 1
+
+
+
+
+***>CPU TIME 1s 520ms <***
+
+***>MESSAGE SUMMARY: 2 warnings
+
+***>GLOBAL CPU TIME 3s 230ms <***
+
+
+***>GLOBAL ELAPSED TIME 10s <***
+
+
+  Job started at  3-Mar-2022 13:35:35
+  Job end at      3-Mar-2022 13:35:45
+
+  Run on ubuntu (Linux 5.13.0-30-generic)
+

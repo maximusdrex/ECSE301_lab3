@@ -1,0 +1,11 @@
+DATE: Thursday 03 March 2022 13:35:41.881
+THR: main
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(Unknown Source)
+	at com.mentor.jeda.wve.WveSessionProps.b(WveSessionProps.java:3861)
+	at com.mentor.jeda.wve.WveClient.c(WveClient.java:641)
+	at com.mentor.jeda.wve.WveClient.<init>(WveClient.java:160)
+	at com.mentor.jeda.wve.WveClient.<init>(WveClient.java:96)
+	at com.mentor.jeda.wve.WveApp.main(WveApp.java:424)
+

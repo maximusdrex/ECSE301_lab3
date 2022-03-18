@@ -1,0 +1,118 @@
+/mgc/Leonardo/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2009a.6 (Release Production Release, compiled Aug 17 2009 at 17:56:52)
+Copyright 1990-2009 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2009 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2009a.6 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/home/max/EECS301/lab3/work/Control_V/leospec.his'
+Reading library file `/mgc/Leonardo/lib/ami05_typ.syn`...
+Library version = 3.0 Release : Patch (a) : 09/13/04
+Delays assume: Process=typical Temp= 27.0 C  Voltage=5.00 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+-- Reading file '/home/max/EECS301/lab3/work/Control_V/ControlLogic.v'...
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 38: Warning, initial statement not supported. Ignored
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v", line 90: Warning, system task enable ignored for synthesis
+-- Loading module 'ControlLogic'
+-- Compiling root module 'ControlLogic'
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 52: Info, conditions are mutually exclusive; resolve without priority.
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 40: Info, case choices are mutually exclusive; inferring parallel case.
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, done is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, adder is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 13: Warning, NEXT_STATE is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 14: Warning, count is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 10: Warning, M_out is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 11: Warning, Q_out is not always assigned. Storage may be needed..
+"/home/max/EECS301/lab3/work/Control_V/ControlLogic.v",line 11: Warning, A_out is not always assigned. Storage may be needed..
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.ControlLogic.INTERFACE
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.ControlLogic.INTERFACE
+Info, Command 'pre_optimize' finished successfully
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+-- Optimizing netlist .work.ControlLogic.INTERFACE
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+Re-checking DRC after adjustments
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+Info, Command 'optimize' finished successfully
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+-- Optimizing netlist .work.ControlLogic.INTERFACE
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Re-checking DRC after adjustments
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.ControlLogic.INTERFACE
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+Info: setting edif_write_arrays to FALSE
+FALSE
+-- Writing file Proc.vhd
+Info, Command 'write' finished successfully
+-- Writing file Proc.edf
+Info, Command 'write' finished successfully
+-- Writing file Proc.v
+Info, Command 'write' finished successfully
+-- Writing file Proc.sdf
+Info, Command 'write' finished successfully
+CriticalPath
+
+
+
+                        Critical Path Report
+
+Critical path #1, (unconstrained path)
+NAME                                 GATE              ARRIVAL              LOAD
+--------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                               0.00 (ideal)
+
+
+reg_PRES_STATE(2)/QB                 dff         0.00  0.82 up             0.04
+ix428/Y                              inv02       0.38  1.20 dn             0.10
+ix73/Y                               nor02ii     0.31  1.51 up             0.02
+ix434/Y                              buf08       0.42  1.93 up             0.02
+lat_count(0)_u1/QB                   latchr      0.83  2.76 dn   (loop)    0.02
+lat_count(0)_u2/Y                    inv01       0.21  2.98 up             0.01
+ix404/Y                              aoi21       0.47  3.13 up             0.02
+ix89/Y                               nor02_2x    0.26  3.56 up             0.03
+lat_count(1)/Q                       latch       0.71  4.27 up   (loop)    0.05
+ix400/Y                              nor02ii     0.31  4.59 dn             0.01
+ix447/Y                              buf02       0.46  5.04 dn   (loop)    0.05
+ix398/Y                              xnor2       0.21  5.26 up             0.02
+ix101/Y                              nand02_2x   0.18  5.43 dn             0.03
+lat_count(2)/Q                       latch       0.91  6.34 dn   (loop)    0.07
+ix111/Y                              nor04       0.41  6.75 up             0.02
+ix410/Y                              oai21       0.55  7.30 dn             0.04
+ix19/Y                               nand03      0.42  7.72 up             0.03
+lat_NEXT_STATE(1)/Q                  latch       0.52  8.24 up             0.01
+ix31/Y                               or02        0.60  8.83 up             0.03
+reg_PRES_STATE(1)/D                  dff         0.00  8.83 up             0.00
+data arrival time                                      8.83
+
+
+data required time                                  not specified
+--------------------------------------------------------------------------------
+data required time                                  not specified
+data arrival time                                      8.83
+                                                    ----------
+                                                 unconstrained path
+--------------------------------------------------------------------------------
+
+
+Info, Command 'report_delay' finished successfully

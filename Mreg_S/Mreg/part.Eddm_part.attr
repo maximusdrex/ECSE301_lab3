@@ -1,0 +1,12 @@
+A 5 u Eddm_part 622043f5ec73.03.7f.00.01.01.00.4f.45 2 2 2 0
+V v 1 1 622043f5ec73.03.7f.00.01.01.01.4f.45
+F f 1 "part.part_1"
+V v 2 1 622043f5f36f.03.7f.00.01.01.00.4f.45
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/EECS301/lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 622043f5ebd1.03.7f.00.01.01.01.4f.45 622043f5ebd1.03.7f.00.01.01.00.4f.45
+R csduv 1 "/home/max/EECS301/lab3/Mreg_S/Mreg/schematic" 1 mgc_schematic 622043f5ed64.03.7f.00.01.01.00.4f.45 622043f5ed63.03.7f.00.01.01.00.4f.45
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/EECS301/lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 622043f5ebd1.03.7f.00.01.01.01.4f.45 622043f5ebd1.03.7f.00.01.01.00.4f.45

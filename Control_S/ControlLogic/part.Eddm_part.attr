@@ -1,0 +1,12 @@
+A 5 u Eddm_part 622120f6b66c.03.7f.00.01.01.00.6a.45 2 2 2 0
+V v 1 1 622120f6b66c.03.7f.00.01.01.01.6a.45
+F f 1 "part.part_1"
+V v 2 1 622120f6e26c.03.7f.00.01.01.00.6a.45
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
+R csduv 1 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic" 1 mgc_schematic 622120f6bb78.03.7f.00.01.01.01.6a.45 622120f6bb78.03.7f.00.01.01.00.6a.45
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45

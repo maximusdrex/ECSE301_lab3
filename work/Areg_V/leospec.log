@@ -1,0 +1,52 @@
+/mgc/Leonardo/bin/Linux/spectrum 
+-------------------------------------------------
+LeonardoSpectrum Level 3 - 2009a.6 (Release Production Release, compiled Aug 17 2009 at 17:56:52)
+Copyright 1990-2009 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2009 Compuware Corporation
+
+Checking Security ...
+
+   *** Welcome to Interactive LeonardoSpectrum Level 3 Version 2009a.6 ***
+
+News :
+  * Enter "help" to get an overview of all commands
+  * Enter <command> -help  to get usage of each command
+
+Session history will be logged to file '/home/max/EECS301/lab3/work/Areg_V/leospec.his'
+Reading library file `/mgc/Leonardo/lib/ami05_typ.syn`...
+Library version = 3.0 Release : Patch (a) : 09/13/04
+Delays assume: Process=typical Temp= 27.0 C  Voltage=5.00 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+-- Reading file '/home/max/EECS301/lab3/work/Areg_V/Areg.v'...
+-- Loading module 'Areg'
+-- Compiling root module 'Areg'
+"/home/max/EECS301/lab3/work/Areg_V/Areg.v",line 19: Info, case choices are mutually exclusive; inferring parallel case.
+ERROR: a gnd net is driven by primitive gate(s) --  NET: A_out(3)  DRIVING GATE: reg_Ao(0)  DRIVING GATE: reg_Ao(1)  DRIVING GATE: reg_Ao(2)  DRIVING GATE: reg_Ao(3) 
+ PORT out OF FALSE: ix5  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(0)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(1)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(2)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(3)  PORT out OF BLOCK: work/Areg/INTERFACE
+pre_optimize: design is not a view
+pre_optimize: design is not a view
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+optimize: design is not a view
+Info: The target technology was not selected, ami05_typ was automatically selected for you.
+ERROR: a gnd net is driven by primitive gate(s) --  NET: A_out(3)  DRIVING GATE: reg_Ao(0)  DRIVING GATE: reg_Ao(1)  DRIVING GATE: reg_Ao(2)  DRIVING GATE: reg_Ao(3) 
+ PORT out OF FALSE: ix5  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(0)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(1)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(2)  PORT out OF BLOCK: work/Areg/INTERFACE
+ PORT out OF DFFRS: reg_Ao(3)  PORT out OF BLOCK: work/Areg/INTERFACE
+ERROR: netlist can not be optimized because of electrical problems
+-- Final Design Rule Check..
+.Areg.FSM.INTERFACE not found
+Info: setting edif_write_arrays to FALSE
+FALSE
+write: present design is not set to a view
+write: present design is not set to a view
+write: present design is not set to a view
+write: present design is not set to a view
+CriticalPath
+report_delay: present design is not a view; cannot report delay

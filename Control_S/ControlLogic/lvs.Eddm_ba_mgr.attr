@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 6221211a738c.03.7f.00.01.01.00.68.d6 1 2 1 0
+V v 1 1 6221211a738c.03.7f.00.01.01.01.68.d6
+F f 1 "lvs.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/Control_S/ControlLogic/lvs" 1 Eddm_design_viewpoint 6221211a72a9.03.7f.00.01.01.01.68.d6 6221211a72a9.03.7f.00.01.01.00.68.d6

@@ -1,10 +1,11 @@
-`timescale 1ns/1ps
-
-module ControlLogic(Q_in, clock, start, Q_out, A_out, done, M_out, adder);
+module ControlLogic(Q_in, clock, start, Q_sig, A_sig, done_sig, M_sig, adder_sig);
 	input [1:0] Q_in;
 	input clock, start;
-	output reg done, M_out , adder;
-	output reg [1:0] Q_out, A_out;
+	output done_sig, M_sig, adder_sig;
+	output [1:0] Q_sig, A_sig;
+
+	reg Adder, done, M;
+	reg [1:0] Q, A;
 
 	reg [2:0] NEXT_STATE; reg [2:0] PRES_STATE;
 	reg [2:0] count;
@@ -13,70 +14,100 @@ module ControlLogic(Q_in, clock, start, Q_out, A_out, done, M_out, adder);
 		Add = 1'b0 , Sub = 1'b1,
 		LD = 1'b1 , HD = 1'b0;
 
-initial begin
-	done = 1'b0;
-	M_out = 1'b0;
-	adder = 1'b0;
-	Q_out = 2'b00;
-	A_out = 2'b00;
-	PRES_STATE=start_state;
-	NEXT_STATE=start_state;
-	count = 4;
-end
+	assign done_sig = done;
+	assign adder_sig = Adder;
+	assign M_sig = M;
+	assign Q_sig = Q;
+	assign A_sig = A;
 
-always @(PRES_STATE or Q_in) begin
+always @(clock or Q_in) begin
+	if (clock == 1'b1) begin
+		
+	
 	case(PRES_STATE)
 	start_state: begin
+		Adder=Add;
+		done = 1'b0;
 		NEXT_STATE=s0;
 		count = 4;
-		M_out=LD;
-		Q_out=Load;
-		A_out=Reset;
+		M=LD;
+		Q=Load;
+		A=Reset;
 	end
 	s0: begin
-		M_out=HD;
-		Q_out=Hold;
-		A_out=Hold;
+		Adder=Add;
+		M=HD;
+		Q=Hold;
+		A=Hold;
+		done = 1'b0;
+		// The problem is here, going to add instead of subtract
 		if(Q_in==2'b10) begin NEXT_STATE = s10; end else
 		if(Q_in==2'b01) begin NEXT_STATE = s5; end else
 		begin NEXT_STATE = s15; end
+		$display("Next: %1d -> %2b", NEXT_STATE, Q_in);
 	end
-	s5: begin //state = s5
-		adder=Add;
-		A_out=Load;
-		Q_out=Hold;
-		M_out=Hold;
+	s5: begin
+		Adder=Add;
+		A=Load;
+		Q=Hold;
+		M=HD;
+		done = 1'b0;
 		NEXT_STATE = s15; 
+		$display("Add");
 	end
-	s10: begin //state = s10
-		adder=Sub;
-		A_out=Load;
-		Q_out=Hold;
-		M_out=Hold;
+	s10: begin
+		Adder=Sub;
+		A=Load;
+		Q=Hold;
+		M=HD;
+		done = 1'b0;
 		NEXT_STATE = s15;
+		$display("Sub");
 	end
-	s15: begin 
+	s15: begin
+		Adder=Add;
 		count = count - 1;
-		A_out=Shift;
-		Q_out=Shift;
-		M_out=Shift;
+		A=Shift;
+		Q=Shift;
+		M=HD;
+		done = 1'b0;
 		if(count==0) begin NEXT_STATE = end_state; end else
 		begin NEXT_STATE = s0; end
-	end //state = s15
+		$display("shift");
+	end
 	end_state: begin
-		M_out=HD;
-		Q_out=Hold;
-		A_out=Hold;
+		Adder=Add;
+		M=HD;
+		Q=Hold;
+		A=Hold;
 		done = 1'b1;
 		NEXT_STATE = end_state;
 	end
+	default: begin
+		done = 1'b0;
+		NEXT_STATE=s0;
+		count = 4;
+		M=LD;
+		Q=Load;
+		A=Reset;
+	end
 	endcase
+	end
 end
 
-always @(posedge clock) //clock the state flipflops. use synchronous start
+
+always @(negedge clock)
 begin
-	$display("test");
 	if (start == 1'b1) PRES_STATE = start_state;
 		else PRES_STATE = NEXT_STATE;
 end
+
+always @(posedge start)
+begin
+	PRES_STATE = start_state;
+	NEXT_STATE=start_state;
+	$display("STATE: %1d | %2b", NEXT_STATE, Q_in);
+	$monitor("Count: %1d", count);
+end
+
 endmodule

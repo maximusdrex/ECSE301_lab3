@@ -1,0 +1,76 @@
+#
+#
+# /mgc/Leonardo/bin/Linux/spectrum 
+# Thu Mar 10 11:08:25 2022
+read  /mgc/Leonardo/lib/ami05_typ.syn
+
+#read /mgc/Leonardo/lib/tsmc035_typ.syn
+
+
+
+#read /home/max/EECS301/lab3/work/Areg_V/Areg.v
+
+#read /home/max/EECS301/lab3/work/Mreg_V/Mreg.v
+
+#read /home/max/EECS301/lab3/work/Qreg_V/Qreg.v
+
+#read /home/max/EECS301/lab3/work/AddSub_V/AddSub.v
+
+read /home/max/EECS301/lab3/work/Control_V/ControlLogic.v
+
+### Previous Command Failed
+
+
+
+#read {/home/max/EECS301/lab3/work/Control_V//ControlLogic.v}
+
+
+
+
+
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize
+
+### Previous Command Failed
+
+pre_optimize -extract
+
+### Previous Command Failed
+
+optimize -macro -auto -effort standard -hierarchy auto
+
+### Previous Command Failed
+
+
+
+optimize .work.ControlLogic.INTERFACE -macro -auto -effort standard -hierarchy auto
+
+### Previous Command Failed
+
+optimize_timing .work.ControlLogic.INTERFACE
+
+set edif_write_arrays FALSE
+
+
+
+#write -downto PRIMITIVES -format vhdl   Proc.vhd
+
+#write -downto PRIMITIVES -format edif   Proc.edf
+
+write -downto PRIMITIVES -format verilog  Control_S//Proc.v
+
+### Previous Command Failed
+
+#write -format verilog  ControlLogic_S/Proc.v
+
+write -format SDF -downto PRIMITIVES Control_S//Proc.sdf
+
+### Previous Command Failed
+
+set report_file_name CriticalPath
+
+report_delay -num_paths 1 -show_schematic 1 -critical_paths 
+
+### Previous Command Failed
+
+exit
+

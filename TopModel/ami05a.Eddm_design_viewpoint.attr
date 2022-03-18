@@ -1,0 +1,220 @@
+A 5 u Eddm_design_viewpoint 6220f2bc2fc9.03.7f.00.01.01.00.4e.84 16 2 1158 0
+V v 14 4 62212d305c35.03.7f.00.01.01.00.6f.92
+F f 14 "ami05a.dvpt_14"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 15 4 6221336216e2.03.7f.00.01.01.00.6f.92
+F f 15 "ami05a.dvpt_15"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 16 4 622134386938.03.7f.00.01.01.00.6f.92
+F f 16 "ami05a.dvpt_16"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 16
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/part" 1 Eddm_part 6220f19a13b3.03.7f.00.01.01.00.4e.84 6220f19a13b2.03.7f.00.01.01.00.4e.84
+R cspuv 1 "/home/max/EECS301/lab3/TopModel/schematic" 12 mgc_schematic 622134372f2a.03.7f.00.01.01.00.6f.92 622044583385.03.7f.00.01.01.00.4e.84
+R cspuv 2 "/home/max/EECS301/lab3/TopModel/ami05a" 1 Eddm_ba_mgr 6220f2bc3263.03.7f.00.01.01.00.4e.84 6220f2bc3262.03.7f.00.01.01.00.4e.84
+R cspuv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
+R cspuv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
+R cspuv 6 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
+R cspuv 7 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
+R cspuv 354 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
+R cspuv 356 "/home/max/EECS301/lab3/AddSub_S/AddSub/schematic" 2 mgc_schematic 622042283a46.03.7f.00.01.01.00.4e.b0 622042283207.03.7f.00.01.01.00.4e.b0
+R cspuv 358 "/home/max/EECS301/lab3/Mreg_S/Mreg/schematic" 2 mgc_schematic 622043f5f3e8.03.7f.00.01.01.00.4f.45 622043f5ed63.03.7f.00.01.01.00.4f.45
+R cspuv 360 "/home/max/EECS301/lab3/Areg_S/Areg/schematic" 2 mgc_schematic 6220eeafd0e5.03.7f.00.01.01.00.55.5c 6220eeaf95fe.03.7f.00.01.01.00.55.5c
+R cspuv 361 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
+R cspuv 362 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic" 2 mgc_schematic 622120f6e342.03.7f.00.01.01.00.6a.45 622120f6bb78.03.7f.00.01.01.00.6a.45
+R cspuv 364 "/home/max/EECS301/lab3/Qreg_S/Qreg/schematic" 2 mgc_schematic 6220ee8256a2.03.7f.00.01.01.00.55.23 6220ee8212cf.03.7f.00.01.01.00.55.23
+R cspuv 372 "$ADK/parts/xor2/part" 1 Eddm_part 411d1c47707e.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.04.02.fa
+R cspuv 373 "$ADK/parts/mux21_ni/part" 1 Eddm_part 4124d698471e.03.93.22.46.d8.00.3c.8a 43349f1b0f4a.03.93.22.46.d8.00.02.fa
+R cspuv 374 "$ADK/parts/xnor2/part" 1 Eddm_part 411d1bc6ef8c.03.93.22.46.d8.00.24.b5 43349f1b0f4f.03.93.22.46.d8.00.02.fa
+R cspuv 375 "$ADK/parts/aoi22/part" 1 Eddm_part 411bc4906a1b.03.93.22.46.d8.00.12.e4 43349f1b0f7d.03.93.22.46.d8.06.02.fa
+R cspuv 376 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
+R cspuv 377 "$ADK/parts/inv02/schematic" 1 mgc_schematic 411d0bb37b6b.03.93.22.46.d8.00.24.b5 43349f1b0f6a.03.93.22.46.d8.05.02.fa
+R cspuv 384 "$ADK/parts/aoi22/schematic" 1 mgc_schematic 411be1636130.03.93.22.46.d8.00.14.dc 43349f1b0f7d.03.93.22.46.d8.04.02.fa
+R cspuv 391 "$ADK/parts/xnor2/schematic" 1 mgc_schematic 411d1bdd20d1.03.93.22.46.d8.00.24.b5 43349f1b0f4e.03.93.22.46.d8.05.02.fa
+R cspuv 398 "$ADK/parts/xor2/schematic" 1 mgc_schematic 411d1c4544f0.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.02.02.fa
+R cspuv 405 "$ADK/parts/mux21_ni/schematic" 1 mgc_schematic 4124d7acbbe6.03.93.22.46.d8.00.3c.8a 43349f1b0f49.03.93.22.46.d8.05.02.fa
+R cspuv 408 "$ADK/parts/adk_symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.03.02.fa
+R cspuv 409 "$ADK/parts/adk_symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.05.02.fa
+R cspuv 414 "$ADK/parts/dff/part" 1 Eddm_part 411be90393c1.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.04.02.fa
+R cspuv 415 "$ADK/parts/dff/schematic" 1 mgc_schematic 411be90bdb11.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.02.02.fa
+R cspuv 422 "$ADK/parts/mux21/part" 1 Eddm_part 411d0fd86fee.03.93.22.46.d8.00.24.b5 43349f1b0f64.03.93.22.46.d8.04.02.fa
+R cspuv 423 "$ADK/parts/ao21/part" 1 Eddm_part 411bbe8154f5.03.93.22.46.d8.00.12.7b 43349f1b0f80.03.93.22.46.d8.06.02.fa
+R cspuv 424 "$ADK/parts/nor03/part" 1 Eddm_part 411d11e8c1e8.03.93.22.46.d8.00.24.b5 43349f1b0f61.03.93.22.46.d8.00.02.fa
+R cspuv 425 "$ADK/parts/nor02_2x/part" 1 Eddm_part 412cf3f42a42.03.93.22.46.d8.00.57.60 43349f1b0f47.03.93.22.46.d8.00.02.fa
+R cspuv 426 "$ADK/parts/nand02_2x/part" 1 Eddm_part 412cf1323846.03.93.22.46.d8.00.57.60 43349f1b0f49.03.93.22.46.d8.01.02.fa
+R cspuv 427 "$ADK/parts/mux21/schematic" 4 mgc_schematic 6206ed344ec9.03.7f.00.01.01.00.0b.3f 43349f1b0f64.03.93.22.46.d8.02.02.fa
+R cspuv 434 "$ADK/parts/nand02_2x/schematic" 1 mgc_schematic 412cf0bb936f.03.93.22.46.d8.00.57.60 43349f1b0f48.03.93.22.46.d8.06.02.fa
+R cspuv 437 "$ADK/parts/nor02_2x/schematic" 1 mgc_schematic 412cf38086af.03.93.22.46.d8.00.57.60 43349f1b0f46.03.93.22.46.d8.05.02.fa
+R cspuv 440 "$ADK/parts/nor03/schematic" 1 mgc_schematic 41379b3db70a.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.06.02.fa
+R cspuv 447 "$ADK/parts/ao21/schematic" 2 mgc_schematic 6220f2fef0bd.03.7f.00.01.01.00.4e.84 43349f1b0f80.03.93.22.46.d8.04.02.fa
+R cspuv 454 "$ADK/parts/oai32/part" 1 Eddm_part 411d1528a205.03.93.22.46.d8.00.24.b5 43349f1b0f5c.03.93.22.46.d8.05.02.fa
+R cspuv 455 "$ADK/parts/oai32/schematic" 1 mgc_schematic 412fac928d54.03.93.22.46.d8.00.04.1b 43349f1b0f5c.03.93.22.46.d8.03.02.fa
+R cspuv 462 "$ADK/parts/nor04/part" 1 Eddm_part 411d12a81af4.03.93.22.46.d8.00.24.b5 43349f1b0f60.03.93.22.46.d8.03.02.fa
+R cspuv 463 "$ADK/parts/aoi21/part" 1 Eddm_part 411bc40fbc6e.03.93.22.46.d8.00.12.e4 43349f1b0f7e.03.93.22.46.d8.04.02.fa
+R cspuv 464 "$ADK/parts/inv08/part" 1 Eddm_part 411d0c3e3974.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.04.02.fa
+R cspuv 465 "$ADK/parts/buf08/part" 1 Eddm_part 411be8230076.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.04.02.fa
+R cspuv 466 "$ADK/parts/nor02ii/part" 1 Eddm_part 411d119f084e.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.02.02.fa
+R cspuv 467 "$ADK/parts/latchr/part" 1 Eddm_part 411d0d3edc22.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.05.02.fa
+R cspuv 468 "$ADK/parts/inv01/part" 1 Eddm_part 411d0b78f3c4.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.05.02.fa
+R cspuv 469 "$ADK/parts/buf02/part" 1 Eddm_part 411be775e8a2.03.93.22.46.d8.00.14.dc 43349f1b0f75.03.93.22.46.d8.00.02.fa
+R cspuv 470 "$ADK/parts/and03/part" 1 Eddm_part 411bb6625f36.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.02.02.fa
+R cspuv 471 "$ADK/parts/latch/part" 1 Eddm_part 411d0ce2399c.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.04.02.fa
+R cspuv 472 "$ADK/parts/or02/part" 1 Eddm_part 411d18fce0e1.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.02.02.fa
+R cspuv 473 "$ADK/parts/nand03/part" 1 Eddm_part 411d10cc0f6f.03.93.22.46.d8.00.24.b5 43349f1b0f63.03.93.22.46.d8.01.02.fa
+R cspuv 474 "$ADK/parts/oai21/part" 1 Eddm_part 411d12e7a1fc.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.05.02.fa
+R cspuv 475 "$ADK/parts/nor04/schematic" 1 mgc_schematic 41379b56e4f2.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.01.02.fa
+R cspuv 482 "$ADK/parts/buf02/schematic" 1 mgc_schematic 411be77f24f2.03.93.22.46.d8.00.14.dc 43349f1b0f74.03.93.22.46.d8.06.02.fa
+R cspuv 489 "$ADK/parts/latch/schematic" 1 mgc_schematic 411d0ce67e6a.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.02.02.fa
+R cspuv 496 "$ADK/parts/inv01/schematic" 1 mgc_schematic 411d0b760a8b.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.03.02.fa
+R cspuv 503 "$ADK/parts/latchr/schematic" 1 mgc_schematic 411d0d438360.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.03.02.fa
+R cspuv 510 "$ADK/parts/nor02ii/schematic" 1 mgc_schematic 411d11a513c2.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.00.02.fa
+R cspuv 513 "$ADK/parts/buf08/schematic" 1 mgc_schematic 411be828ba2f.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.02.02.fa
+R cspuv 520 "$ADK/parts/oai21/schematic" 1 mgc_schematic 411d12edc663.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.03.02.fa
+R cspuv 527 "$ADK/parts/inv08/schematic" 1 mgc_schematic 411d0c6bd50f.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.02.02.fa
+R cspuv 534 "$ADK/parts/nand03/schematic" 1 mgc_schematic 411d10f60e5d.03.93.22.46.d8.00.24.b5 43349f1b0f62.03.93.22.46.d8.06.02.fa
+R cspuv 541 "$ADK/parts/aoi21/schematic" 3 mgc_schematic 621556d340dd.03.7f.00.01.01.00.12.76 43349f1b0f7e.03.93.22.46.d8.02.02.fa
+R cspuv 548 "$ADK/parts/or02/schematic" 1 mgc_schematic 411d18fb4b4c.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.00.02.fa
+R cspuv 555 "$ADK/parts/and03/schematic" 1 mgc_schematic 411bb5ddcb1e.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.00.02.fa
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/part" 1 Eddm_part 6220f19a13b3.03.7f.00.01.01.00.4e.84 6220f19a13b2.03.7f.00.01.01.00.4e.84
+R cspuv 1 "/home/max/EECS301/lab3/TopModel/schematic" 11 mgc_schematic 6221297f6d77.03.7f.00.01.01.00.6f.92 622044583385.03.7f.00.01.01.00.4e.84
+R cspuv 2 "/home/max/EECS301/lab3/TopModel/ami05a" 1 Eddm_ba_mgr 6220f2bc3263.03.7f.00.01.01.00.4e.84 6220f2bc3262.03.7f.00.01.01.00.4e.84
+R cspuv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
+R cspuv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
+R cspuv 6 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
+R cspuv 7 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
+R cspuv 354 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
+R cspuv 356 "/home/max/EECS301/lab3/AddSub_S/AddSub/schematic" 2 mgc_schematic 622042283a46.03.7f.00.01.01.00.4e.b0 622042283207.03.7f.00.01.01.00.4e.b0
+R cspuv 358 "/home/max/EECS301/lab3/Mreg_S/Mreg/schematic" 2 mgc_schematic 622043f5f3e8.03.7f.00.01.01.00.4f.45 622043f5ed63.03.7f.00.01.01.00.4f.45
+R cspuv 360 "/home/max/EECS301/lab3/Areg_S/Areg/schematic" 2 mgc_schematic 6220eeafd0e5.03.7f.00.01.01.00.55.5c 6220eeaf95fe.03.7f.00.01.01.00.55.5c
+R cspuv 361 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
+R cspuv 362 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic" 2 mgc_schematic 622120f6e342.03.7f.00.01.01.00.6a.45 622120f6bb78.03.7f.00.01.01.00.6a.45
+R cspuv 364 "/home/max/EECS301/lab3/Qreg_S/Qreg/schematic" 2 mgc_schematic 6220ee8256a2.03.7f.00.01.01.00.55.23 6220ee8212cf.03.7f.00.01.01.00.55.23
+R cspuv 372 "$ADK/parts/xor2/part" 1 Eddm_part 411d1c47707e.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.04.02.fa
+R cspuv 373 "$ADK/parts/mux21_ni/part" 1 Eddm_part 4124d698471e.03.93.22.46.d8.00.3c.8a 43349f1b0f4a.03.93.22.46.d8.00.02.fa
+R cspuv 374 "$ADK/parts/xnor2/part" 1 Eddm_part 411d1bc6ef8c.03.93.22.46.d8.00.24.b5 43349f1b0f4f.03.93.22.46.d8.00.02.fa
+R cspuv 375 "$ADK/parts/aoi22/part" 1 Eddm_part 411bc4906a1b.03.93.22.46.d8.00.12.e4 43349f1b0f7d.03.93.22.46.d8.06.02.fa
+R cspuv 376 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
+R cspuv 377 "$ADK/parts/inv02/schematic" 1 mgc_schematic 411d0bb37b6b.03.93.22.46.d8.00.24.b5 43349f1b0f6a.03.93.22.46.d8.05.02.fa
+R cspuv 384 "$ADK/parts/aoi22/schematic" 1 mgc_schematic 411be1636130.03.93.22.46.d8.00.14.dc 43349f1b0f7d.03.93.22.46.d8.04.02.fa
+R cspuv 391 "$ADK/parts/xnor2/schematic" 1 mgc_schematic 411d1bdd20d1.03.93.22.46.d8.00.24.b5 43349f1b0f4e.03.93.22.46.d8.05.02.fa
+R cspuv 398 "$ADK/parts/xor2/schematic" 1 mgc_schematic 411d1c4544f0.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.02.02.fa
+R cspuv 405 "$ADK/parts/mux21_ni/schematic" 1 mgc_schematic 4124d7acbbe6.03.93.22.46.d8.00.3c.8a 43349f1b0f49.03.93.22.46.d8.05.02.fa
+R cspuv 408 "$ADK/parts/adk_symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.03.02.fa
+R cspuv 409 "$ADK/parts/adk_symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.05.02.fa
+R cspuv 414 "$ADK/parts/dff/part" 1 Eddm_part 411be90393c1.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.04.02.fa
+R cspuv 415 "$ADK/parts/dff/schematic" 1 mgc_schematic 411be90bdb11.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.02.02.fa
+R cspuv 422 "$ADK/parts/mux21/part" 1 Eddm_part 411d0fd86fee.03.93.22.46.d8.00.24.b5 43349f1b0f64.03.93.22.46.d8.04.02.fa
+R cspuv 423 "$ADK/parts/ao21/part" 1 Eddm_part 411bbe8154f5.03.93.22.46.d8.00.12.7b 43349f1b0f80.03.93.22.46.d8.06.02.fa
+R cspuv 424 "$ADK/parts/nor03/part" 1 Eddm_part 411d11e8c1e8.03.93.22.46.d8.00.24.b5 43349f1b0f61.03.93.22.46.d8.00.02.fa
+R cspuv 425 "$ADK/parts/nor02_2x/part" 1 Eddm_part 412cf3f42a42.03.93.22.46.d8.00.57.60 43349f1b0f47.03.93.22.46.d8.00.02.fa
+R cspuv 426 "$ADK/parts/nand02_2x/part" 1 Eddm_part 412cf1323846.03.93.22.46.d8.00.57.60 43349f1b0f49.03.93.22.46.d8.01.02.fa
+R cspuv 427 "$ADK/parts/mux21/schematic" 4 mgc_schematic 6206ed344ec9.03.7f.00.01.01.00.0b.3f 43349f1b0f64.03.93.22.46.d8.02.02.fa
+R cspuv 434 "$ADK/parts/nand02_2x/schematic" 1 mgc_schematic 412cf0bb936f.03.93.22.46.d8.00.57.60 43349f1b0f48.03.93.22.46.d8.06.02.fa
+R cspuv 437 "$ADK/parts/nor02_2x/schematic" 1 mgc_schematic 412cf38086af.03.93.22.46.d8.00.57.60 43349f1b0f46.03.93.22.46.d8.05.02.fa
+R cspuv 440 "$ADK/parts/nor03/schematic" 1 mgc_schematic 41379b3db70a.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.06.02.fa
+R cspuv 447 "$ADK/parts/ao21/schematic" 2 mgc_schematic 6220f2fef0bd.03.7f.00.01.01.00.4e.84 43349f1b0f80.03.93.22.46.d8.04.02.fa
+R cspuv 454 "$ADK/parts/oai32/part" 1 Eddm_part 411d1528a205.03.93.22.46.d8.00.24.b5 43349f1b0f5c.03.93.22.46.d8.05.02.fa
+R cspuv 455 "$ADK/parts/oai32/schematic" 1 mgc_schematic 412fac928d54.03.93.22.46.d8.00.04.1b 43349f1b0f5c.03.93.22.46.d8.03.02.fa
+R cspuv 462 "$ADK/parts/nor04/part" 1 Eddm_part 411d12a81af4.03.93.22.46.d8.00.24.b5 43349f1b0f60.03.93.22.46.d8.03.02.fa
+R cspuv 463 "$ADK/parts/aoi21/part" 1 Eddm_part 411bc40fbc6e.03.93.22.46.d8.00.12.e4 43349f1b0f7e.03.93.22.46.d8.04.02.fa
+R cspuv 464 "$ADK/parts/inv08/part" 1 Eddm_part 411d0c3e3974.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.04.02.fa
+R cspuv 465 "$ADK/parts/buf08/part" 1 Eddm_part 411be8230076.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.04.02.fa
+R cspuv 466 "$ADK/parts/nor02ii/part" 1 Eddm_part 411d119f084e.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.02.02.fa
+R cspuv 467 "$ADK/parts/latchr/part" 1 Eddm_part 411d0d3edc22.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.05.02.fa
+R cspuv 468 "$ADK/parts/inv01/part" 1 Eddm_part 411d0b78f3c4.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.05.02.fa
+R cspuv 469 "$ADK/parts/buf02/part" 1 Eddm_part 411be775e8a2.03.93.22.46.d8.00.14.dc 43349f1b0f75.03.93.22.46.d8.00.02.fa
+R cspuv 470 "$ADK/parts/and03/part" 1 Eddm_part 411bb6625f36.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.02.02.fa
+R cspuv 471 "$ADK/parts/latch/part" 1 Eddm_part 411d0ce2399c.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.04.02.fa
+R cspuv 472 "$ADK/parts/or02/part" 1 Eddm_part 411d18fce0e1.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.02.02.fa
+R cspuv 473 "$ADK/parts/nand03/part" 1 Eddm_part 411d10cc0f6f.03.93.22.46.d8.00.24.b5 43349f1b0f63.03.93.22.46.d8.01.02.fa
+R cspuv 474 "$ADK/parts/oai21/part" 1 Eddm_part 411d12e7a1fc.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.05.02.fa
+R cspuv 475 "$ADK/parts/nor04/schematic" 1 mgc_schematic 41379b56e4f2.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.01.02.fa
+R cspuv 482 "$ADK/parts/buf02/schematic" 1 mgc_schematic 411be77f24f2.03.93.22.46.d8.00.14.dc 43349f1b0f74.03.93.22.46.d8.06.02.fa
+R cspuv 489 "$ADK/parts/latch/schematic" 1 mgc_schematic 411d0ce67e6a.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.02.02.fa
+R cspuv 496 "$ADK/parts/inv01/schematic" 1 mgc_schematic 411d0b760a8b.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.03.02.fa
+R cspuv 503 "$ADK/parts/latchr/schematic" 1 mgc_schematic 411d0d438360.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.03.02.fa
+R cspuv 510 "$ADK/parts/nor02ii/schematic" 1 mgc_schematic 411d11a513c2.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.00.02.fa
+R cspuv 513 "$ADK/parts/buf08/schematic" 1 mgc_schematic 411be828ba2f.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.02.02.fa
+R cspuv 520 "$ADK/parts/oai21/schematic" 1 mgc_schematic 411d12edc663.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.03.02.fa
+R cspuv 527 "$ADK/parts/inv08/schematic" 1 mgc_schematic 411d0c6bd50f.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.02.02.fa
+R cspuv 534 "$ADK/parts/nand03/schematic" 1 mgc_schematic 411d10f60e5d.03.93.22.46.d8.00.24.b5 43349f1b0f62.03.93.22.46.d8.06.02.fa
+R cspuv 541 "$ADK/parts/aoi21/schematic" 3 mgc_schematic 621556d340dd.03.7f.00.01.01.00.12.76 43349f1b0f7e.03.93.22.46.d8.02.02.fa
+R cspuv 548 "$ADK/parts/or02/schematic" 1 mgc_schematic 411d18fb4b4c.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.00.02.fa
+R cspuv 555 "$ADK/parts/and03/schematic" 1 mgc_schematic 411bb5ddcb1e.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.00.02.fa
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/part" 1 Eddm_part 6220f19a13b3.03.7f.00.01.01.00.4e.84 6220f19a13b2.03.7f.00.01.01.00.4e.84
+R cspuv 1 "/home/max/EECS301/lab3/TopModel/schematic" 11 mgc_schematic 6221297f6d77.03.7f.00.01.01.00.6f.92 622044583385.03.7f.00.01.01.00.4e.84
+R cspuv 2 "/home/max/EECS301/lab3/TopModel/ami05a" 1 Eddm_ba_mgr 6220f2bc3263.03.7f.00.01.01.00.4e.84 6220f2bc3262.03.7f.00.01.01.00.4e.84
+R cspuv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
+R cspuv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
+R cspuv 6 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
+R cspuv 7 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
+R cspuv 354 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
+R cspuv 356 "/home/max/EECS301/lab3/AddSub_S/AddSub/schematic" 2 mgc_schematic 622042283a46.03.7f.00.01.01.00.4e.b0 622042283207.03.7f.00.01.01.00.4e.b0
+R cspuv 358 "/home/max/EECS301/lab3/Mreg_S/Mreg/schematic" 2 mgc_schematic 622043f5f3e8.03.7f.00.01.01.00.4f.45 622043f5ed63.03.7f.00.01.01.00.4f.45
+R cspuv 360 "/home/max/EECS301/lab3/Areg_S/Areg/schematic" 2 mgc_schematic 6220eeafd0e5.03.7f.00.01.01.00.55.5c 6220eeaf95fe.03.7f.00.01.01.00.55.5c
+R cspuv 361 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
+R cspuv 362 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic" 2 mgc_schematic 622120f6e342.03.7f.00.01.01.00.6a.45 622120f6bb78.03.7f.00.01.01.00.6a.45
+R cspuv 364 "/home/max/EECS301/lab3/Qreg_S/Qreg/schematic" 2 mgc_schematic 6220ee8256a2.03.7f.00.01.01.00.55.23 6220ee8212cf.03.7f.00.01.01.00.55.23
+R cspuv 372 "$ADK/parts/xor2/part" 1 Eddm_part 411d1c47707e.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.04.02.fa
+R cspuv 373 "$ADK/parts/mux21_ni/part" 1 Eddm_part 4124d698471e.03.93.22.46.d8.00.3c.8a 43349f1b0f4a.03.93.22.46.d8.00.02.fa
+R cspuv 374 "$ADK/parts/xnor2/part" 1 Eddm_part 411d1bc6ef8c.03.93.22.46.d8.00.24.b5 43349f1b0f4f.03.93.22.46.d8.00.02.fa
+R cspuv 375 "$ADK/parts/aoi22/part" 1 Eddm_part 411bc4906a1b.03.93.22.46.d8.00.12.e4 43349f1b0f7d.03.93.22.46.d8.06.02.fa
+R cspuv 376 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
+R cspuv 377 "$ADK/parts/inv02/schematic" 1 mgc_schematic 411d0bb37b6b.03.93.22.46.d8.00.24.b5 43349f1b0f6a.03.93.22.46.d8.05.02.fa
+R cspuv 384 "$ADK/parts/aoi22/schematic" 1 mgc_schematic 411be1636130.03.93.22.46.d8.00.14.dc 43349f1b0f7d.03.93.22.46.d8.04.02.fa
+R cspuv 391 "$ADK/parts/xnor2/schematic" 1 mgc_schematic 411d1bdd20d1.03.93.22.46.d8.00.24.b5 43349f1b0f4e.03.93.22.46.d8.05.02.fa
+R cspuv 398 "$ADK/parts/xor2/schematic" 1 mgc_schematic 411d1c4544f0.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.02.02.fa
+R cspuv 405 "$ADK/parts/mux21_ni/schematic" 1 mgc_schematic 4124d7acbbe6.03.93.22.46.d8.00.3c.8a 43349f1b0f49.03.93.22.46.d8.05.02.fa
+R cspuv 408 "$ADK/parts/adk_symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.03.02.fa
+R cspuv 409 "$ADK/parts/adk_symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0f6e.03.93.22.46.d8.05.02.fa
+R cspuv 414 "$ADK/parts/dff/part" 1 Eddm_part 411be90393c1.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.04.02.fa
+R cspuv 415 "$ADK/parts/dff/schematic" 1 mgc_schematic 411be90bdb11.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.02.02.fa
+R cspuv 422 "$ADK/parts/mux21/part" 1 Eddm_part 411d0fd86fee.03.93.22.46.d8.00.24.b5 43349f1b0f64.03.93.22.46.d8.04.02.fa
+R cspuv 423 "$ADK/parts/ao21/part" 1 Eddm_part 411bbe8154f5.03.93.22.46.d8.00.12.7b 43349f1b0f80.03.93.22.46.d8.06.02.fa
+R cspuv 424 "$ADK/parts/nor03/part" 1 Eddm_part 411d11e8c1e8.03.93.22.46.d8.00.24.b5 43349f1b0f61.03.93.22.46.d8.00.02.fa
+R cspuv 425 "$ADK/parts/nor02_2x/part" 1 Eddm_part 412cf3f42a42.03.93.22.46.d8.00.57.60 43349f1b0f47.03.93.22.46.d8.00.02.fa
+R cspuv 426 "$ADK/parts/nand02_2x/part" 1 Eddm_part 412cf1323846.03.93.22.46.d8.00.57.60 43349f1b0f49.03.93.22.46.d8.01.02.fa
+R cspuv 427 "$ADK/parts/mux21/schematic" 4 mgc_schematic 6206ed344ec9.03.7f.00.01.01.00.0b.3f 43349f1b0f64.03.93.22.46.d8.02.02.fa
+R cspuv 434 "$ADK/parts/nand02_2x/schematic" 1 mgc_schematic 412cf0bb936f.03.93.22.46.d8.00.57.60 43349f1b0f48.03.93.22.46.d8.06.02.fa
+R cspuv 437 "$ADK/parts/nor02_2x/schematic" 1 mgc_schematic 412cf38086af.03.93.22.46.d8.00.57.60 43349f1b0f46.03.93.22.46.d8.05.02.fa
+R cspuv 440 "$ADK/parts/nor03/schematic" 1 mgc_schematic 41379b3db70a.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.06.02.fa
+R cspuv 447 "$ADK/parts/ao21/schematic" 2 mgc_schematic 6220f2fef0bd.03.7f.00.01.01.00.4e.84 43349f1b0f80.03.93.22.46.d8.04.02.fa
+R cspuv 454 "$ADK/parts/oai32/part" 1 Eddm_part 411d1528a205.03.93.22.46.d8.00.24.b5 43349f1b0f5c.03.93.22.46.d8.05.02.fa
+R cspuv 455 "$ADK/parts/oai32/schematic" 1 mgc_schematic 412fac928d54.03.93.22.46.d8.00.04.1b 43349f1b0f5c.03.93.22.46.d8.03.02.fa
+R cspuv 462 "$ADK/parts/nor04/part" 1 Eddm_part 411d12a81af4.03.93.22.46.d8.00.24.b5 43349f1b0f60.03.93.22.46.d8.03.02.fa
+R cspuv 463 "$ADK/parts/aoi21/part" 1 Eddm_part 411bc40fbc6e.03.93.22.46.d8.00.12.e4 43349f1b0f7e.03.93.22.46.d8.04.02.fa
+R cspuv 464 "$ADK/parts/inv08/part" 1 Eddm_part 411d0c3e3974.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.04.02.fa
+R cspuv 465 "$ADK/parts/buf08/part" 1 Eddm_part 411be8230076.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.04.02.fa
+R cspuv 466 "$ADK/parts/nor02ii/part" 1 Eddm_part 411d119f084e.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.02.02.fa
+R cspuv 467 "$ADK/parts/latchr/part" 1 Eddm_part 411d0d3edc22.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.05.02.fa
+R cspuv 468 "$ADK/parts/inv01/part" 1 Eddm_part 411d0b78f3c4.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.05.02.fa
+R cspuv 469 "$ADK/parts/buf02/part" 1 Eddm_part 411be775e8a2.03.93.22.46.d8.00.14.dc 43349f1b0f75.03.93.22.46.d8.00.02.fa
+R cspuv 470 "$ADK/parts/and03/part" 1 Eddm_part 411bb6625f36.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.02.02.fa
+R cspuv 471 "$ADK/parts/latch/part" 1 Eddm_part 411d0ce2399c.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.04.02.fa
+R cspuv 472 "$ADK/parts/or02/part" 1 Eddm_part 411d18fce0e1.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.02.02.fa
+R cspuv 473 "$ADK/parts/nand03/part" 1 Eddm_part 411d10cc0f6f.03.93.22.46.d8.00.24.b5 43349f1b0f63.03.93.22.46.d8.01.02.fa
+R cspuv 474 "$ADK/parts/oai21/part" 1 Eddm_part 411d12e7a1fc.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.05.02.fa
+R cspuv 475 "$ADK/parts/nor04/schematic" 1 mgc_schematic 41379b56e4f2.03.93.22.46.d8.00.7d.7d 43349f1b0f60.03.93.22.46.d8.01.02.fa
+R cspuv 482 "$ADK/parts/buf02/schematic" 1 mgc_schematic 411be77f24f2.03.93.22.46.d8.00.14.dc 43349f1b0f74.03.93.22.46.d8.06.02.fa
+R cspuv 489 "$ADK/parts/latch/schematic" 1 mgc_schematic 411d0ce67e6a.03.93.22.46.d8.00.24.b5 43349f1b0f67.03.93.22.46.d8.02.02.fa
+R cspuv 496 "$ADK/parts/inv01/schematic" 1 mgc_schematic 411d0b760a8b.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.03.02.fa
+R cspuv 503 "$ADK/parts/latchr/schematic" 1 mgc_schematic 411d0d438360.03.93.22.46.d8.00.24.b5 43349f1b0f66.03.93.22.46.d8.03.02.fa
+R cspuv 510 "$ADK/parts/nor02ii/schematic" 1 mgc_schematic 411d11a513c2.03.93.22.46.d8.00.24.b5 43349f1b0f46.03.93.22.46.d8.00.02.fa
+R cspuv 513 "$ADK/parts/buf08/schematic" 1 mgc_schematic 411be828ba2f.03.93.22.46.d8.00.14.dc 43349f1b0f73.03.93.22.46.d8.02.02.fa
+R cspuv 520 "$ADK/parts/oai21/schematic" 1 mgc_schematic 411d12edc663.03.93.22.46.d8.00.24.b5 43349f1b0f5f.03.93.22.46.d8.03.02.fa
+R cspuv 527 "$ADK/parts/inv08/schematic" 1 mgc_schematic 411d0c6bd50f.03.93.22.46.d8.00.24.b5 43349f1b0f69.03.93.22.46.d8.02.02.fa
+R cspuv 534 "$ADK/parts/nand03/schematic" 1 mgc_schematic 411d10f60e5d.03.93.22.46.d8.00.24.b5 43349f1b0f62.03.93.22.46.d8.06.02.fa
+R cspuv 541 "$ADK/parts/aoi21/schematic" 3 mgc_schematic 621556d340dd.03.7f.00.01.01.00.12.76 43349f1b0f7e.03.93.22.46.d8.02.02.fa
+R cspuv 548 "$ADK/parts/or02/schematic" 1 mgc_schematic 411d18fb4b4c.03.93.22.46.d8.00.24.b5 43349f1b0f56.03.93.22.46.d8.00.02.fa
+R cspuv 555 "$ADK/parts/and03/schematic" 1 mgc_schematic 411bb5ddcb1e.03.93.22.46.d8.00.10.d0 43349f1b0f82.03.93.22.46.d8.00.02.fa

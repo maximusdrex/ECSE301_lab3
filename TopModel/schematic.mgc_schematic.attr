@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 622044583385.03.7f.00.01.01.00.4e.84 12 2 1 0
+V v 10 1 62212789429d.03.7f.00.01.01.00.68.d6
+F o 0 ""
+V v 11 1 6221297f6d77.03.7f.00.01.01.00.6f.92
+F o 0 ""
+V v 12 1 622134372f2a.03.7f.00.01.01.00.6f.92
+F o 0 ""
+O 12
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/schematic/sheet1" 11 mgc_sheet 622134372e8b.03.7f.00.01.01.00.6f.92 622044583432.03.7f.00.01.01.00.4e.84
+O 11
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/schematic/sheet1" 10 mgc_sheet 6221297f6c5c.03.7f.00.01.01.00.6f.92 622044583432.03.7f.00.01.01.00.4e.84
+O 10
+R cspuv 0 "/home/max/EECS301/lab3/TopModel/schematic/sheet1" 9 mgc_sheet 62212789414c.03.7f.00.01.01.00.68.d6 622044583432.03.7f.00.01.01.00.4e.84

@@ -1,0 +1,19 @@
+A 5 u mgc_sheet 622043f5eded.03.7f.00.01.01.00.4f.45 1 2 13 0
+V v 1 2 622043f5eded.03.7f.00.01.01.01.4f.45
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/EECS301/lab3/Mreg_S/Mreg/schematic" 1 mgc_schematic 622043f5ed64.03.7f.00.01.01.00.4f.45 622043f5ed63.03.7f.00.01.01.00.4f.45
+R csduv 1 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
+R csduv 2 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
+R csduv 3 "$ADK/parts/dff/part" 1 Eddm_part 411be90393c1.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.04.02.fa
+R csduv 4 "$ADK/parts/dff/dff" 1 mgc_symbol 377017ea00df.03.80.fc.a8.96.00.26.e5 43349f1b0f71.03.93.22.46.d8.01.02.fa
+R csduv 5 "$ADK/parts/mux21_ni/part" 1 Eddm_part 4124d698471e.03.93.22.46.d8.00.3c.8a 43349f1b0f4a.03.93.22.46.d8.00.02.fa
+R csduv 6 "$ADK/parts/mux21_ni/mux21_ni" 1 mgc_symbol 4124d68974a9.03.93.22.46.d8.00.3c.8a 43349f1b0f49.03.93.22.46.d8.04.02.fa
+R csduv 7 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
+R csduv 8 "$ADK/parts/inv02/inv02" 1 mgc_symbol 37c5ab1b3a99.03.93.22.21.a7.00.2d.3e 43349f1b0f6a.03.93.22.46.d8.04.02.fa
+R csduv 9 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 10 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 11 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R csduv 12 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa

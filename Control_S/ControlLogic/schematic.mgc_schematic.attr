@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 622120f6bb78.03.7f.00.01.01.00.6a.45 2 2 1 0
+V v 1 1 622120f6bb78.03.7f.00.01.01.01.6a.45
+F o 0 ""
+V v 2 1 622120f6e342.03.7f.00.01.01.00.6a.45
+F o 0 ""
+O 2
+R cspuv 0 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic/sheet1" 1 mgc_sheet 622120f6bc8b.03.7f.00.01.01.00.6a.45 622120f6bc8a.03.7f.00.01.01.00.6a.45
+O 1
+R cspuv 0 "/home/max/EECS301/lab3/Control_S/ControlLogic/schematic/sheet1" 1 mgc_sheet 622120f6bc8b.03.7f.00.01.01.00.6a.45 622120f6bc8a.03.7f.00.01.01.00.6a.45
+P "eddm__refer_state" "eddm__refer_floating"

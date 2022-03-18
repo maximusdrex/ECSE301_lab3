@@ -13,11 +13,11 @@ parameter Load= 2'b00, Reset= 2'b01, Shift= 2'b10, Hold= 2'b11,
 ControlLogic Control(
     .clock (clock),
     .start (start),
-    .done (done),
-    .M_out (M_out),
-    .adder (adder),
-    .Q_out (Q_out),
-    .A_out (A_out),
+    .done_sig (done),
+    .M_sig (M_out),
+    .adder_sig (adder),
+    .Q_sig (Q_out),
+    .A_sig (A_out),
     .Q_in (Q_in)
 );
 
@@ -26,13 +26,13 @@ initial begin
     start = 1'b1;
     Q_in = 2'b00;
 
-    forever #5 clock = ~clock;
+    forever #20 clock = ~clock;
 end
 
 initial begin
     #10;
     start = 1'b0; 
-    forever #20 Q_in = Q_in + 1;
+    forever #80 Q_in = Q_in + 1;
 end
 
 always @(posedge done) begin
