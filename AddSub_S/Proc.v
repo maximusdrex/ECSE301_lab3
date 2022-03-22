@@ -1,6 +1,6 @@
 //
 // Verilog description for cell AddSub, 
-// Fri Mar  4 18:22:25 2022
+// Mon Mar 21 11:31:55 2022
 //
 // LeonardoSpectrum Level 3, 2009a.6 
 //
@@ -33,87 +33,5 @@ module AddSub ( mult, control, A_in, A_out, clock ) ;
     xnor2 ix45 (.Y (nx44), .A0 (A_in[3]), .A1 (nx42)) ;
     xnor2 ix43 (.Y (nx42), .A0 (mult[3]), .A1 (control)) ;
     inv02 ix213 (.Y (nx212), .A (nx10)) ;
-endmodule
-
-
-module inv02 ( Y, A ) ;
-
-    output Y ;
-    input A ;
-
-
-
-
-    assign Y = ~A ;
-endmodule
-
-
-module aoi22 ( Y, A0, A1, B0, B1 ) ;
-
-    output Y ;
-    input A0 ;
-    input A1 ;
-    input B0 ;
-    input B1 ;
-
-    wire NOT_A1, NOT_B1, nx4, NOT_A0, nx8, nx10, NOT_B0, nx14, nx16, nx18;
-
-
-
-    assign NOT_A1 = ~A1 ;
-    assign NOT_B1 = ~B1 ;
-    and (nx4, NOT_A1, NOT_B1) ;
-    assign NOT_A0 = ~A0 ;
-    and (nx8, NOT_A0, NOT_B1) ;
-    or (nx10, nx4, nx8) ;
-    assign NOT_B0 = ~B0 ;
-    and (nx14, NOT_A1, NOT_B0) ;
-    or (nx16, nx10, nx14) ;
-    and (nx18, NOT_A0, NOT_B0) ;
-    or (Y, nx16, nx18) ;
-endmodule
-
-
-module xnor2 ( Y, A0, A1 ) ;
-
-    output Y ;
-    input A0 ;
-    input A1 ;
-
-
-
-
-    xnor (Y, A0, A1) ;
-endmodule
-
-
-module mux21_ni ( Y, A0, A1, S0 ) ;
-
-    output Y ;
-    input A0 ;
-    input A1 ;
-    input S0 ;
-
-    wire NOT_S0, nx2, nx4;
-
-
-
-    assign NOT_S0 = ~S0 ;
-    and (nx2, A0, NOT_S0) ;
-    and (nx4, A1, S0) ;
-    or (Y, nx2, nx4) ;
-endmodule
-
-
-module xor2 ( Y, A0, A1 ) ;
-
-    output Y ;
-    input A0 ;
-    input A1 ;
-
-
-
-
-    xor (Y, A0, A1) ;
 endmodule
 

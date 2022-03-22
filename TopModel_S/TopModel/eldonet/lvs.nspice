@@ -1,0 +1,542 @@
+* LVS netlist generated with ICnet by 'max' on Mon Mar 21 2022 at 11:54:41
+
+*
+* Globals.
+*
+.global VDD GND
+
+*
+* Component pathname : $ADK/parts/latch
+*
+.subckt latch  Q CLK D
+
+        M_I$222 Q N$17 GND GND n L=0.6u W=1.5u
+        M_I$221 Q N$17 VDD VDD p L=0.6u W=2.7u
+        M_I$15 N$10 CLK GND GND n L=0.6u W=1.5u
+        M_I$13 N$222 N$17 GND GND n L=0.6u W=1.5u
+        M_I$12 N$15 N$222 GND GND n L=0.6u W=1.5u
+        M_I$11 N$17 N$10 N$15 GND n L=0.6u W=1.5u
+        M_I$10 N$13 D GND GND n L=0.6u W=4.5u
+        M_I$9 N$17 CLK N$13 GND n L=0.6u W=4.5u
+        M_I$6 N$17 CLK N$15 VDD p L=0.6u W=1.5u
+        M_I$7 N$222 N$17 VDD VDD p L=0.6u W=2.7u
+        M_I$5 N$15 N$222 VDD VDD p L=0.6u W=1.5u
+        M_I$4 N$17 N$10 N$11 VDD p L=0.6u W=8.1u
+        M_I$3 N$11 D VDD VDD p L=0.6u W=8.1u
+        M_I$2 N$10 CLK VDD VDD p L=0.6u W=2.7u
+.ends latch
+
+*
+* Component pathname : $ADK/parts/buf02
+*
+.subckt buf02  A Y
+
+        M_I$614 Y N$411 VDD VDD p L=0.6u W=5.4u
+        M_I$615 Y N$411 GND GND n L=0.6u W=3u
+        M_I$411 N$411 A VDD VDD p L=0.6u W=2.7u
+        M_I$412 N$411 A GND GND n L=0.6u W=1.5u
+.ends buf02
+
+*
+* Component pathname : $ADK/parts/inv02
+*
+.subckt inv02  A Y
+
+        M_I$6 Y A VDD VDD p L=0.6u W=5.4u
+        M_I$5 Y A GND GND n L=0.6u W=3u
+.ends inv02
+
+*
+* Component pathname : $ADK/parts/nand02_2x
+*
+.subckt nand02_2x  Y A0 A1
+
+        M_I$9 Y A1 VDD VDD p L=0.6u W=6u
+        M_I$8 Y A0 VDD VDD p L=0.6u W=6u
+        M_I$3 Y A0 N$5 GND n L=0.6u W=6u
+        M_I$2 N$5 A1 GND GND n L=0.6u W=6u
+.ends nand02_2x
+
+*
+* Component pathname : $ADK/parts/nor02_2x
+*
+.subckt nor02_2x  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=0.6u W=3u
+        M_I$4 Y A1 GND GND n L=0.6u W=3u
+        M_I$3 Y A1 N$1 VDD p L=0.6u W=7.8u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=7.8u
+.ends nor02_2x
+
+*
+* Component pathname : $ADK/parts/xnor2
+*
+.subckt xnor2  Y A0 A1
+
+        M_I$218 N$213 A1 GND GND n L=0.6u W=3u
+        M_I$217 N$212 A0 N$213 GND n L=0.6u W=3u
+        M_I$9 N$212 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$8 N$212 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$7 N$3 N$212 GND GND n L=0.6u W=3u
+        M_I$6 Y A1 N$3 GND n L=0.6u W=3u
+        M_I$5 Y A0 N$3 GND n L=0.6u W=3u
+        M_I$4 Y A1 N$1 VDD p L=0.6u W=7.8u
+        M_I$3 Y N$212 VDD VDD p L=0.6u W=3.9u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=7.8u
+.ends xnor2
+
+*
+* Component pathname : $ADK/parts/nor03
+*
+.subckt nor03  A2 A0 A1 Y
+
+        M_I$213 Y A0 GND GND n L=0.6u W=1.8u
+        M_I$211 Y A2 N$211 VDD p L=0.6u W=8.1u
+        M_I$5 Y A1 GND GND n L=0.6u W=1.8u
+        M_I$4 Y A2 GND GND n L=0.6u W=1.8u
+        M_I$3 N$211 A1 N$1 VDD p L=0.6u W=8.1u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=8.1u
+.ends nor03
+
+*
+* Component pathname : $ADK/parts/ao21
+*
+.subckt ao21  A1 A0 B0 Y
+
+        M_I$14 Y N$3 VDD VDD p L=0.6u W=2.7u
+        M_I$13 Y N$3 GND GND n L=0.6u W=1.5u
+        M_I$12 N$2 A1 GND GND n L=0.6u W=3u
+        M_I$11 N$3 A0 N$2 GND n L=0.6u W=3u
+        M_I$7 N$3 B0 N$1 VDD p L=0.6u W=3.9u
+        M_I$6 N$1 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$5 N$1 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$4 N$3 B0 GND GND n L=0.6u W=1.5u
+.ends ao21
+
+*
+* Component pathname : $ADK/parts/dff
+*
+.subckt dff  QB Q CLK D
+
+        M_I$441 N$847 bclk- N$851 GND n L=0.6u W=4.5u
+        M_I$440 N$849 N$847 VDD VDD p L=0.6u W=1.5u
+        M_I$439 N$847 bclk- N$848 VDD p L=0.6u W=1.5u
+        M_I$438 N$848 N$849 VDD VDD p L=0.6u W=1.5u
+        M_I$437 N$847 bclk N$845 VDD p L=0.6u W=8.1u
+        M_I$436 N$845 D VDD VDD p L=0.6u W=8.1u
+        M_I$452 bclk bclk- GND GND n L=0.6u W=3u
+        M_I$673 Q QB GND GND n L=0.6u W=3u
+        M_I$672 Q QB VDD VDD p L=0.6u W=5.4u
+        M_I$669 QB N$1074 GND GND n L=0.6u W=3u
+        M_I$675 QB N$1074 VDD VDD p L=0.6u W=5.4u
+        M_I$668 N$1071 N$1074 GND GND n L=0.6u W=1.5u
+        M_I$667 N$1073 N$1071 GND GND n L=0.6u W=1.5u
+        M_I$666 N$1074 bclk- N$1073 GND n L=0.6u W=1.5u
+        M_I$665 N$1072 N$847 GND GND n L=0.6u W=4.5u
+        M_I$664 N$1074 bclk N$1072 GND n L=0.6u W=4.5u
+        M_I$663 N$1071 N$1074 VDD VDD p L=0.6u W=1.5u
+        M_I$662 N$1074 bclk N$1070 VDD p L=0.6u W=1.5u
+        M_I$661 N$1070 N$1071 VDD VDD p L=0.6u W=1.5u
+        M_I$660 N$1074 bclk- N$1069 VDD p L=0.6u W=8.1u
+        M_I$659 N$1069 N$847 VDD VDD p L=0.6u W=8.1u
+        M_I$449 bclk- CLK GND GND n L=0.6u W=3u
+        M_I$448 bclk- CLK VDD VDD p L=0.6u W=5.4u
+        M_I$453 bclk bclk- VDD VDD p L=0.6u W=5.4u
+        M_I$445 N$849 N$847 GND GND n L=0.6u W=1.5u
+        M_I$444 N$852 N$849 GND GND n L=0.6u W=1.5u
+        M_I$443 N$847 bclk N$852 GND n L=0.6u W=1.5u
+        M_I$442 N$851 D GND GND n L=0.6u W=4.5u
+.ends dff
+
+*
+* Component pathname : $ADK/parts/and02
+*
+.subckt and02  Y A0 A1
+
+        M_I$674 Y N$5 VDD VDD p L=0.6u W=2.7u
+        M_I$675 Y N$5 GND GND n L=0.6u W=1.5u
+        M_I$472 N$5 A1 VDD VDD p L=0.6u W=3.6u
+        M_I$471 N$5 A0 VDD VDD p L=0.6u W=3.6u
+        M_I$4 N$5 A0 N$7 GND n L=0.6u W=3u
+        M_I$5 N$7 A1 GND GND n L=0.6u W=3u
+.ends and02
+
+*
+* Component pathname : $ADK/parts/oai21
+*
+.subckt oai21  A0 A1 B0 Y
+
+        M_I$5 N$7 B0 GND GND n L=0.6u W=3u
+        M_I$4 Y A1 N$7 GND n L=0.6u W=3u
+        M_I$3 Y A0 N$7 GND n L=0.6u W=3u
+        M_I$12 Y B0 VDD VDD p L=0.6u W=3.6u
+        M_I$2 Y A1 N$9 VDD p L=0.6u W=7.2u
+        M_I$1 N$9 A0 VDD VDD p L=0.6u W=7.2u
+.ends oai21
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt inv01  A Y
+
+        M_I$411 Y A VDD VDD p L=0.6u W=2.7u
+        M_I$412 Y A GND GND n L=0.6u W=1.5u
+.ends inv01
+
+*
+* Component pathname : $ADK/parts/latchr
+*
+.subckt latchr  QB R CLK D
+
+        M_I$1954 N$3723 R GND GND n L=0.6u W=3u
+        M_I$1953 N$3723 R N$3722 VDD p L=0.6u W=3.6u
+        M_I$1244 N$3516 N$3723 VDD VDD p L=0.6u W=1.5u
+        M_I$1245 N$3108 N$3723 GND GND n L=0.6u W=1.5u
+        M_I$1749 N$3723 N$3929 GND GND n L=0.6u W=3u
+        M_I$1240 N$3929 CLK N$3516 VDD p L=0.6u W=1.5u
+        M_I$15 N$3100 CLK GND GND n L=0.6u W=1.5u
+        M_I$1242 N$3722 N$3929 VDD VDD p L=0.6u W=3.6u
+        M_I$1036 QB N$3723 GND GND n L=0.6u W=1.5u
+        M_I$10 N$13 D GND GND n L=0.6u W=4.5u
+        M_I$9 N$3929 CLK N$13 GND n L=0.6u W=4.5u
+        M_I$1035 QB N$3723 VDD VDD p L=0.6u W=2.7u
+        M_I$1447 N$3929 N$3100 N$3108 GND n L=0.6u W=1.5u
+        M_I$4 N$3929 N$3100 N$11 VDD p L=0.6u W=8.1u
+        M_I$3 N$11 D VDD VDD p L=0.6u W=8.1u
+        M_I$2 N$3100 CLK VDD VDD p L=0.6u W=2.7u
+.ends latchr
+
+*
+* Component pathname : $ADK/parts/or03
+*
+.subckt or03  A2 A0 A1 Y
+
+        M_I$416 Y N$214 GND GND n L=0.6u W=1.5u
+        M_I$415 Y N$214 VDD VDD p L=0.6u W=2.7u
+        M_I$213 N$214 A0 GND GND n L=0.6u W=1.8u
+        M_I$211 N$214 A2 N$211 VDD p L=0.6u W=8.1u
+        M_I$5 N$214 A1 GND GND n L=0.6u W=1.8u
+        M_I$4 N$214 A2 GND GND n L=0.6u W=1.8u
+        M_I$3 N$211 A1 N$1 VDD p L=0.6u W=8.1u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=8.1u
+.ends or03
+
+*
+* Component pathname : $ADK/parts/buf08
+*
+.subckt buf08  A Y
+
+        M_I$1023 Y N$411 VDD VDD p L=0.6u W=5.4u
+        M_I$1022 Y N$411 GND GND n L=0.6u W=3u
+        M_I$1021 Y N$411 VDD VDD p L=0.6u W=5.4u
+        M_I$1020 Y N$411 GND GND n L=0.6u W=3u
+        M_I$817 Y N$411 VDD VDD p L=0.6u W=5.4u
+        M_I$818 Y N$411 GND GND n L=0.6u W=3u
+        M_I$614 Y N$411 VDD VDD p L=0.6u W=5.4u
+        M_I$615 Y N$411 GND GND n L=0.6u W=3u
+        M_I$411 N$411 A VDD VDD p L=0.6u W=5.4u
+        M_I$412 N$411 A GND GND n L=0.6u W=3u
+.ends buf08
+
+*
+* Component pathname : $ADK/parts/inv08
+*
+.subckt inv08  A Y
+
+        M_I$618 Y A GND GND n L=0.6u W=3u
+        M_I$617 Y A VDD VDD p L=0.6u W=5.4u
+        M_I$616 Y A GND GND n L=0.6u W=3u
+        M_I$619 Y A VDD VDD p L=0.6u W=5.4u
+        M_I$412 Y A VDD VDD p L=0.6u W=5.4u
+        M_I$413 Y A GND GND n L=0.6u W=3u
+        M_I$6 Y A VDD VDD p L=0.6u W=5.4u
+        M_I$5 Y A GND GND n L=0.6u W=3u
+.ends inv08
+
+*
+* Component pathname : $ADK/parts/nor03_2x
+*
+.subckt nor03_2x  A1 A0 A2 Y
+
+        M_I$12 Y A0 GND GND n L=0.6u W=3.3u
+        M_I$10 Y A2 N$3 VDD p L=0.6u W=12u
+        M_I$5 Y A1 GND GND n L=0.6u W=3.3u
+        M_I$4 Y A2 GND GND n L=0.6u W=3.3u
+        M_I$3 N$3 A1 N$1 VDD p L=0.6u W=12u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=12u
+.ends nor03_2x
+
+*
+* Component pathname : $ADK/parts/nor04
+*
+.subckt nor04  A3 A2 A0 A1 Y
+
+        M_I$415 Y A3 GND GND n L=0.6u W=3u
+        M_I$416 Y A3 N$418 VDD p L=0.6u W=10.8u
+        M_I$213 Y A0 GND GND n L=0.6u W=3u
+        M_I$211 N$418 A2 N$211 VDD p L=0.6u W=10.8u
+        M_I$5 Y A1 GND GND n L=0.6u W=3u
+        M_I$4 Y A2 GND GND n L=0.6u W=3u
+        M_I$3 N$211 A1 N$1 VDD p L=0.6u W=10.8u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=10.8u
+.ends nor04
+
+*
+* Component pathname : $ADK/parts/or02
+*
+.subckt or02  A0 A1 Y
+
+        M_I$212 Y N$5 GND GND n L=0.6u W=1.5u
+        M_I$211 Y N$5 VDD VDD p L=0.6u W=2.7u
+        M_I$5 N$5 A0 GND GND n L=0.6u W=1.5u
+        M_I$4 N$5 A1 GND GND n L=0.6u W=1.5u
+        M_I$3 N$5 A1 N$1 VDD p L=0.6u W=3.9u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=3.9u
+.ends or02
+
+*
+* Component pathname : $ADK/parts/nor02ii
+*
+.subckt nor02ii  A0 A1 Y
+
+        MP1 N$208 A1 VDD VDD p L=0.6u W=2.7u
+        MN1 N$208 A1 GND GND n L=0.6u W=1.5u
+        MN4 Y A0 GND GND n L=0.6u W=1.5u
+        MN2 Y N$208 GND GND n L=0.6u W=1.5u
+        MP4 Y N$208 N$4 VDD p L=0.6u W=3.9u
+        MP2 N$4 A0 VDD VDD p L=0.6u W=3.9u
+.ends nor02ii
+
+*
+* Component pathname : $ADK/parts/ao22
+*
+.subckt ao22  A1 A0 B0 Y B1
+
+        M_I$16 Y N$215 VDD VDD p L=0.6u W=2.7u
+        M_I$18 Y N$215 GND GND n L=0.6u W=1.5u
+        M_I$14 N$215 B0 N$2 GND n L=0.6u W=3u
+        M_I$13 N$215 B1 N$6 VDD p L=0.6u W=3.9u
+        M_I$12 N$1 A1 GND GND n L=0.6u W=3u
+        M_I$11 N$215 A0 N$1 GND n L=0.6u W=3u
+        M_I$7 N$215 B0 N$6 VDD p L=0.6u W=3.9u
+        M_I$6 N$6 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$5 N$6 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$4 N$2 B1 GND GND n L=0.6u W=3u
+.ends ao22
+
+*
+* Component pathname : $ADK/parts/mux21_ni
+*
+.subckt mux21_ni  S0 A0 A1 Y
+
+        M_I$18 Y N$11 GND GND n L=0.6u W=1.5u
+        M_I$17 Y N$11 VDD VDD p L=0.6u W=2.7u
+        M_I$16 N$11 S0 N$7 VDD p L=0.6u W=5.4u
+        M_I$11 N$3 A1 GND GND n L=0.6u W=3u
+        M_I$10 N$11 S0 N$3 GND n L=0.6u W=3u
+        M_I$9 N$11 N$4 N$2 VDD p L=0.6u W=5.4u
+        M_I$8 N$2 A1 VDD VDD p L=0.6u W=5.4u
+        M_I$7 N$1 A0 GND GND n L=0.6u W=3u
+        M_I$6 N$11 N$4 N$1 GND n L=0.6u W=3u
+        M_I$4 N$7 A0 VDD VDD p L=0.6u W=5.4u
+        M_I$3 N$4 S0 GND GND n L=0.6u W=1.5u
+        M_I$2 N$4 S0 VDD VDD p L=0.6u W=2.7u
+.ends mux21_ni
+
+*
+* Component pathname : $ADK/parts/ao32
+*
+.subckt ao32  Y A0 A1 A2 B0 B1
+
+        M_I$222 Y N$214 GND GND n L=0.6u W=1.5u
+        M_I$221 Y N$214 VDD VDD p L=0.6u W=2.7u
+        M_I$12 N$6 B1 GND GND n L=0.6u W=3u
+        M_I$11 N$214 B0 N$6 GND n L=0.6u W=3u
+        M_I$10 N$5 A2 GND GND n L=0.6u W=4.5u
+        M_I$9 N$4 A1 N$5 GND n L=0.6u W=4.5u
+        M_I$8 N$214 A0 N$4 GND n L=0.6u W=4.5u
+        M_I$6 N$214 B0 N$11 VDD p L=0.6u W=3.9u
+        M_I$5 N$214 B1 N$11 VDD p L=0.6u W=3.9u
+        M_I$4 N$11 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$3 N$11 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$2 N$11 A2 VDD VDD p L=0.6u W=3.9u
+.ends ao32
+
+*
+* Component pathname : $ADK/parts/xor2
+*
+.subckt xor2  Y A0 A1
+
+        M_I$421 Y N$4 GND GND n L=0.6u W=1.5u
+        M_I$420 Y N$4 VDD VDD p L=0.6u W=2.7u
+        M_I$218 N$213 A1 GND GND n L=0.6u W=3u
+        M_I$217 N$212 A0 N$213 GND n L=0.6u W=3u
+        M_I$9 N$212 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$8 N$212 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$7 N$3 N$212 GND GND n L=0.6u W=3u
+        M_I$6 N$4 A1 N$3 GND n L=0.6u W=3u
+        M_I$5 N$4 A0 N$3 GND n L=0.6u W=3u
+        M_I$4 N$4 A1 N$1 VDD p L=0.6u W=7.8u
+        M_I$3 N$4 N$212 VDD VDD p L=0.6u W=3.9u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=7.8u
+.ends xor2
+
+*
+* Component pathname : $ADK/parts/aoi22
+*
+.subckt aoi22  B1 A0 A1 B0 Y
+
+        M_I$425 Y B0 N$9 GND n L=0.6u W=3u
+        M_I$426 Y B1 N$4 VDD p L=0.6u W=3.9u
+        M_I$12 N$8 A1 GND GND n L=0.6u W=3u
+        M_I$11 Y A0 N$8 GND n L=0.6u W=3u
+        M_I$7 Y B0 N$4 VDD p L=0.6u W=3.9u
+        M_I$6 N$4 A1 VDD VDD p L=0.6u W=3.9u
+        M_I$5 N$4 A0 VDD VDD p L=0.6u W=3.9u
+        M_I$13 N$9 B1 GND GND n L=0.6u W=3u
+.ends aoi22
+
+*
+* Component pathname : /home/max/301/ECSE301_lab3/TopModel_S/TopModel
+*
+.subckt TopModel  q_in[0] q_in[1] q_in[2] q_in[3] m_in[0] m_in[1] m_in[2]
++ m_in[3] mult_out[0] mult_out[1] mult_out[2] mult_out[3] mult_out[4] mult_out[5]
++ mult_out[6] mult_out[7] done start clock
+
+        X_Control_lat_count_1 Control_count_1 Control_nx14 Control_nx80 latch
+        X_Control_lat_count_2 Control_count_2 Control_nx14 Control_nx108 latch
+        X_Control_lat_adder_sig add_sig Control_nx646 Control_PRES_STATE_2 latch
+        X_Control_lat_NEXT_STATE_3 Control_NEXT_STATE_3 Control_nx646 Control_nx62 latch
+        X_Control_lat_M_sig m_sig Control_nx648 Control_PRES_STATE_4 latch
+        X_Control_lat_Q_sig_0 q_con_0 Control_nx648 Control_nx10 latch
+        X_Control_lat_NEXT_STATE_2 Control_NEXT_STATE_2 Control_nx646 Control_nx190 latch
+        X_Control_lat_NEXT_STATE_0 Control_NEXT_STATE_0 Control_nx646 Control_nx168 latch
+        X_Control_ix645 Control_nx36 Control_nx646 buf02
+        X_Control_ix647 Control_nx36 Control_nx648 buf02
+        X_ix371 a_con_1 nx372 buf02
+        X_ix373 a_con_1 nx374 buf02
+        X_Control_lat_count_0__u3 Control_nx5 Control_nx622 buf02
+        X_Control_ix660 Control_nx609 Control_nx661 buf02
+        X_Control_ix29 Control_nx592 Control_nx28 inv02
+        X_Control_ix617 clock Control_nx616 inv02
+        X_Control_ix37 Control_nx36 Control_nx590 Control_nx625 nand02_2x
+        X_Control_ix151 start Control_nx598 Control_nx150 nor02_2x
+        X_Control_ix11 Control_PRES_STATE_4 Control_PRES_STATE_3 Control_nx10 nor02_2x
+        X_Control_ix608 Control_nx607 Control_count_2 Control_nx661 xnor2
+        X_Control_ix593 Control_PRES_STATE_0 Control_PRES_STATE_4 Control_PRES_STATE_5
++ Control_nx592 nor03
+        X_Control_ix191 q_out_0 Control_nx569 Control_nx630 Control_nx190 nor03
+        X_Control_ix131 Control_PRES_STATE_5 start Control_nx126 Control_nx130 ao21
+        X_Control_ix591 Control_nx24 Control_nx592 Control_nx616 Control_nx590 ao21
+        X_Control_ix61 Control_nx581 Control_PRES_STATE_0 Control_PRES_STATE_1
++ Control_nx60 ao21
+        X_Control_ix105 Control_count_0 Control_count_1 Control_nx661 Control_nx556 ao21
+        X_Control_ix169 Control_nx656 Control_PRES_STATE_3 Control_PRES_STATE_4
++ Control_nx168 ao21
+        X_Control_reg_PRES_STATE_5 Control_nx598 Control_PRES_STATE_5 clock
++ Control_nx140 dff
+        X_Control_reg_PRES_STATE_4 Control_NOT_PRES_STATE_4 Control_PRES_STATE_4
++ clock Control_nx158 dff
+        X_Control_reg_PRES_STATE_3 Control_nx574 Control_PRES_STATE_3 clock
++ Control_nx72 dff
+        X_Control_reg_PRES_STATE_0 Control_nx569 Control_PRES_STATE_0 clock
++ Control_nx178 dff
+        X_Control_ix81 Control_nx80 Control_PRES_STATE_3 Control_nx556 and02
+        X_Control_ix109 Control_nx574 Control_nx607 Control_NOT_PRES_STATE_4
++ Control_nx108 oai21
+        X_Control_ix626 Control_PRES_STATE_4 Control_PRES_STATE_3 clock
++ Control_nx625 oai21
+        X_Control_lat_count_0__u2 Control_nx5 Control_count_0 inv01
+        X_Control_lat_count_0__u1 Control_nx5 GND Control_nx14 Control_nx650 latchr
+        X_Control_ix629 Control_count_1 Control_count_2 Control_nx622 Control_nx656 or03
+        X_Control_ix649 Control_nx90 Control_nx650 buf08
+        X_Control_ix15 Control_nx625 Control_nx14 inv08
+        X_Control_ix25 Control_PRES_STATE_4 Control_PRES_STATE_1 Control_PRES_STATE_2
++ Control_nx24 nor03_2x
+        X_Control_ix127 Control_count_1 Control_nx622 Control_nx574 Control_count_2
++ Control_nx126 nor04
+        X_Control_ix159 Control_NEXT_STATE_4 start Control_nx158 or02
+        X_Control_ix63 Control_nx60 Control_PRES_STATE_2 Control_nx62 or02
+        X_Control_ix141 start Control_NEXT_STATE_5 Control_nx140 nor02ii
+        X_Control_ix47 start Control_NEXT_STATE_1 Control_nx46 nor02ii
+        X_Control_ix91 Control_nx574 Control_nx622 Control_nx90 nor02ii
+        X_Control_ix610 Control_count_1 Control_nx622 Control_nx609 nor02ii
+        X_Control_ix73 start Control_NEXT_STATE_3 Control_nx72 nor02ii
+        X_Control_ix201 start Control_NEXT_STATE_2 Control_nx200 nor02ii
+        X_Control_ix179 start Control_NEXT_STATE_0 Control_nx178 nor02ii
+        X_Control_lat_NEXT_STATE_5 Control_NEXT_STATE_5 Control_nx646 Control_nx130 latch
+        X_Control_lat_NEXT_STATE_1 Control_NEXT_STATE_1 Control_nx646 Control_nx4 latch
+        X_Control_lat_NEXT_STATE_4 Control_NEXT_STATE_4 Control_nx646 Control_nx150 latch
+        X_Control_lat_A_sig_0 a_con_0 Control_nx648 Control_nx28 latch
+        X_Control_lat_Q_sig_1 q_con_1 Control_nx648 Control_NOT_PRES_STATE_4 latch
+        X_Control_lat_done_sig done Control_nx648 Control_PRES_STATE_5 latch
+        X_Control_lat_A_sig_1 a_con_1 Control_nx648 Control_nx24 latch
+        X_ix177 mult_out[2] q_con_1 q_in[1] nx176 nx10 ao22
+        X_ix167 mult_out[3] q_con_1 q_in[2] nx166 nx10 ao22
+        X_ix155 mult_out[4] q_con_1 q_in[3] nx154 nx10 ao22
+        X_ix125 mult_out[7] nx372 nx86 nx124 nx42 ao22
+        X_ix154 m_sig m_out_0 m_in[0] nx153 mux21_ni
+        X_ix164 m_sig m_out_1 m_in[1] nx163 mux21_ni
+        X_ix174 m_sig m_out_2 m_in[2] nx173 mux21_ni
+        X_ix184 m_sig m_out_3 m_in[3] nx183 mux21_ni
+        X_ix264 nx4 mult_out[0] nx186 nx263 mux21_ni
+        X_ix254 nx4 mult_out[1] nx176 nx253 mux21_ni
+        X_ix244 nx4 mult_out[2] nx166 nx243 mux21_ni
+        X_ix234 nx4 mult_out[3] nx154 nx233 mux21_ni
+        X_ix53 m_out_0 add_sig mult_out[4] nx52 mux21_ni
+        X_ix224 nx24 mult_out[4] nx144 nx223 mux21_ni
+        X_ix214 nx24 mult_out[5] nx134 nx213 mux21_ni
+        X_ix204 nx24 mult_out[6] nx124 nx203 mux21_ni
+        X_ix274 nx273 q_con_1 mult_out[0] nx362 q_out_0 nx364 ao32
+        X_Control_reg_PRES_STATE_1 N$dummy_esc1[14] Control_PRES_STATE_1
++ clock Control_nx46 dff
+        X_Control_reg_PRES_STATE_2 N$dummy_esc1[13] Control_PRES_STATE_2
++ clock Control_nx200 dff
+        X_M_reg_M_out_3 N$dummy_esc1[12] m_out_3 clock nx183 dff
+        X_M_reg_M_out_1 N$dummy_esc1[11] m_out_1 clock nx163 dff
+        X_M_reg_M_out_0 N$dummy_esc1[10] m_out_0 clock nx153 dff
+        X_M_reg_M_out_2 N$dummy_esc1[9] m_out_2 clock nx173 dff
+        X_A_reg_A_out_3 N$dummy_esc1[8] mult_out[7] clock nx193 dff
+        X_A_reg_A_out_2 N$dummy_esc1[7] mult_out[6] clock nx203 dff
+        X_A_reg_A_out_1 N$dummy_esc1[6] mult_out[5] clock nx213 dff
+        X_A_reg_A_out_0 N$dummy_esc1[5] mult_out[4] clock nx223 dff
+        X_Q_reg_Q_out_4 N$dummy_esc1[4] mult_out[3] NOT_clock nx233 dff
+        X_Q_reg_Q_out_3 N$dummy_esc1[3] mult_out[2] NOT_clock nx243 dff
+        X_Q_reg_Q_out_2 N$dummy_esc1[2] mult_out[1] NOT_clock nx253 dff
+        X_Q_reg_Q_out_1 N$dummy_esc1[1] mult_out[0] NOT_clock nx263 dff
+        X_Q_reg_Q_out_0 N$dummy_esc1[0] q_out_0 NOT_clock nx273 dff
+        X_ix363 q_con_0 nx362 inv02
+        X_Control_ix588 q_out_0 Control_nx587 inv02
+        X_ix365 nx4 nx364 inv02
+        X_ix329 nx60 nx328 inv02
+        X_ix75 nx341 nx74 inv02
+        X_ix314 nx82 nx313 inv02
+        X_Control_ix631 mult_out[0] Control_nx630 inv02
+        X_ix5 nx4 q_con_1 q_con_0 nand02_2x
+        X_ix25 nx24 nx372 a_con_0 nand02_2x
+        X_ix11 q_con_0 q_con_1 nx10 nor02_2x
+        X_ix43 a_con_0 nx372 nx42 nor02_2x
+        X_ix335 nx334 add_sig m_out_3 xor2
+        X_ix342 mult_out[5] nx52 nx62 nx328 nx341 aoi22
+        X_ix312 nx84 nx313 mult_out[6] nx74 nx311 aoi22
+        X_ix348 nx347 nx52 nx62 xnor2
+        X_ix310 nx309 nx311 nx332 xnor2
+        X_ix87 nx86 nx341 nx84 xnor2
+        X_ix83 nx82 add_sig m_out_2 xnor2
+        X_ix61 nx60 add_sig m_out_1 xnor2
+        X_Control_ix582 Control_nx581 mult_out[0] q_out_0 xnor2
+        X_ix352 nx351 m_out_0 mult_out[4] xnor2
+        X_ix63 nx62 nx60 mult_out[5] xnor2
+        X_ix85 nx84 nx82 mult_out[6] xnor2
+        X_ix333 nx332 mult_out[7] nx334 xnor2
+        X_ix45 nx374 nx351 a_con_0 nx44 nor03
+        X_ix67 nx374 nx347 a_con_0 nx66 nor03
+        X_ix192 nx372 a_con_0 nx309 nx191 nor03
+        X_Control_ix5 Control_nx587 Control_nx569 mult_out[0] Control_nx4 nor03
+        X_ix145 mult_out[5] nx372 nx44 nx144 ao21
+        X_ix135 mult_out[6] nx372 nx66 nx134 ao21
+        X_ix194 nx372 mult_out[7] nx191 nx193 ao21
+        X_ix187 mult_out[1] q_con_1 q_in[0] nx186 nx10 ao22
+        X_ix357 clock NOT_clock inv02
+.ends TopModel
+

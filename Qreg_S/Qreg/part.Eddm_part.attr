@@ -1,16 +1,12 @@
-A 5 u Eddm_part 6220443694ee.03.7f.00.01.01.00.4f.6d 5 2 4 0
-V v 3 1 6220ee805535.03.7f.00.01.01.00.55.0d
-F f 3 "part.part_3"
-V v 4 1 6220ee8205cf.03.7f.00.01.01.00.55.23
-F f 4 "part.part_4"
-V v 5 1 6220ee825226.03.7f.00.01.01.00.55.23
-F f 5 "part.part_5"
-O 5
+A 5 u Eddm_part 6238c6f0c5b5.03.7f.00.01.01.00.48.20 2 2 2 0
+V v 1 1 6238c6f0c5b6.03.7f.00.01.01.00.48.20
+F f 1 "part.part_1"
+V v 2 1 6238c6f0e805.03.7f.00.01.01.00.48.20
+F f 2 "part.part_2"
+O 2
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 2 "/home/max/EECS301/lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6220ee81f089.03.7f.00.01.01.00.55.23 6220ee81f087.03.7f.00.01.01.00.55.23
-R csduv 3 "/home/max/EECS301/lab3/Qreg_S/Qreg/schematic" 1 mgc_schematic 6220ee8212d0.03.7f.00.01.01.00.55.23 6220ee8212cf.03.7f.00.01.01.00.55.23
-O 4
+R csduv 0 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6238c6f0c46a.03.7f.00.01.01.00.48.20 6238c6f0c469.03.7f.00.01.01.00.48.20
+R csduv 1 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/schematic" 1 mgc_schematic 6238c6f0cb0b.03.7f.00.01.01.00.48.20 6238c6f0cb0a.03.7f.00.01.01.00.48.20
+O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 2 "/home/max/EECS301/lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6220ee81f089.03.7f.00.01.01.00.55.23 6220ee81f087.03.7f.00.01.01.00.55.23
-O 3
-P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6238c6f0c46a.03.7f.00.01.01.00.48.20 6238c6f0c469.03.7f.00.01.01.00.48.20

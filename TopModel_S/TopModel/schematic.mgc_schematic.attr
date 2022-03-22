@@ -1,0 +1,16 @@
+A 5 u mgc_schematic 6238c74b1ea1.03.7f.00.01.01.00.48.6f 6 2 2 0
+V v 4 1 6238c74b723a.03.7f.00.01.01.00.48.6f
+F o 0 ""
+V v 5 1 6238ca052051.03.7f.00.01.01.00.47.87
+F o 0 ""
+V v 6 1 6238e14f13ee.03.7f.00.01.01.00.47.87
+F o 0 ""
+O 6
+R cspuv 0 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet1" 3 mgc_sheet 6238e14f123d.03.7f.00.01.01.00.47.87 6238c74b1f6f.03.7f.00.01.01.00.48.6f
+R cspuv 1 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet2" 1 mgc_sheet 6238c74b5088.03.7f.00.01.01.00.48.6f 6238c74b5087.03.7f.00.01.01.00.48.6f
+O 5
+R cspuv 0 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet1" 2 mgc_sheet 6238ca051f60.03.7f.00.01.01.00.47.87 6238c74b1f6f.03.7f.00.01.01.00.48.6f
+R cspuv 1 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet2" 1 mgc_sheet 6238c74b5088.03.7f.00.01.01.00.48.6f 6238c74b5087.03.7f.00.01.01.00.48.6f
+O 4
+R cspuv 0 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet1" 1 mgc_sheet 6238c74b1f70.03.7f.00.01.01.00.48.6f 6238c74b1f6f.03.7f.00.01.01.00.48.6f
+R cspuv 1 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic/sheet2" 1 mgc_sheet 6238c74b5088.03.7f.00.01.01.00.48.6f 6238c74b5087.03.7f.00.01.01.00.48.6f

@@ -1,26 +1,26 @@
-A 5 u mgc_sheet 6220ee821888.03.7f.00.01.01.00.55.23 1 2 21 0
-V v 1 2 6220ee821889.03.7f.00.01.01.00.55.23
+A 5 u mgc_sheet 6238c6f0cd29.03.7f.00.01.01.00.48.20 1 2 21 0
+V v 1 2 6238c6f0cd2a.03.7f.00.01.01.00.48.20
 F f 1 "sheet1.ssht_1"
 F f 1 "sheet1.sgfx_1"
 O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/Qreg_S/Qreg/schematic" 1 mgc_schematic 6220ee8212d0.03.7f.00.01.01.00.55.23 6220ee8212cf.03.7f.00.01.01.00.55.23
+R csduv 0 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/schematic" 1 mgc_schematic 6238c6f0cb0b.03.7f.00.01.01.00.48.20 6238c6f0cb0a.03.7f.00.01.01.00.48.20
 R csduv 1 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
 R csduv 2 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
 R csduv 3 "$ADK/parts/dff/part" 1 Eddm_part 411be90393c1.03.93.22.46.d8.00.14.dc 43349f1b0f71.03.93.22.46.d8.04.02.fa
 R csduv 4 "$ADK/parts/dff/dff" 1 mgc_symbol 377017ea00df.03.80.fc.a8.96.00.26.e5 43349f1b0f71.03.93.22.46.d8.01.02.fa
-R csduv 5 "$ADK/parts/oai32/part" 1 Eddm_part 411d1528a205.03.93.22.46.d8.00.24.b5 43349f1b0f5c.03.93.22.46.d8.05.02.fa
-R csduv 6 "$ADK/parts/oai32/oai32" 1 mgc_symbol 37c5ad1b1c17.03.93.22.21.a7.00.2d.3e 43349f1b0f5c.03.93.22.46.d8.02.02.fa
-R csduv 7 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
-R csduv 8 "$ADK/parts/inv02/inv02" 1 mgc_symbol 37c5ab1b3a99.03.93.22.21.a7.00.2d.3e 43349f1b0f6a.03.93.22.46.d8.04.02.fa
-R csduv 9 "$ADK/parts/mux21/part" 1 Eddm_part 411d0fd86fee.03.93.22.46.d8.00.24.b5 43349f1b0f64.03.93.22.46.d8.04.02.fa
-R csduv 10 "$ADK/parts/mux21/mux21" 1 mgc_symbol 37c5b74354d3.03.93.22.21.a7.00.34.50 43349f1b0f64.03.93.22.46.d8.01.02.fa
-R csduv 11 "$ADK/parts/aoi22/part" 1 Eddm_part 411bc4906a1b.03.93.22.46.d8.00.12.e4 43349f1b0f7d.03.93.22.46.d8.06.02.fa
-R csduv 12 "$ADK/parts/aoi22/aoi22" 1 mgc_symbol 37c59cffe6d5.03.93.22.21.a7.00.2d.3e 43349f1b0f7d.03.93.22.46.d8.03.02.fa
-R csduv 13 "$ADK/parts/nor02_2x/part" 1 Eddm_part 412cf3f42a42.03.93.22.46.d8.00.57.60 43349f1b0f47.03.93.22.46.d8.00.02.fa
-R csduv 14 "$ADK/parts/nor02_2x/nor02_2x" 1 mgc_symbol 412cf3f4237a.03.93.22.46.d8.00.57.60 43349f1b0f46.03.93.22.46.d8.04.02.fa
-R csduv 15 "$ADK/parts/nand02_2x/part" 1 Eddm_part 412cf1323846.03.93.22.46.d8.00.57.60 43349f1b0f49.03.93.22.46.d8.01.02.fa
-R csduv 16 "$ADK/parts/nand02_2x/nand02_2x" 1 mgc_symbol 412cf1322c82.03.93.22.46.d8.00.57.60 43349f1b0f48.03.93.22.46.d8.05.02.fa
+R csduv 5 "$ADK/parts/ao32/part" 1 Eddm_part 411bc2ca2d75.03.93.22.46.d8.00.12.e4 43349f1b0f7f.03.93.22.46.d8.01.02.fa
+R csduv 6 "$ADK/parts/ao32/ao32" 1 mgc_symbol 3919ab6a9643.03.80.fc.a8.96.00.68.5a 43349f1b0f3b.03.93.22.46.d8.07.02.fa
+R csduv 7 "$ADK/parts/mux21_ni/part" 1 Eddm_part 4124d698471e.03.93.22.46.d8.00.3c.8a 43349f1b0f4a.03.93.22.46.d8.00.02.fa
+R csduv 8 "$ADK/parts/mux21_ni/mux21_ni" 1 mgc_symbol 4124d68974a9.03.93.22.46.d8.00.3c.8a 43349f1b0f49.03.93.22.46.d8.04.02.fa
+R csduv 9 "$ADK/parts/ao22/part" 1 Eddm_part 411bc19190e8.03.93.22.46.d8.00.12.e4 43349f1b0f80.03.93.22.46.d8.02.02.fa
+R csduv 10 "$ADK/parts/ao22/ao22" 1 mgc_symbol 37c59c2a665e.03.93.22.21.a7.00.2d.3e 43349f1b0f3d.03.93.22.46.d8.06.02.fa
+R csduv 11 "$ADK/parts/nor02_2x/part" 1 Eddm_part 412cf3f42a42.03.93.22.46.d8.00.57.60 43349f1b0f47.03.93.22.46.d8.00.02.fa
+R csduv 12 "$ADK/parts/nor02_2x/nor02_2x" 1 mgc_symbol 412cf3f4237a.03.93.22.46.d8.00.57.60 43349f1b0f46.03.93.22.46.d8.04.02.fa
+R csduv 13 "$ADK/parts/nand02_2x/part" 1 Eddm_part 412cf1323846.03.93.22.46.d8.00.57.60 43349f1b0f49.03.93.22.46.d8.01.02.fa
+R csduv 14 "$ADK/parts/nand02_2x/nand02_2x" 1 mgc_symbol 412cf1322c82.03.93.22.46.d8.00.57.60 43349f1b0f48.03.93.22.46.d8.05.02.fa
+R csduv 15 "$ADK/parts/inv02/part" 1 Eddm_part 411d0badd9c7.03.93.22.46.d8.00.24.b5 43349f1b0f6b.03.93.22.46.d8.00.02.fa
+R csduv 16 "$ADK/parts/inv02/inv02" 1 mgc_symbol 37c5ab1b3a99.03.93.22.21.a7.00.2d.3e 43349f1b0f6a.03.93.22.46.d8.04.02.fa
 R csduv 17 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
 R csduv 18 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
 R csduv 19 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa

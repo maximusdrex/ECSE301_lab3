@@ -1,0 +1,2867 @@
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors 383 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "model" on I$34
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$34
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$34
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$34
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$34
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$34
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$35
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$35
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$35
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$35
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$35
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$35
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$36
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$36
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$36
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$36
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$36
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$36
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$37
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$37
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$37
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$37
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$37
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$37
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$38
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$38
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$38
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$38
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$38
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$38
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$39
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$39
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$39
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$39
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$39
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$39
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$40
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$40
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$40
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$40
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$40
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$41
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$41
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$41
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$41
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$41
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$42
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$42
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$42
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$42
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$42
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$43
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$43
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$43
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$43
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$43
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$44
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$44
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$44
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$44
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$44
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$45
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$45
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$45
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$45
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$45
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$46
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$46
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$46
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$46
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$46
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$47
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$47
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$47
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$47
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$47
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$48
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$48
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$48
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$48
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$48
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$63
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$63
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$63
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$63
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$3
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$4
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$5
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$6
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$7
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$8
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$9
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$10
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$11
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$12
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$13
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$13
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$14
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$14
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$15
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$15
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$143
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$143
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$16
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$16
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$16
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$16
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$16
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$16
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$32
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$32
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$33
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$33
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$33
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$33
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$33
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$33
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$17
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$17
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$17
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$17
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$17
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$17
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$18
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$18
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$18
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$18
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$18
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$18
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$19
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$19
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$19
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$19
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$19
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$19
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$20
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$20
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$20
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$20
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$20
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$20
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$21
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$21
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$21
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$21
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$21
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$21
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$22
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$22
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$22
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$22
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$22
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$22
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$23
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$23
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$23
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$23
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$23
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$23
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$24
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$24
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$24
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$24
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$24
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$24
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$25
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$25
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$25
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$25
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$25
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$25
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$26
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$26
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$26
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$26
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$26
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$26
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$27
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$27
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$27
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$27
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$27
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$27
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$28
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$28
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$29
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$29
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$30
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$30
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$31
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$31
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$49
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$49
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$49
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$49
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$49
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$50
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$50
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$51
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$51
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$142
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$142
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$142
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$142
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$142
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$52
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$52
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$52
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$52
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$52
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$53
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$53
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$53
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$53
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$53
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$54
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$54
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$54
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$54
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$54
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$55
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$55
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$55
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$55
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$55
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$56
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$56
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$56
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$56
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$57
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$57
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$57
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$57
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$58
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$58
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$58
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$58
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$59
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$59
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$59
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$59
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$60
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$60
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$60
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$60
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$61
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$61
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$61
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$61
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$62
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$62
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$62
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$62
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$1
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$2
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "mult_out[0]" connects the following nets:
+             N$270       N$331      N$385      N$386      N$387      N$388
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" passed check :  0 Errors, 384 Warnings
+
+-------------------------------------------------
+Check Sheet "TopModel/schematic/sheet2"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors 268 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "model" on I$219
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$219
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$219
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$219
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$220
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$220
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$220
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$220
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$221
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$221
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$221
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$221
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$222
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$222
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$222
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$222
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$223
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$223
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$223
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$223
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$223
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$224
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$224
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$224
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$224
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$224
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$225
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$225
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$225
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$225
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$225
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$226
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$226
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$226
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$226
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$226
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$227
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$227
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$227
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$227
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$227
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$228
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$228
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$228
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$228
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$228
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$229
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$229
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$229
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$229
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$229
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$230
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$230
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$230
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$230
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$230
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$269
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$269
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$269
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$269
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$270
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$270
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$270
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$270
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$270
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$270
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$271
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$271
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$271
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$271
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$271
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$271
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$272
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$272
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$272
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$272
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$247
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$247
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$247
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$247
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$247
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$247
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$248
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$248
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$248
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$248
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$248
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$248
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$273
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$273
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$273
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$273
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$273
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$202
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$202
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$203
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$203
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$204
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$204
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$205
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$205
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$206
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$206
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$206
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$206
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$206
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$206
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$207
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$207
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$207
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$207
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$207
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$207
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$208
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$208
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$208
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$208
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$208
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$208
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$209
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$209
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$209
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$209
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$209
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$209
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$210
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$210
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$210
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$210
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$210
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$210
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$211
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$211
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$211
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$211
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$211
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$211
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$212
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$212
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$212
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$212
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$212
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$212
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$276
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$276
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$276
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$276
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$276
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$213
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$213
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$213
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$213
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$213
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$214
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$214
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$214
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$214
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$214
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$277
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$277
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$277
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$277
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$277
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$215
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$215
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$215
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$215
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$216
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$216
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$216
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$216
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$217
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$217
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$217
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$217
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$218
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$218
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$218
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$218
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$231
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$231
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$231
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$231
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$231
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$232
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$232
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$232
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$232
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$232
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$233
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$233
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$233
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$233
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$233
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$234
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$234
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$234
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$234
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$234
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$235
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$235
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$235
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$235
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$235
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$236
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$236
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$236
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$236
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$236
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$237
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$237
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$237
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$237
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$237
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$238
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$239
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$240
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$241
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$242
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$243
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$244
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$245
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$245
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$245
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$245
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$245
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$246
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$246
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$246
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$246
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$246
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$266
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$266
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$267
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$267
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$267
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$267
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$267
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$267
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "model" on I$268
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "fall_slew1" on I$268
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "rise_slew1" on I$268
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+  Warning:  Unable to evaluate property "cap_pin" on I$268
+            Bad Triplet CASE Control Expression
+            Unable to evaluate expression
+            Unable to resolve expression symbol technology
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Named net "Control_nx543" (N$616) is shorted to Global "GND" at I$278
+  Warning:  Named net "Control_nx543" (N$616) is shorted to Global "GND" at I$278
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet2" passed check :  0 Errors, 270 Warnings
+
+-------------------------------------------------
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" passed check :  0 Errors, 654 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$7        I$8        I$11       I$12       I$13
+                       I$14       I$15       I$16       I$17       I$18
+
+Check NotDots -----------   0 errors   1 warnings
+  Warning:  The following vertices are not connected (are NOTDOTS):
+           V$522       V$547      V$560      V$572
+
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$1         P$46
+           I$21        P$521
+           I$23        P$546
+           I$24        P$558
+           I$25        P$570
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------  12 errors   0 warnings  (MGC-required)
+  Error:  Cannot rip range (0) from single-bit net /N$47
+  Error:  Cannot rip range (1) from single-bit net /N$47
+  Error:  Cannot rip range (2) from single-bit net /N$47
+  Error:  Cannot rip range (3) from single-bit net /N$47
+  Error:  Cannot rip range (4) from single-bit net /N$47
+  Error:  Cannot rip range (5) from single-bit net /N$47
+  Error:  Cannot rip range (6) from single-bit net /N$47
+  Error:  Cannot rip range (7) from single-bit net /N$47
+  Error:  Cannot rip range (3) from single-bit net /N$76
+  Error:  Cannot rip range (0) from single-bit net /N$77
+  Error:  Cannot rip range (1) from single-bit net /N$78
+  Error:  Cannot rip range (2) from single-bit net /N$79
+
+Check Net ---------------  21 errors   9 warnings  (MGC-required)
+  Error:  Net N$18 (handle: N$18) ripped from unnamed bus N$6 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$40 (handle: N$40) ripped from unnamed bus N$37 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$42 (handle: N$42) ripped from unnamed bus N$37 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$42 (handle: N$42) ripped from unnamed bus N$45 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$40 (handle: N$40) ripped from unnamed bus N$45 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$67 (handle: N$67) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$69 (handle: N$69) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$73 (handle: N$73) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$65 (handle: N$65) ripped from unnamed bus N$47 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$67 (handle: N$67) ripped from unnamed bus N$37 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$69 (handle: N$69) ripped from unnamed bus N$37 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$76 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$73 (handle: N$73) ripped from unnamed bus N$37 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$77 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$78 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$79 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$65 (handle: N$65) ripped from unnamed bus N$6 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$73 (handle: N$37[4:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$67 (handle: N$37[4:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$42 (handle: N$37[4:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$40 (handle: N$37[4:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$69 (handle: N$37[4:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$65 (handle: N$6[3:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$18 (handle: N$6[3:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$40 (handle: N$45[1:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Warning:  Net N$42 (handle: N$45[1:0]) ripped from unnamed bus %3S may result in unexpected net connections.  Explicitly name this bus to prevent this.
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" failed check :  33 Errors, 12 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" failed check :  33 Errors, 13 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$7        I$8        I$11       I$12       I$13
+                       I$14       I$15       I$16       I$17       I$18
+
+Check NotDots -----------   0 errors   1 warnings
+  Warning:  The following vertices are not connected (are NOTDOTS):
+           V$522       V$547      V$560      V$572
+
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$21        P$521
+           I$23        P$546
+           I$24        P$558
+           I$25        P$570
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   4 errors   0 warnings  (MGC-required)
+  Error:  Cannot rip range (3) from single-bit net /N$76
+  Error:  Cannot rip range (0) from single-bit net /N$77
+  Error:  Cannot rip range (1) from single-bit net /N$78
+  Error:  Cannot rip range (2) from single-bit net /N$79
+
+Check Net ---------------   4 errors   0 warnings  (MGC-required)
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$76 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$77 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$78 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$79 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 4 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$7        I$8        I$11       I$12       I$13
+                       I$14       I$15       I$16       I$17       I$18
+
+Check NotDots -----------   0 errors   1 warnings
+  Warning:  The following vertices are not connected (are NOTDOTS):
+           V$522       V$547      V$560      V$572
+
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$21        P$521
+           I$23        P$546
+           I$24        P$558
+           I$25        P$570
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   4 errors   0 warnings  (MGC-required)
+  Error:  Cannot rip range (3) from single-bit net /N$76
+  Error:  Cannot rip range (0) from single-bit net /N$77
+  Error:  Cannot rip range (1) from single-bit net /N$78
+  Error:  Cannot rip range (2) from single-bit net /N$79
+
+Check Net ---------------   4 errors   0 warnings  (MGC-required)
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$76 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$77 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$78 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$79 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 4 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$7        I$8        I$11       I$12       I$13
+                       I$14       I$15       I$16       I$17       I$18
+
+Check NotDots -----------   0 errors   1 warnings
+  Warning:  The following vertices are not connected (are NOTDOTS):
+           V$522       V$547      V$560      V$572
+
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$21        P$521
+           I$23        P$546
+           I$24        P$558
+           I$25        P$570
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   4 errors   0 warnings  (MGC-required)
+  Error:  Cannot rip range (3) from single-bit net /N$76
+  Error:  Cannot rip range (0) from single-bit net /N$77
+  Error:  Cannot rip range (1) from single-bit net /N$78
+  Error:  Cannot rip range (2) from single-bit net /N$79
+
+Check Net ---------------   4 errors   0 warnings  (MGC-required)
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$76 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$77 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$78 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$79 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 4 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$7        I$8        I$11       I$12       I$13
+                       I$14       I$15       I$16       I$17       I$18
+
+Check NotDots -----------   0 errors   1 warnings
+  Warning:  The following vertices are not connected (are NOTDOTS):
+           V$522       V$547      V$560      V$572
+
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$21        P$521
+           I$23        P$546
+           I$24        P$558
+           I$25        P$570
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   4 errors   0 warnings  (MGC-required)
+  Error:  Cannot rip range (3) from single-bit net /N$76
+  Error:  Cannot rip range (0) from single-bit net /N$77
+  Error:  Cannot rip range (1) from single-bit net /N$78
+  Error:  Cannot rip range (2) from single-bit net /N$79
+
+Check Net ---------------   4 errors   0 warnings  (MGC-required)
+  Error:  Net N$71 (handle: N$71) ripped from unnamed bus N$76 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$59 (handle: N$59) ripped from unnamed bus N$77 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$61 (handle: N$61) ripped from unnamed bus N$78 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+  Error:  Net N$63 (handle: N$63) ripped from unnamed bus N$79 may result in unexpected net connections.  Explicitly name this bus to prevent this.
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" failed check :  8 Errors, 4 Warnings
+
+
+Check Schematic  "TopModel/schematic/sheet1"
+Check Sheet "TopModel/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            RIPPER:    I$16       I$15       I$17       I$14       I$13
+                       I$18       I$7        I$8        I$12       I$11
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "TopModel/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "TopModel/schematic/sheet1" passed check :  0 Errors, 2 Warnings

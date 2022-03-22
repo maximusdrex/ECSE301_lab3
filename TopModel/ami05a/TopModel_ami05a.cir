@@ -1,27 +1,27 @@
-* Component: /home/max/EECS301/lab3/TopModel  Viewpoint: ami05a
-.INCLUDE /home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.spi
+* Component: /home/max/301/ECSE301_lab3/TopModel  Viewpoint: ami05a
+.INCLUDE /home/max/301/ECSE301_lab3/TopModel/ami05a/TopModel_ami05a.spi
 .INCLUDE /mgc/adk3_1/technology/ic/models/VDD_5.mod
 .INCLUDE /mgc/adk3_1/technology/ic/models/ami05.mod
-.PROBE TRAN V(CLK) V(START) V(OUT[0]) V(OUT[1]) V(OUT[2]) V(OUT[3]) V(OUT[4])
-+ V(OUT[5]) V(OUT[6]) V(OUT[7]) V(ACONTROL[0]) V(ACONTROL[1]) V(ADDCONTROL)
-+ V(QCONTROL[0]) V(QCONTROL[1]) V(Q[0])
+.PROBE TRAN V(DONE)
+.PROBE TRAN V(OUT[0]) V(OUT[1]) V(OUT[2]) V(OUT[3]) V(OUT[4]) V(OUT[5])
++ V(OUT[6]) V(OUT[7])
 
-VFORCE__START START GND pattern 1 0 0 1n 1n 10n 1100
+VFORCE__Q_IN_2 Q_IN[2] GND dc 5
 
-VFORCE__CLK CLK GND pattern 1 0 0 1n 1n 10n 0011 R
+VFORCE__Q_IN_2_1_0 Q_IN[0] GND dc 0
+VFORCE__Q_IN_2_1_1 Q_IN[1] GND dc
++ 0
+VFORCE__Q_IN_2_1_2 Q_IN[3] GND dc 0
 
-VFORCE__MIN_0_0 MIN[0] GND dc 5
-VFORCE__MIN_0_1 MIN[1] GND dc 5
+VFORCE__M_IN_0_0 M_IN[0] GND dc 5
+VFORCE__M_IN_0_1 M_IN[1] GND dc 5
 
-VFORCE__MIN_2_0 MIN[2] GND dc 0
-VFORCE__MIN_2_1 MIN[3] GND dc 0
+VFORCE__M_IN_2_0 M_IN[2] GND dc 0
+VFORCE__M_IN_2_1 M_IN[3] GND dc 0
 
-VFORCE__QIN_1 QIN[1] GND dc 5
+VFORCE__CLK CLK GND pattern 5 0 0 1n 1n 10n 0101 R
 
-VFORCE__QIN_0_0 QIN[0] GND dc 0
-VFORCE__QIN_0_1 QIN[2] GND dc 0
-VFORCE__QIN_0_2
-+ QIN[3] GND dc 0
+VFORCE__START_1 START GND pattern 5 0 0 1n 1n 10n 1100
 
 
 
@@ -33,4 +33,4 @@ VFORCE__QIN_0_2
 
 .TEMP 27 
 
-.TRAN  0 800N 0 
+.TRAN  0 3000N 0 

@@ -1,10 +1,10 @@
-A 5 u mgc_sheet 62204228326a.03.7f.00.01.01.00.4e.b0 1 2 17 0
-V v 1 2 62204228326a.03.7f.00.01.01.01.4e.b0
+A 5 u mgc_sheet 6238c671ec91.03.7f.00.01.01.00.47.d3 1 2 17 0
+V v 1 2 6238c671ec91.03.7f.00.01.01.01.47.d3
 F f 1 "sheet1.ssht_1"
 F f 1 "sheet1.sgfx_1"
 O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/AddSub_S/AddSub/schematic" 1 mgc_schematic 622042283207.03.7f.00.01.01.01.4e.b0 622042283207.03.7f.00.01.01.00.4e.b0
+R csduv 0 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/schematic" 1 mgc_schematic 6238c671ebae.03.7f.00.01.01.00.47.d3 6238c671ebad.03.7f.00.01.01.00.47.d3
 R csduv 1 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
 R csduv 2 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
 R csduv 3 "$ADK/parts/xor2/part" 1 Eddm_part 411d1c47707e.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.04.02.fa

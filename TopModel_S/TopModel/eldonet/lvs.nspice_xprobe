@@ -1,0 +1,915 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD VDD
+   GND GND
+End Globals
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell latch
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Net N$222 N$222
+   Net N$17 N$17
+   Net N$15 N$15
+   Net N$13 N$13
+   Net N$11 N$11
+   Net N$10 N$10
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Global VDD VDD
+   Global GND GND
+   Inst I$222 M_I$222 nmos4
+   Inst I$221 M_I$221 pmos4
+   Inst I$15 M_I$15 nmos4
+   Inst I$13 M_I$13 nmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$10 M_I$10 nmos4
+   Inst I$9 M_I$9 nmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$7 M_I$7 pmos4
+   Inst I$5 M_I$5 pmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell buf02
+   Pin A A
+   Pin Y Y
+   Net N$411 N$411
+   Net Y Y
+   Net A A
+   Global GND GND
+   Global VDD VDD
+   Inst I$614 M_I$614 pmos4
+   Inst I$615 M_I$615 nmos4
+   Inst I$411 M_I$411 pmos4
+   Inst I$412 M_I$412 nmos4
+End Cell
+
+Cell inv02
+   Pin A A
+   Pin Y Y
+   Net Y Y
+   Net A A
+   Global GND GND
+   Global VDD VDD
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 nmos4
+End Cell
+
+Cell nand02_2x
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Net N$5 N$5
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global GND GND
+   Global VDD VDD
+   Inst I$9 M_I$9 pmos4
+   Inst I$8 M_I$8 pmos4
+   Inst I$3 M_I$3 nmos4
+   Inst I$2 M_I$2 nmos4
+End Cell
+
+Cell nor02_2x
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell xnor2
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Net N$212 N$212
+   Net N$213 N$213
+   Net N$3 N$3
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global GND GND
+   Global VDD VDD
+   Inst I$218 M_I$218 nmos4
+   Inst I$217 M_I$217 nmos4
+   Inst I$9 M_I$9 pmos4
+   Inst I$8 M_I$8 pmos4
+   Inst I$7 M_I$7 nmos4
+   Inst I$6 M_I$6 nmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell nor03
+   Pin A2 A2
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$211 N$211
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net A2 A2
+   Global GND GND
+   Global VDD VDD
+   Inst I$213 M_I$213 nmos4
+   Inst I$211 M_I$211 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell ao21
+   Pin A1 A1
+   Pin A0 A0
+   Pin B0 B0
+   Pin Y Y
+   Net N$3 N$3
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net B0 B0
+   Net A0 A0
+   Net A1 A1
+   Global GND GND
+   Global VDD VDD
+   Inst I$14 M_I$14 pmos4
+   Inst I$13 M_I$13 nmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$7 M_I$7 pmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 pmos4
+   Inst I$4 M_I$4 nmos4
+End Cell
+
+Cell dff
+   Pin QB QB
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Net N$1074 N$1074
+   Net N$1073 N$1073
+   Net N$1072 N$1072
+   Net N$1071 N$1071
+   Net N$1070 N$1070
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$1069 N$1069
+   Net N$847 N$847
+   Net N$852 N$852
+   Net N$851 N$851
+   Net N$849 N$849
+   Net N$848 N$848
+   Net N$845 N$845
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Global GND GND
+   Global VDD VDD
+   Inst I$441 M_I$441 nmos4
+   Inst I$440 M_I$440 pmos4
+   Inst I$439 M_I$439 pmos4
+   Inst I$438 M_I$438 pmos4
+   Inst I$437 M_I$437 pmos4
+   Inst I$436 M_I$436 pmos4
+   Inst I$452 M_I$452 nmos4
+   Inst I$673 M_I$673 nmos4
+   Inst I$672 M_I$672 pmos4
+   Inst I$669 M_I$669 nmos4
+   Inst I$675 M_I$675 pmos4
+   Inst I$668 M_I$668 nmos4
+   Inst I$667 M_I$667 nmos4
+   Inst I$666 M_I$666 nmos4
+   Inst I$665 M_I$665 nmos4
+   Inst I$664 M_I$664 nmos4
+   Inst I$663 M_I$663 pmos4
+   Inst I$662 M_I$662 pmos4
+   Inst I$661 M_I$661 pmos4
+   Inst I$660 M_I$660 pmos4
+   Inst I$659 M_I$659 pmos4
+   Inst I$449 M_I$449 nmos4
+   Inst I$448 M_I$448 pmos4
+   Inst I$453 M_I$453 pmos4
+   Inst I$445 M_I$445 nmos4
+   Inst I$444 M_I$444 nmos4
+   Inst I$443 M_I$443 nmos4
+   Inst I$442 M_I$442 nmos4
+End Cell
+
+Cell and02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Net N$5 N$5
+   Net N$7 N$7
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global VDD VDD
+   Global GND GND
+   Inst I$674 M_I$674 pmos4
+   Inst I$675 M_I$675 nmos4
+   Inst I$472 M_I$472 pmos4
+   Inst I$471 M_I$471 pmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$5 M_I$5 nmos4
+End Cell
+
+Cell oai21
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin Y Y
+   Net N$7 N$7
+   Net N$9 N$9
+   Net Y Y
+   Net B0 B0
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 nmos4
+   Inst I$12 M_I$12 pmos4
+   Inst I$2 M_I$2 pmos4
+   Inst I$1 M_I$1 pmos4
+End Cell
+
+Cell inv01
+   Pin A A
+   Pin Y Y
+   Net Y Y
+   Net A A
+   Global GND GND
+   Global VDD VDD
+   Inst I$411 M_I$411 pmos4
+   Inst I$412 M_I$412 nmos4
+End Cell
+
+Cell latchr
+   Pin QB QB
+   Pin R R
+   Pin CLK CLK
+   Pin D D
+   Net N$3929 N$3929
+   Net N$3723 N$3723
+   Net N$3516 N$3516
+   Net N$3108 N$3108
+   Net N$3722 N$3722
+   Net N$3100 N$3100
+   Net N$13 N$13
+   Net N$11 N$11
+   Net D D
+   Net CLK CLK
+   Net R R
+   Net QB QB
+   Global GND GND
+   Global VDD VDD
+   Inst I$1954 M_I$1954 nmos4
+   Inst I$1953 M_I$1953 pmos4
+   Inst I$1244 M_I$1244 pmos4
+   Inst I$1245 M_I$1245 nmos4
+   Inst I$1749 M_I$1749 nmos4
+   Inst I$1240 M_I$1240 pmos4
+   Inst I$15 M_I$15 nmos4
+   Inst I$1242 M_I$1242 pmos4
+   Inst I$1036 M_I$1036 nmos4
+   Inst I$10 M_I$10 nmos4
+   Inst I$9 M_I$9 nmos4
+   Inst I$1035 M_I$1035 pmos4
+   Inst I$1447 M_I$1447 nmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell or03
+   Pin A2 A2
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$214 N$214
+   Net N$211 N$211
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net A2 A2
+   Global VDD VDD
+   Global GND GND
+   Inst I$416 M_I$416 nmos4
+   Inst I$415 M_I$415 pmos4
+   Inst I$213 M_I$213 nmos4
+   Inst I$211 M_I$211 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell buf08
+   Pin A A
+   Pin Y Y
+   Net N$411 N$411
+   Net Y Y
+   Net A A
+   Global GND GND
+   Global VDD VDD
+   Inst I$1023 M_I$1023 pmos4
+   Inst I$1022 M_I$1022 nmos4
+   Inst I$1021 M_I$1021 pmos4
+   Inst I$1020 M_I$1020 nmos4
+   Inst I$817 M_I$817 pmos4
+   Inst I$818 M_I$818 nmos4
+   Inst I$614 M_I$614 pmos4
+   Inst I$615 M_I$615 nmos4
+   Inst I$411 M_I$411 pmos4
+   Inst I$412 M_I$412 nmos4
+End Cell
+
+Cell inv08
+   Pin A A
+   Pin Y Y
+   Net Y Y
+   Net A A
+   Global VDD VDD
+   Global GND GND
+   Inst I$618 M_I$618 nmos4
+   Inst I$617 M_I$617 pmos4
+   Inst I$616 M_I$616 nmos4
+   Inst I$619 M_I$619 pmos4
+   Inst I$412 M_I$412 pmos4
+   Inst I$413 M_I$413 nmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 nmos4
+End Cell
+
+Cell nor03_2x
+   Pin A1 A1
+   Pin A0 A0
+   Pin A2 A2
+   Pin Y Y
+   Net N$3 N$3
+   Net N$1 N$1
+   Net Y Y
+   Net A2 A2
+   Net A0 A0
+   Net A1 A1
+   Global GND GND
+   Global VDD VDD
+   Inst I$12 M_I$12 nmos4
+   Inst I$10 M_I$10 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell nor04
+   Pin A3 A3
+   Pin A2 A2
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$418 N$418
+   Net N$211 N$211
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net A2 A2
+   Net A3 A3
+   Global GND GND
+   Global VDD VDD
+   Inst I$415 M_I$415 nmos4
+   Inst I$416 M_I$416 pmos4
+   Inst I$213 M_I$213 nmos4
+   Inst I$211 M_I$211 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell or02
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$5 N$5
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$212 M_I$212 nmos4
+   Inst I$211 M_I$211 pmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 nmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell nor02ii
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$208 N$208
+   Net N$4 N$4
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global VDD VDD
+   Global GND GND
+   Inst MP1 MP1 pmos4
+   Inst MN1 MN1 nmos4
+   Inst MN4 MN4 nmos4
+   Inst MN2 MN2 nmos4
+   Inst MP4 MP4 pmos4
+   Inst MP2 MP2 pmos4
+End Cell
+
+Cell ao22
+   Pin A1 A1
+   Pin A0 A0
+   Pin B0 B0
+   Pin Y Y
+   Pin B1 B1
+   Net N$215 N$215
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$1 N$1
+   Net B1 B1
+   Net Y Y
+   Net B0 B0
+   Net A0 A0
+   Net A1 A1
+   Global GND GND
+   Global VDD VDD
+   Inst I$16 M_I$16 pmos4
+   Inst I$18 M_I$18 nmos4
+   Inst I$14 M_I$14 nmos4
+   Inst I$13 M_I$13 pmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$7 M_I$7 pmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 pmos4
+   Inst I$4 M_I$4 nmos4
+End Cell
+
+Cell mux21_ni
+   Pin S0 S0
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$11 N$11
+   Net N$7 N$7
+   Net N$4 N$4
+   Net N$3 N$3
+   Net N$2 N$2
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Net S0 S0
+   Global GND GND
+   Global VDD VDD
+   Inst I$18 M_I$18 nmos4
+   Inst I$17 M_I$17 pmos4
+   Inst I$16 M_I$16 pmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$10 M_I$10 nmos4
+   Inst I$9 M_I$9 pmos4
+   Inst I$8 M_I$8 pmos4
+   Inst I$7 M_I$7 nmos4
+   Inst I$6 M_I$6 nmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 nmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell ao32
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Pin A2 A2
+   Pin B0 B0
+   Pin B1 B1
+   Net N$214 N$214
+   Net N$11 N$11
+   Net N$6 N$6
+   Net N$5 N$5
+   Net N$4 N$4
+   Net B1 B1
+   Net B0 B0
+   Net A2 A2
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global GND GND
+   Global VDD VDD
+   Inst I$222 M_I$222 nmos4
+   Inst I$221 M_I$221 pmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$10 M_I$10 nmos4
+   Inst I$9 M_I$9 nmos4
+   Inst I$8 M_I$8 nmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 pmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell xor2
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Net N$212 N$212
+   Net N$213 N$213
+   Net N$4 N$4
+   Net N$3 N$3
+   Net N$1 N$1
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global GND GND
+   Global VDD VDD
+   Inst I$421 M_I$421 nmos4
+   Inst I$420 M_I$420 pmos4
+   Inst I$218 M_I$218 nmos4
+   Inst I$217 M_I$217 nmos4
+   Inst I$9 M_I$9 pmos4
+   Inst I$8 M_I$8 pmos4
+   Inst I$7 M_I$7 nmos4
+   Inst I$6 M_I$6 nmos4
+   Inst I$5 M_I$5 nmos4
+   Inst I$4 M_I$4 pmos4
+   Inst I$3 M_I$3 pmos4
+   Inst I$2 M_I$2 pmos4
+End Cell
+
+Cell aoi22
+   Pin B1 B1
+   Pin A0 A0
+   Pin A1 A1
+   Pin B0 B0
+   Pin Y Y
+   Net N$4 N$4
+   Net N$9 N$9
+   Net N$8 N$8
+   Net Y Y
+   Net B0 B0
+   Net A1 A1
+   Net A0 A0
+   Net B1 B1
+   Global GND GND
+   Global VDD VDD
+   Inst I$425 M_I$425 nmos4
+   Inst I$426 M_I$426 pmos4
+   Inst I$12 M_I$12 nmos4
+   Inst I$11 M_I$11 nmos4
+   Inst I$7 M_I$7 pmos4
+   Inst I$6 M_I$6 pmos4
+   Inst I$5 M_I$5 pmos4
+   Inst I$13 M_I$13 nmos4
+End Cell
+
+Cell #top#
+   Pin q_in[0] q_in[0]
+   Pin q_in[1] q_in[1]
+   Pin q_in[2] q_in[2]
+   Pin q_in[3] q_in[3]
+   Pin m_in[0] m_in[0]
+   Pin m_in[1] m_in[1]
+   Pin m_in[2] m_in[2]
+   Pin m_in[3] m_in[3]
+   Pin mult_out[0] mult_out[0]
+   Pin mult_out[1] mult_out[1]
+   Pin mult_out[2] mult_out[2]
+   Pin mult_out[3] mult_out[3]
+   Pin mult_out[4] mult_out[4]
+   Pin mult_out[5] mult_out[5]
+   Pin mult_out[6] mult_out[6]
+   Pin mult_out[7] mult_out[7]
+   Pin done done
+   Pin start start
+   Pin clock clock
+   Net $dummy[14] N$dummy_esc1[14]
+   Net $dummy[13] N$dummy_esc1[13]
+   Net $dummy[12] N$dummy_esc1[12]
+   Net $dummy[11] N$dummy_esc1[11]
+   Net $dummy[10] N$dummy_esc1[10]
+   Net $dummy[9] N$dummy_esc1[9]
+   Net $dummy[8] N$dummy_esc1[8]
+   Net $dummy[7] N$dummy_esc1[7]
+   Net $dummy[6] N$dummy_esc1[6]
+   Net $dummy[5] N$dummy_esc1[5]
+   Net $dummy[4] N$dummy_esc1[4]
+   Net $dummy[3] N$dummy_esc1[3]
+   Net $dummy[2] N$dummy_esc1[2]
+   Net $dummy[1] N$dummy_esc1[1]
+   Net $dummy[0] N$dummy_esc1[0]
+   Net Control_nx80 Control_nx80
+   Net Control_nx108 Control_nx108
+   Net Control_nx574 Control_nx574
+   Net Control_nx625 Control_nx625
+   Net Control_PRES_STATE_3 Control_PRES_STATE_3
+   Net Control_PRES_STATE_4 Control_PRES_STATE_4
+   Net Control_nx5 Control_nx5
+   Net Control_nx656 Control_nx656
+   Net Control_count_1 Control_count_1
+   Net Control_nx622 Control_nx622
+   Net Control_count_2 Control_count_2
+   Net Control_nx650 Control_nx650
+   Net Control_nx126 Control_nx126
+   Net Control_nx158 Control_nx158
+   Net Control_nx62 Control_nx62
+   Net Control_nx60 Control_nx60
+   Net Control_nx140 Control_nx140
+   Net Control_NEXT_STATE_5 Control_NEXT_STATE_5
+   Net Control_nx90 Control_nx90
+   Net Control_nx609 Control_nx609
+   Net Control_nx72 Control_nx72
+   Net Control_NEXT_STATE_3 Control_NEXT_STATE_3
+   Net Control_NEXT_STATE_2 Control_NEXT_STATE_2
+   Net Control_nx178 Control_nx178
+   Net Control_NEXT_STATE_1 Control_NEXT_STATE_1
+   Net Control_NEXT_STATE_4 Control_NEXT_STATE_4
+   Net Control_NOT_PRES_STATE_4 Control_NOT_PRES_STATE_4
+   Net Control_nx24 Control_nx24
+   Net Control_nx14 Control_nx14
+   Net Control_nx10 Control_nx10
+   Net Control_nx648 Control_nx648
+   Net Control_NEXT_STATE_0 Control_NEXT_STATE_0
+   Net Control_nx168 Control_nx168
+   Net Control_nx646 Control_nx646
+   Net Control_nx36 Control_nx36
+   Net a_con_1 a_con_1
+   Net Control_nx28 Control_nx28
+   Net Control_nx616 Control_nx616
+   Net Control_nx150 Control_nx150
+   Net Control_nx607 Control_nx607
+   Net Control_nx661 Control_nx661
+   Net Control_nx190 Control_nx190
+   Net Control_nx130 Control_nx130
+   Net Control_PRES_STATE_5 Control_PRES_STATE_5
+   Net Control_nx590 Control_nx590
+   Net Control_nx592 Control_nx592
+   Net Control_PRES_STATE_0 Control_PRES_STATE_0
+   Net Control_nx556 Control_nx556
+   Net Control_count_0 Control_count_0
+   Net Control_nx598 Control_nx598
+   Net Control_nx200 Control_nx200
+   Net q_con_1 q_con_1
+   Net nx362 nx362
+   Net q_con_0 q_con_0
+   Net nx4 nx4
+   Net nx60 nx60
+   Net nx74 nx74
+   Net Control_nx630 Control_nx630
+   Net nx42 nx42
+   Net nx334 nx334
+   Net nx328 nx328
+   Net nx62 nx62
+   Net nx311 nx311
+   Net nx84 nx84
+   Net nx313 nx313
+   Net nx309 nx309
+   Net nx341 nx341
+   Net Control_nx581 Control_nx581
+   Net nx351 nx351
+   Net nx82 nx82
+   Net nx332 nx332
+   Net nx374 nx374
+   Net nx347 nx347
+   Net nx191 nx191
+   Net nx372 nx372
+   Net a_con_0 a_con_0
+   Net Control_nx4 Control_nx4
+   Net Control_nx587 Control_nx587
+   Net Control_nx569 Control_nx569
+   Net nx144 nx144
+   Net nx44 nx44
+   Net nx134 nx134
+   Net nx66 nx66
+   Net nx193 nx193
+   Net nx186 nx186
+   Net nx176 nx176
+   Net nx166 nx166
+   Net nx154 nx154
+   Net nx10 nx10
+   Net nx124 nx124
+   Net nx86 nx86
+   Net nx153 nx153
+   Net nx163 nx163
+   Net m_sig m_sig
+   Net nx173 nx173
+   Net nx183 nx183
+   Net nx263 nx263
+   Net nx253 nx253
+   Net nx243 nx243
+   Net nx233 nx233
+   Net nx52 nx52
+   Net add_sig add_sig
+   Net nx223 nx223
+   Net nx24 nx24
+   Net nx213 nx213
+   Net nx203 nx203
+   Net nx273 nx273
+   Net nx364 nx364
+   Net q_out_0 q_out_0
+   Net Control_PRES_STATE_1 Control_PRES_STATE_1
+   Net Control_nx46 Control_nx46
+   Net Control_PRES_STATE_2 Control_PRES_STATE_2
+   Net m_out_3 m_out_3
+   Net m_out_1 m_out_1
+   Net m_out_0 m_out_0
+   Net m_out_2 m_out_2
+   Net NOT_clock NOT_clock
+   Net clock clock
+   Net start start
+   Net done done
+   Net mult_out[7] mult_out[7]
+   Net mult_out[6] mult_out[6]
+   Net mult_out[5] mult_out[5]
+   Net mult_out[4] mult_out[4]
+   Net mult_out[3] mult_out[3]
+   Net mult_out[2] mult_out[2]
+   Net mult_out[1] mult_out[1]
+   Net mult_out[0] mult_out[0]
+   Net m_in[3] m_in[3]
+   Net m_in[2] m_in[2]
+   Net m_in[1] m_in[1]
+   Net m_in[0] m_in[0]
+   Net q_in[3] q_in[3]
+   Net q_in[2] q_in[2]
+   Net q_in[1] q_in[1]
+   Net q_in[0] q_in[0]
+   Global GND GND
+   Inst Control_lat_count_1 X_Control_lat_count_1 latch
+   Inst Control_lat_count_2 X_Control_lat_count_2 latch
+   Inst Control_lat_adder_sig X_Control_lat_adder_sig latch
+   Inst Control_lat_NEXT_STATE_3 X_Control_lat_NEXT_STATE_3 latch
+   Inst Control_lat_M_sig X_Control_lat_M_sig latch
+   Inst Control_lat_Q_sig_0 X_Control_lat_Q_sig_0 latch
+   Inst Control_lat_NEXT_STATE_2 X_Control_lat_NEXT_STATE_2 latch
+   Inst Control_lat_NEXT_STATE_0 X_Control_lat_NEXT_STATE_0 latch
+   Inst Control_ix645 X_Control_ix645 buf02
+   Inst Control_ix647 X_Control_ix647 buf02
+   Inst ix371 X_ix371 buf02
+   Inst ix373 X_ix373 buf02
+   Inst Control_lat_count_0__u3 X_Control_lat_count_0__u3 buf02
+   Inst Control_ix660 X_Control_ix660 buf02
+   Inst Control_ix29 X_Control_ix29 inv02
+   Inst Control_ix617 X_Control_ix617 inv02
+   Inst Control_ix37 X_Control_ix37 nand02_2x
+   Inst Control_ix151 X_Control_ix151 nor02_2x
+   Inst Control_ix11 X_Control_ix11 nor02_2x
+   Inst Control_ix608 X_Control_ix608 xnor2
+   Inst Control_ix593 X_Control_ix593 nor03
+   Inst Control_ix191 X_Control_ix191 nor03
+   Inst Control_ix131 X_Control_ix131 ao21
+   Inst Control_ix591 X_Control_ix591 ao21
+   Inst Control_ix61 X_Control_ix61 ao21
+   Inst Control_ix105 X_Control_ix105 ao21
+   Inst Control_ix169 X_Control_ix169 ao21
+   Inst Control_reg_PRES_STATE_5 X_Control_reg_PRES_STATE_5 dff
+   Inst Control_reg_PRES_STATE_4 X_Control_reg_PRES_STATE_4 dff
+   Inst Control_reg_PRES_STATE_3 X_Control_reg_PRES_STATE_3 dff
+   Inst Control_reg_PRES_STATE_0 X_Control_reg_PRES_STATE_0 dff
+   Inst Control_ix81 X_Control_ix81 and02
+   Inst Control_ix109 X_Control_ix109 oai21
+   Inst Control_ix626 X_Control_ix626 oai21
+   Inst Control_lat_count_0__u2 X_Control_lat_count_0__u2 inv01
+   Inst Control_lat_count_0__u1 X_Control_lat_count_0__u1 latchr
+   Inst Control_ix629 X_Control_ix629 or03
+   Inst Control_ix649 X_Control_ix649 buf08
+   Inst Control_ix15 X_Control_ix15 inv08
+   Inst Control_ix25 X_Control_ix25 nor03_2x
+   Inst Control_ix127 X_Control_ix127 nor04
+   Inst Control_ix159 X_Control_ix159 or02
+   Inst Control_ix63 X_Control_ix63 or02
+   Inst Control_ix141 X_Control_ix141 nor02ii
+   Inst Control_ix47 X_Control_ix47 nor02ii
+   Inst Control_ix91 X_Control_ix91 nor02ii
+   Inst Control_ix610 X_Control_ix610 nor02ii
+   Inst Control_ix73 X_Control_ix73 nor02ii
+   Inst Control_ix201 X_Control_ix201 nor02ii
+   Inst Control_ix179 X_Control_ix179 nor02ii
+   Inst Control_lat_NEXT_STATE_5 X_Control_lat_NEXT_STATE_5 latch
+   Inst Control_lat_NEXT_STATE_1 X_Control_lat_NEXT_STATE_1 latch
+   Inst Control_lat_NEXT_STATE_4 X_Control_lat_NEXT_STATE_4 latch
+   Inst Control_lat_A_sig_0 X_Control_lat_A_sig_0 latch
+   Inst Control_lat_Q_sig_1 X_Control_lat_Q_sig_1 latch
+   Inst Control_lat_done_sig X_Control_lat_done_sig latch
+   Inst Control_lat_A_sig_1 X_Control_lat_A_sig_1 latch
+   Inst ix177 X_ix177 ao22
+   Inst ix167 X_ix167 ao22
+   Inst ix155 X_ix155 ao22
+   Inst ix125 X_ix125 ao22
+   Inst ix154 X_ix154 mux21_ni
+   Inst ix164 X_ix164 mux21_ni
+   Inst ix174 X_ix174 mux21_ni
+   Inst ix184 X_ix184 mux21_ni
+   Inst ix264 X_ix264 mux21_ni
+   Inst ix254 X_ix254 mux21_ni
+   Inst ix244 X_ix244 mux21_ni
+   Inst ix234 X_ix234 mux21_ni
+   Inst ix53 X_ix53 mux21_ni
+   Inst ix224 X_ix224 mux21_ni
+   Inst ix214 X_ix214 mux21_ni
+   Inst ix204 X_ix204 mux21_ni
+   Inst ix274 X_ix274 ao32
+   Inst Control_reg_PRES_STATE_1 X_Control_reg_PRES_STATE_1 dff
+   Inst Control_reg_PRES_STATE_2 X_Control_reg_PRES_STATE_2 dff
+   Inst M_reg_M_out_3 X_M_reg_M_out_3 dff
+   Inst M_reg_M_out_1 X_M_reg_M_out_1 dff
+   Inst M_reg_M_out_0 X_M_reg_M_out_0 dff
+   Inst M_reg_M_out_2 X_M_reg_M_out_2 dff
+   Inst A_reg_A_out_3 X_A_reg_A_out_3 dff
+   Inst A_reg_A_out_2 X_A_reg_A_out_2 dff
+   Inst A_reg_A_out_1 X_A_reg_A_out_1 dff
+   Inst A_reg_A_out_0 X_A_reg_A_out_0 dff
+   Inst Q_reg_Q_out_4 X_Q_reg_Q_out_4 dff
+   Inst Q_reg_Q_out_3 X_Q_reg_Q_out_3 dff
+   Inst Q_reg_Q_out_2 X_Q_reg_Q_out_2 dff
+   Inst Q_reg_Q_out_1 X_Q_reg_Q_out_1 dff
+   Inst Q_reg_Q_out_0 X_Q_reg_Q_out_0 dff
+   Inst ix363 X_ix363 inv02
+   Inst Control_ix588 X_Control_ix588 inv02
+   Inst ix365 X_ix365 inv02
+   Inst ix329 X_ix329 inv02
+   Inst ix75 X_ix75 inv02
+   Inst ix314 X_ix314 inv02
+   Inst Control_ix631 X_Control_ix631 inv02
+   Inst ix5 X_ix5 nand02_2x
+   Inst ix25 X_ix25 nand02_2x
+   Inst ix11 X_ix11 nor02_2x
+   Inst ix43 X_ix43 nor02_2x
+   Inst ix335 X_ix335 xor2
+   Inst ix342 X_ix342 aoi22
+   Inst ix312 X_ix312 aoi22
+   Inst ix348 X_ix348 xnor2
+   Inst ix310 X_ix310 xnor2
+   Inst ix87 X_ix87 xnor2
+   Inst ix83 X_ix83 xnor2
+   Inst ix61 X_ix61 xnor2
+   Inst Control_ix582 X_Control_ix582 xnor2
+   Inst ix352 X_ix352 xnor2
+   Inst ix63 X_ix63 xnor2
+   Inst ix85 X_ix85 xnor2
+   Inst ix333 X_ix333 xnor2
+   Inst ix45 X_ix45 nor03
+   Inst ix67 X_ix67 nor03
+   Inst ix192 X_ix192 nor03
+   Inst Control_ix5 X_Control_ix5 nor03
+   Inst ix145 X_ix145 ao21
+   Inst ix135 X_ix135 ao21
+   Inst ix194 X_ix194 ao21
+   Inst ix187 X_ix187 ao22
+   Inst ix357 X_ix357 inv02
+End Cell
+

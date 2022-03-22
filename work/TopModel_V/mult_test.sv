@@ -28,7 +28,7 @@ TopModel mult(
 );
 
 always @(posedge done) begin
-    $display("done! Product: %2d", out);
+    $display("done! Product: %2d; Time: %t", out, $time);
     #5
     $finish();
 end

@@ -1,12 +1,12 @@
-A 5 u Eddm_part 62204228306a.03.7f.00.01.01.00.4e.b0 2 2 2 0
-V v 1 1 62204228306a.03.7f.00.01.01.01.4e.b0
+A 5 u Eddm_part 6238c671e853.03.7f.00.01.01.00.47.d3 2 2 2 0
+V v 1 1 6238c671e853.03.7f.00.01.01.01.47.d3
 F f 1 "part.part_1"
-V v 2 1 6220422839d5.03.7f.00.01.01.00.4e.b0
+V v 2 1 6238c6720b71.03.7f.00.01.01.00.47.d3
 F f 2 "part.part_2"
 O 2
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 622042282fac.03.7f.00.01.01.01.4e.b0 622042282fac.03.7f.00.01.01.00.4e.b0
-R csduv 1 "/home/max/EECS301/lab3/AddSub_S/AddSub/schematic" 1 mgc_schematic 622042283207.03.7f.00.01.01.01.4e.b0 622042283207.03.7f.00.01.01.00.4e.b0
+R csduv 0 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 6238c671e757.03.7f.00.01.01.01.47.d3 6238c671e757.03.7f.00.01.01.00.47.d3
+R csduv 1 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/schematic" 1 mgc_schematic 6238c671ebae.03.7f.00.01.01.00.47.d3 6238c671ebad.03.7f.00.01.01.00.47.d3
 O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 622042282fac.03.7f.00.01.01.01.4e.b0 622042282fac.03.7f.00.01.01.00.4e.b0
+R csduv 0 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 6238c671e757.03.7f.00.01.01.01.47.d3 6238c671e757.03.7f.00.01.01.00.47.d3

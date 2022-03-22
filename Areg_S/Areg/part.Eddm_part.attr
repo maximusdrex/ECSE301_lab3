@@ -1,16 +1,12 @@
-A 5 u Eddm_part 622042d9c979.03.7f.00.01.01.00.4f.19 5 2 4 0
-V v 3 1 6220eeae1375.03.7f.00.01.01.00.55.45
-F f 3 "part.part_3"
-V v 4 1 6220eeaf9113.03.7f.00.01.01.00.55.5c
-F f 4 "part.part_4"
-V v 5 1 6220eeafce20.03.7f.00.01.01.00.55.5c
-F f 5 "part.part_5"
-O 5
+A 5 u Eddm_part 6238c6603206.03.7f.00.01.01.00.47.b4 2 2 2 0
+V v 1 1 6238c6603206.03.7f.00.01.01.01.47.b4
+F f 1 "part.part_1"
+V v 2 1 6238c66051f9.03.7f.00.01.01.00.47.b4
+F f 2 "part.part_2"
+O 2
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 2 "/home/max/EECS301/lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6220eeaf8de4.03.7f.00.01.01.00.55.5c 6220eeaf8de3.03.7f.00.01.01.00.55.5c
-R csduv 3 "/home/max/EECS301/lab3/Areg_S/Areg/schematic" 1 mgc_schematic 6220eeaf95ff.03.7f.00.01.01.00.55.5c 6220eeaf95fe.03.7f.00.01.01.00.55.5c
-O 4
+R csduv 0 "/home/max/301/ECSE301_lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6238c6603102.03.7f.00.01.01.00.47.b4 6238c6603101.03.7f.00.01.01.00.47.b4
+R csduv 1 "/home/max/301/ECSE301_lab3/Areg_S/Areg/schematic" 1 mgc_schematic 6238c66036c1.03.7f.00.01.01.00.47.b4 6238c66036c0.03.7f.00.01.01.00.47.b4
+O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 2 "/home/max/EECS301/lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6220eeaf8de4.03.7f.00.01.01.00.55.5c 6220eeaf8de3.03.7f.00.01.01.00.55.5c
-O 3
-P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/max/301/ECSE301_lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6238c6603102.03.7f.00.01.01.00.47.b4 6238c6603101.03.7f.00.01.01.00.47.b4

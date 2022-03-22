@@ -1,5 +1,5 @@
-A 5 u mgc_symbol 6220ee81f087.03.7f.00.01.01.00.55.23 1 2 1 0
-V v 1 1 6220ee81f089.03.7f.00.01.01.00.55.23
+A 5 u mgc_symbol 6238c6f0c469.03.7f.00.01.01.00.48.20 1 2 1 0
+V v 1 1 6238c6f0c46a.03.7f.00.01.01.00.48.20
 F f 1 "Qreg.smbl_1"
 O 1
-R csduv 0 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 4 Eddm_part 6220ee8205cf.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
+R csduv 0 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/part" 1 Eddm_part 6238c6f0c5b6.03.7f.00.01.01.00.48.20 6238c6f0c5b5.03.7f.00.01.01.00.48.20

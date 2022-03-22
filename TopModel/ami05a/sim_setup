@@ -1,12 +1,12 @@
 // Simulation Setup File Version 1
-// viewpoint:/home/max/EECS301/lab3/TopModel/ami05a
+// viewpoint:/home/max/301/ECSE301_lab3/TopModel/ami05a
 // PLEASE NOTE: this file is auto-generated and should not be edited
 
 // Working Directories
-$$set_sim_value("sim_dms_file","/home/max/EECS301/lab3/TopModel/ami05a/design.dms");
-$$set_sim_value("sim_simulation_depository","/home/max/EECS301/lab3/TopModel/ami05a");
-$$set_sim_value("sim_working_directory","/home/max/EECS301/lab3/work/Control_V");
-$$set_sim_value("vsim_working_directory","/home/max/EECS301/lab3/work/Control_V");
+$$set_sim_value("sim_dms_file","/home/max/301/ECSE301_lab3/TopModel/ami05a/design.dms");
+$$set_sim_value("sim_simulation_depository","/home/max/301/ECSE301_lab3/TopModel/ami05a");
+$$set_sim_value("sim_working_directory","/home/max/301/ECSE301_lab3");
+$$set_sim_value("vsim_working_directory","/home/max/301/ECSE301_lab3");
 
 // Sweeps
 $$set_sim_value("mc_active_entry",@off);
@@ -49,12 +49,12 @@ $$set_sim_value("sim_simulation_selected_scenario_type",@spice);
 $$set_sim_value("meas_vector_sm",[]);
 
 // Waveforms
-$$set_sim_value("sim_forces",[[@true, ["N: START"], @pattern, @voltage, "FORCE__START", "N: GND", ["1", "0", "0", "1n", "1n", "10n", "1100", @bin, @false, @false, @false, "", "", ""], ["", ""], "/START/M$1"], [@true, ["N: CLK"], @pattern, @voltage, "FORCE__CLK", "N: GND", ["1", "0", "0", "1n", "1n", "10n", "0011", @bin, @true, @false, @false, "", "", ""], ["", ""], "/CLK/M$2"], [@true, ["N: MIN[0]", "N: MIN[1]"], @dc, @voltage, "FORCE__MIN_0", "N: GND", ["5"], ["", ""], "/MIN[0]/M$3"], [@true, ["N: MIN[2]", "N: MIN[3]"], @dc, @voltage, "FORCE__MIN_2", "N: GND", ["0"], ["", ""], "/MIN[2]/M$4"], [@true, ["N: QIN[1]"], @dc, @voltage, "FORCE__QIN_1", "N: GND", ["5"], ["", ""], "/QIN[1]/M$5"], [@true, ["N: QIN[0]", "N: QIN[2]", "N: QIN[3]"], @dc, @voltage, "FORCE__QIN_0", "N: GND", ["0"], ["", ""], "/QIN[0]/M$6"]]);
+$$set_sim_value("sim_forces",[[@true, ["N: Q_IN[2]"], @dc, @voltage, "FORCE__Q_IN_2", "N: GND", ["5"], ["", ""], "/q_in[2]/M$1"], [@true, ["N: Q_IN[0]", "N: Q_IN[1]", "N: Q_IN[3]"], @dc, @voltage, "FORCE__Q_IN_2_1", "N: GND", ["0"], ["", ""], "/q_in[0]/M$2"], [@true, ["N: M_IN[0]", "N: M_IN[1]"], @dc, @voltage, "FORCE__M_IN_0", "N: GND", ["5"], ["", ""], "/m_in[0]/M$3"], [@true, ["N: M_IN[2]", "N: M_IN[3]"], @dc, @voltage, "FORCE__M_IN_2", "N: GND", ["0"], ["", ""], "/m_in[2]/M$4"], [@true, ["N: CLK"], @pattern, @voltage, "FORCE__CLK", "N: GND", ["5", "0", "0", "1n", "1n", "10n", "0101", @bin, @true, @false, @false, "", "", ""], ["", ""], "/clock/M$5"], [@true, ["N: START"], @pattern, @voltage, "FORCE__START_1", "N: GND", ["5", "0", "0", "1n", "1n", "10n", "1100", @bin, @false, @false, @false, "", "", ""], ["", ""], ""]]);
 $$set_sim_value("sim_plots_vector",[]);
 $$set_sim_value("sim_polezero",[]);
-$$set_sim_value("sim_probes",[[3, @false, "", [], @void, [["CLK", @net, "V", @same, []]], "All", "Save Only", "", void, -2], [3, @false, "", [], @void, [["START", @net, "V", @same, []]], "All", "Save Only", "", void, -2], [3, @false, "", [], @void, [["OUT[0]", @net, "V", @same, []], ["OUT[1]", @net, "V", @same, []], ["OUT[2]", @net, "V", @same, []], ["OUT[3]", @net, "V", @same, []], ["OUT[4]", @net, "V", @same, []], ["OUT[5]", @net, "V", @same, []], ["OUT[6]", @net, "V", @same, []], ["OUT[7]", @net, "V", @same, []]], "All", "Save Only", "", void, -2], [3, @true, "", [], @void, [["CLK", @net, "V", @same, []], ["START", @net, "V", @same, []], ["OUT[0]", @net, "V", @same, []], ["OUT[1]", @net, "V", @same, []], ["OUT[2]", @net, "V", @same, []], ["OUT[3]", @net, "V", @same, []], ["OUT[4]", @net, "V", @same, []], ["OUT[5]", @net, "V", @same, []], ["OUT[6]", @net, "V", @same, []], ["OUT[7]", @net, "V", @same, []], ["ACONTROL[0]", @net, "V", @same, []], ["ACONTROL[1]", @net, "V", @same, []], ["ADDCONTROL", @net, "V", @same, []], ["QCONTROL[0]", @net, "V", @same, []], ["QCONTROL[1]", @net, "V", @same, []], ["Q[0]", @net, "V", @same, []]], "All", "Save Only", "", void, -2]]);
+$$set_sim_value("sim_probes",[[3, @false, "V", [], @void, [], "ALL", "Save Only", "", void, -2], [3, @true, "", [], @void, [["DONE", @net, "V", @same, []]], "ALL", "Save Only", "", void, -2], [3, @false, "", [], @void, [["MULT_OUT[0]", @net, "V", @same, []], ["MULT_OUT[1]", @net, "V", @same, []], ["MULT_OUT[2]", @net, "V", @same, []], ["MULT_OUT[3]", @net, "V", @same, []], ["MULT_OUT[4]", @net, "V", @same, []], ["MULT_OUT[5]", @net, "V", @same, []], ["MULT_OUT[6]", @net, "V", @same, []], ["MULT_OUT[7]", @net, "V", @same, []]], "ALL", "Save Only", "", void, -2], [3, @true, "", [], @void, [["OUT[0]", @net, "V", @same, []], ["OUT[1]", @net, "V", @same, []], ["OUT[2]", @net, "V", @same, []], ["OUT[3]", @net, "V", @same, []], ["OUT[4]", @net, "V", @same, []], ["OUT[5]", @net, "V", @same, []], ["OUT[6]", @net, "V", @same, []], ["OUT[7]", @net, "V", @same, []]], "ALL", "Save Only", "", void, -2]]);
 $$set_sim_value("sim_probes_vector",[]);
-$$set_sim_value("wdb_sequence_number",4);
+$$set_sim_value("wdb_sequence_number",2);
 
 // Analysis
 $$set_sim_value("ac_enabled_entry",@off);
@@ -208,7 +208,7 @@ $$set_sim_value("tr_save_dc_file_entry","");
 $$set_sim_value("tr_save_end_file_entry","");
 $$set_sim_value("tr_save_time_file_entry","");
 $$set_sim_value("tr_sim_time_entry","");
-$$set_sim_value("tr_st_entry","800N");
+$$set_sim_value("tr_st_entry","3000N");
 $$set_sim_value("tr_tprint_entry","0");
 $$set_sim_value("tr_tstart_entry","0");
 $$set_sim_value("tr_uic_entry",@off);
@@ -216,7 +216,7 @@ $$set_sim_value("tr_use_file_entry","");
 $$set_sim_value("transient_enabled_entry",@on);
 
 // Forces
-$$set_sim_value("sim_forces",[[@true, ["N: START"], @pattern, @voltage, "FORCE__START", "N: GND", ["1", "0", "0", "1n", "1n", "10n", "1100", @bin, @false, @false, @false, "", "", ""], ["", ""], "/START/M$1"], [@true, ["N: CLK"], @pattern, @voltage, "FORCE__CLK", "N: GND", ["1", "0", "0", "1n", "1n", "10n", "0011", @bin, @true, @false, @false, "", "", ""], ["", ""], "/CLK/M$2"], [@true, ["N: MIN[0]", "N: MIN[1]"], @dc, @voltage, "FORCE__MIN_0", "N: GND", ["5"], ["", ""], "/MIN[0]/M$3"], [@true, ["N: MIN[2]", "N: MIN[3]"], @dc, @voltage, "FORCE__MIN_2", "N: GND", ["0"], ["", ""], "/MIN[2]/M$4"], [@true, ["N: QIN[1]"], @dc, @voltage, "FORCE__QIN_1", "N: GND", ["5"], ["", ""], "/QIN[1]/M$5"], [@true, ["N: QIN[0]", "N: QIN[2]", "N: QIN[3]"], @dc, @voltage, "FORCE__QIN_0", "N: GND", ["0"], ["", ""], "/QIN[0]/M$6"]]);
+$$set_sim_value("sim_forces",[[@true, ["N: Q_IN[2]"], @dc, @voltage, "FORCE__Q_IN_2", "N: GND", ["5"], ["", ""], "/q_in[2]/M$1"], [@true, ["N: Q_IN[0]", "N: Q_IN[1]", "N: Q_IN[3]"], @dc, @voltage, "FORCE__Q_IN_2_1", "N: GND", ["0"], ["", ""], "/q_in[0]/M$2"], [@true, ["N: M_IN[0]", "N: M_IN[1]"], @dc, @voltage, "FORCE__M_IN_0", "N: GND", ["5"], ["", ""], "/m_in[0]/M$3"], [@true, ["N: M_IN[2]", "N: M_IN[3]"], @dc, @voltage, "FORCE__M_IN_2", "N: GND", ["0"], ["", ""], "/m_in[2]/M$4"], [@true, ["N: CLK"], @pattern, @voltage, "FORCE__CLK", "N: GND", ["5", "0", "0", "1n", "1n", "10n", "0101", @bin, @true, @false, @false, "", "", ""], ["", ""], "/clock/M$5"], [@true, ["N: START"], @pattern, @voltage, "FORCE__START_1", "N: GND", ["5", "0", "0", "1n", "1n", "10n", "1100", @bin, @false, @false, @false, "", "", ""], ["", ""], ""]]);
 
 // Interface Elements
 $$set_sim_value("sim_default_converters_vector",[]);
@@ -304,7 +304,6 @@ $$set_sim_value("sim_modelsim_path","$MGC_AMS_HOME/modeltech");
 $$set_sim_value("sim_other_command","");
 $$set_sim_value("sim_other_command_default","");
 $$set_sim_value("sim_other_command_options",[]);
-$$set_sim_value("sim_output_file","TopModel_ami05a.chi");
 $$set_sim_value("sim_run_viewer",@true);
 $$set_sim_value("sim_simulation_type",@mixed);
 $$set_sim_value("sim_smartspice_command","$MGC_HOME/bin/run_smsp");
@@ -348,7 +347,7 @@ $$set_sim_value("vsim_netlist_run_viewer_flag",0);
 
 // Netlister Options
 $$set_sim_value("sim_eldonet_check",@false);
-$$set_sim_value("sim_eldonet_timestamp",1646343346);
+$$set_sim_value("sim_eldonet_timestamp",1647896905);
 $$set_sim_value("sim_netlist_run_viewer_flag",1);
 $$set_sim_value("sim_netlist_uptodate_check_flag",@yes);
 $$set_sim_value("sim_netlister_additional_globals","");

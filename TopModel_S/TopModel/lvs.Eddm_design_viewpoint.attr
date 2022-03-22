@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 6238c974cd3e.03.7f.00.01.01.00.47.87 2 2 4 0
+V v 1 4 6238c974cd3f.03.7f.00.01.01.00.47.87
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 6238c974d0f7.03.7f.00.01.01.00.47.87
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/part" 2 Eddm_part 6238c74b46aa.03.7f.00.01.01.00.48.6f 6238c74b1bf9.03.7f.00.01.01.00.48.6f
+R cspuv 1 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/TopModel" 1 mgc_symbol 6238c74b1a44.03.7f.00.01.01.01.48.6f 6238c74b1a44.03.7f.00.01.01.00.48.6f
+R cspuv 2 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic" 1 mgc_schematic 6238c74b1ea2.03.7f.00.01.01.00.48.6f 6238c74b1ea1.03.7f.00.01.01.00.48.6f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/lvs" 1 Eddm_ba_mgr 6238c974ce8e.03.7f.00.01.01.01.47.87 6238c974ce8e.03.7f.00.01.01.00.47.87
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/part" 2 Eddm_part 6238c74b46aa.03.7f.00.01.01.00.48.6f 6238c74b1bf9.03.7f.00.01.01.00.48.6f
+R cspuv 1 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/TopModel" 1 mgc_symbol 6238c74b1a44.03.7f.00.01.01.01.48.6f 6238c74b1a44.03.7f.00.01.01.00.48.6f
+R cspuv 2 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/schematic" 1 mgc_schematic 6238c74b1ea2.03.7f.00.01.01.00.48.6f 6238c74b1ea1.03.7f.00.01.01.00.48.6f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "/home/max/301/ECSE301_lab3/TopModel_S/TopModel/lvs" 1 Eddm_ba_mgr 6238c974ce8e.03.7f.00.01.01.01.47.87 6238c974ce8e.03.7f.00.01.01.00.47.87

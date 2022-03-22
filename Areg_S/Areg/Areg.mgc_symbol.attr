@@ -1,5 +1,5 @@
-A 5 u mgc_symbol 6220eeaf8de3.03.7f.00.01.01.00.55.5c 1 2 1 0
-V v 1 1 6220eeaf8de4.03.7f.00.01.01.00.55.5c
+A 5 u mgc_symbol 6238c6603101.03.7f.00.01.01.00.47.b4 1 2 1 0
+V v 1 1 6238c6603102.03.7f.00.01.01.00.47.b4
 F f 1 "Areg.smbl_1"
 O 1
-R csduv 0 "/home/max/EECS301/lab3/Areg_S/Areg/part" 4 Eddm_part 6220eeaf9113.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
+R csduv 0 "/home/max/301/ECSE301_lab3/Areg_S/Areg/part" 1 Eddm_part 6238c6603206.03.7f.00.01.01.01.47.b4 6238c6603206.03.7f.00.01.01.00.47.b4

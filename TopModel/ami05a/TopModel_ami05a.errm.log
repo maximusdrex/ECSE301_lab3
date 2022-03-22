@@ -1,7 +1,7 @@
-START report: Thu Mar  3 13:35:35 2022 
+START report: Mon Mar 21 14:05:24 2022 
 Warning: (eldo - 87) Some X or device instances connected in parallel have been merged into a single instance.
 +   This may cause some unexpected warning messages. See Eldo documentation for detail.
 +   To prevent this merging, please use .option nocatmx .
-Warning: (eldo - 1615)  In file "/home/max/EECS301/lab3/TopModel/ami05a/TopModel_ami05a.cir" line 36:
+Warning: (eldo - 1615)  In file "./TopModel/ami05a/TopModel_ami05a.cir" line 36:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 4.000e-08 s.
++   It is set to Tmax/20.0 = 1.500e-07 s.

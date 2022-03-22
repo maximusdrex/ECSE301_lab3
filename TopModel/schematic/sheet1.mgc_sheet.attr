@@ -1,73 +1,24 @@
-A 5 u mgc_sheet 622044583432.03.7f.00.01.01.00.4e.84 11 2 18 0
-V v 9 2 62212789414c.03.7f.00.01.01.00.68.d6
-F f 9 "sheet1.ssht_9"
-F f 9 "sheet1.sgfx_9"
-V v 10 2 6221297f6c5c.03.7f.00.01.01.00.6f.92
-F f 10 "sheet1.ssht_10"
-F f 10 "sheet1.sgfx_10"
-V v 11 2 622134372e8b.03.7f.00.01.01.00.6f.92
-F f 11 "sheet1.ssht_11"
-F f 11 "sheet1.sgfx_11"
-O 11
+A 5 u mgc_sheet 6238e154dbd0.03.7f.00.01.01.00.47.87 1 2 18 0
+V v 1 2 6238e154dbd1.03.7f.00.01.01.00.47.87
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+O 1
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 622044583385.03.7f.00.01.01.01.4e.84 622044583385.03.7f.00.01.01.00.4e.84
-R csduv 1 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
-P "eddm__refer_state" "eddm__refer_floating"
-R csduv 2 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
-R csduv 3 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
-R csduv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6220ee81f089.03.7f.00.01.01.00.55.23 6220ee81f087.03.7f.00.01.01.00.55.23
-R csduv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
-R csduv 6 "/home/max/EECS301/lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6220eeaf8de4.03.7f.00.01.01.00.55.5c 6220eeaf8de3.03.7f.00.01.01.00.55.5c
-R csduv 7 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
-R csduv 8 "/home/max/EECS301/lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 622043f5ebd1.03.7f.00.01.01.01.4f.45 622043f5ebd1.03.7f.00.01.01.00.4f.45
-R csduv 9 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
-R csduv 10 "/home/max/EECS301/lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 622042282fac.03.7f.00.01.01.01.4e.b0 622042282fac.03.7f.00.01.01.00.4e.b0
-R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
-R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/rip/1X2" 1 mgc_symbol 6021b4c81000.0d.00.03.97.39.00.00.00 3890e8888ef8.03.86.56.31.70.03.3a.eb
+R csduv 0 "/home/max/301/ECSE301_lab3/TopModel/schematic" 12 mgc_schematic 622134372f2a.03.7f.00.01.01.00.6f.92 622044583385.03.7f.00.01.01.00.4e.84
+R csduv 1 "/home/max/301/ECSE301_lab3/Control_S/ControlLogic/part" 2 Eddm_part 6238c52baac7.03.7f.00.01.01.00.45.ba 6238c52b7558.03.7f.00.01.01.00.45.ba
+R csduv 2 "/home/max/301/ECSE301_lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 6238c52b7400.03.7f.00.01.01.01.45.ba 6238c52b7400.03.7f.00.01.01.00.45.ba
+R csduv 3 "/home/max/301/ECSE301_lab3/Mreg_S/Mreg/part" 2 Eddm_part 6238c6cb2636.03.7f.00.01.01.00.48.01 6238c6cb0f9b.03.7f.00.01.01.00.48.01
+R csduv 4 "/home/max/301/ECSE301_lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 6238c6cb0e0a.03.7f.00.01.01.01.48.01 6238c6cb0e0a.03.7f.00.01.01.00.48.01
+R csduv 5 "/home/max/301/ECSE301_lab3/Areg_S/Areg/part" 2 Eddm_part 6238c66051f9.03.7f.00.01.01.00.47.b4 6238c6603206.03.7f.00.01.01.00.47.b4
+R csduv 6 "/home/max/301/ECSE301_lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6238c6603102.03.7f.00.01.01.00.47.b4 6238c6603101.03.7f.00.01.01.00.47.b4
+R csduv 7 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/part" 2 Eddm_part 6238c6f0e805.03.7f.00.01.01.00.48.20 6238c6f0c5b5.03.7f.00.01.01.00.48.20
+R csduv 8 "/home/max/301/ECSE301_lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6238c6f0c46a.03.7f.00.01.01.00.48.20 6238c6f0c469.03.7f.00.01.01.00.48.20
+R csduv 9 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/part" 2 Eddm_part 6238c6720b71.03.7f.00.01.01.00.47.d3 6238c671e853.03.7f.00.01.01.00.47.d3
+R csduv 10 "/home/max/301/ECSE301_lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 6238c671e757.03.7f.00.01.01.01.47.d3 6238c671e757.03.7f.00.01.01.00.47.d3
+R csduv 11 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
+R csduv 12 "$MGC_IC_GENERIC_LIB/rip/1X2" 1 mgc_symbol 6021b4c81000.0d.00.03.97.39.00.00.00 3890e8888ef8.03.86.56.31.70.03.3a.eb
+R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
 R csduv 15 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
-R csduv 16 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 17 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-O 10
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 622044583385.03.7f.00.01.01.01.4e.84 622044583385.03.7f.00.01.01.00.4e.84
-R csduv 1 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
-P "eddm__refer_state" "eddm__refer_floating"
-R csduv 2 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
-R csduv 3 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
-R csduv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6220ee81f089.03.7f.00.01.01.00.55.23 6220ee81f087.03.7f.00.01.01.00.55.23
-R csduv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
-R csduv 6 "/home/max/EECS301/lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6220eeaf8de4.03.7f.00.01.01.00.55.5c 6220eeaf8de3.03.7f.00.01.01.00.55.5c
-R csduv 7 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
-R csduv 8 "/home/max/EECS301/lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 622043f5ebd1.03.7f.00.01.01.01.4f.45 622043f5ebd1.03.7f.00.01.01.00.4f.45
-R csduv 9 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
-R csduv 10 "/home/max/EECS301/lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 622042282fac.03.7f.00.01.01.01.4e.b0 622042282fac.03.7f.00.01.01.00.4e.b0
-R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
-R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/rip/1X2" 1 mgc_symbol 6021b4c81000.0d.00.03.97.39.00.00.00 3890e8888ef8.03.86.56.31.70.03.3a.eb
-R csduv 15 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
-R csduv 16 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 17 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-O 9
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/max/EECS301/lab3/TopModel/schematic" 1 mgc_schematic 622044583385.03.7f.00.01.01.01.4e.84 622044583385.03.7f.00.01.01.00.4e.84
-R csduv 1 "/home/max/EECS301/lab3/Control_S/ControlLogic/part" 2 Eddm_part 622120f6e26c.03.7f.00.01.01.00.6a.45 622120f6b66c.03.7f.00.01.01.00.6a.45
-P "eddm__refer_state" "eddm__refer_floating"
-R csduv 2 "/home/max/EECS301/lab3/Control_S/ControlLogic/ControlLogic" 1 mgc_symbol 622120f6b541.03.7f.00.01.01.01.6a.45 622120f6b541.03.7f.00.01.01.00.6a.45
-R csduv 3 "/home/max/EECS301/lab3/Qreg_S/Qreg/part" 5 Eddm_part 6220ee825226.03.7f.00.01.01.00.55.23 6220443694ee.03.7f.00.01.01.00.4f.6d
-R csduv 4 "/home/max/EECS301/lab3/Qreg_S/Qreg/Qreg" 1 mgc_symbol 6220ee81f089.03.7f.00.01.01.00.55.23 6220ee81f087.03.7f.00.01.01.00.55.23
-R csduv 5 "/home/max/EECS301/lab3/Areg_S/Areg/part" 5 Eddm_part 6220eeafce20.03.7f.00.01.01.00.55.5c 622042d9c979.03.7f.00.01.01.00.4f.19
-R csduv 6 "/home/max/EECS301/lab3/Areg_S/Areg/Areg" 1 mgc_symbol 6220eeaf8de4.03.7f.00.01.01.00.55.5c 6220eeaf8de3.03.7f.00.01.01.00.55.5c
-R csduv 7 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 2 Eddm_part 622043f5f36f.03.7f.00.01.01.00.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
-R csduv 8 "/home/max/EECS301/lab3/Mreg_S/Mreg/Mreg" 1 mgc_symbol 622043f5ebd1.03.7f.00.01.01.01.4f.45 622043f5ebd1.03.7f.00.01.01.00.4f.45
-R csduv 9 "/home/max/EECS301/lab3/AddSub_S/AddSub/part" 2 Eddm_part 6220422839d5.03.7f.00.01.01.00.4e.b0 62204228306a.03.7f.00.01.01.00.4e.b0
-R csduv 10 "/home/max/EECS301/lab3/AddSub_S/AddSub/AddSub" 1 mgc_symbol 622042282fac.03.7f.00.01.01.01.4e.b0 622042282fac.03.7f.00.01.01.00.4e.b0
-R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
-R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/rip/part" 1 Eddm_part 5f94d2b7f000.0d.00.02.e4.17.00.00.00 3890e8888ef7.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/rip/1X2" 1 mgc_symbol 6021b4c81000.0d.00.03.97.39.00.00.00 3890e8888ef8.03.86.56.31.70.03.3a.eb
-R csduv 15 "$MGC_IC_GENERIC_LIB/rip/1X1" 1 mgc_symbol 6021b4b18000.0d.00.03.97.39.00.00.00 3890e8888ef7.03.86.56.31.70.04.3a.eb
-R csduv 16 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 17 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 16 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 17 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb

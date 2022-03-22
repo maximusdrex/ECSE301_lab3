@@ -1,0 +1,304 @@
+//  ICnet  v2008.2_10.1 (2008.2i)  Tue May 11 17:04:35 PDT 2010
+//  Core Libraries  v2008.2_10.1 Tue May 11 17:22:44 PDT 2010
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -eldo -o /home/max/301/ECSE301_lab3/TopModel_S/TopModel/ami05a/TopModel_ami05a.spi -check -upper -dmsfile /home/max/301/ECSE301_lab3/TopModel_S/TopModel/ami05a/design.dms /home/max/301/ECSE301_lab3/TopModel_S/TopModel/ami05a
+
+// **** Reading </home/max/301/ECSE301_lab3/TopModel_S/TopModel/ami05a> for ELDO netlist ****
+
+// Checking 27 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+// Parsing file '/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+Processing [/home/max/301/ECSE301_lab3/TopModel_S/TopModel] [TopModel/TopModel] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix214'
+Processing [$ADK/parts/mux21_ni] [mux21_ni/mux21_ni] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix224'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix53'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix234'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix244'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix254'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix264'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix184'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix174'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix164'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix154'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix125'
+Processing [$ADK/parts/ao22] [ao22/ao22] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix155'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix167'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix177'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix348'
+Processing [$ADK/parts/xnor2] [xnor2/xnor2] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix312'
+Processing [$ADK/parts/aoi22] [aoi22/aoi22] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix342'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix335'
+Processing [$ADK/parts/xor2] [xor2/xor2] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix43'
+Processing [$ADK/parts/nor02_2x] [nor02_2x/nor02_2x] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix11'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix25'
+Processing [$ADK/parts/nand02_2x] [nand02_2x/nand02_2x] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix5'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix631'
+Processing [$ADK/parts/inv02] [inv02/inv02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix314'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix75'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix329'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix365'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix588'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix363'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Q_reg_Q_out_0'
+Processing [$ADK/parts/dff] [dff/dff] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Q_reg_Q_out_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Q_reg_Q_out_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Q_reg_Q_out_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Q_reg_Q_out_4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/A_reg_A_out_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/A_reg_A_out_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/A_reg_A_out_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/A_reg_A_out_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/M_reg_M_out_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/M_reg_M_out_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/M_reg_M_out_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/M_reg_M_out_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix274'
+Processing [$ADK/parts/ao32] [ao32/ao32] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix204'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix187'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix194'
+Processing [$ADK/parts/ao21] [ao21/ao21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix135'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix145'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix5'
+Processing [$ADK/parts/nor03] [nor03/nor03] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix192'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix67'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix45'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix333'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix85'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix63'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix352'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix582'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix61'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix83'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix87'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix310'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix357'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_A_sig_1'
+Processing [$ADK/parts/latch] [latch/latch] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_done_sig'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_Q_sig_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_A_sig_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_1'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_5'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix179'
+Processing [$ADK/parts/nor02ii] [nor02ii/nor02ii] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix201'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix73'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix610'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix91'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix47'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix141'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix63'
+Processing [$ADK/parts/or02] [or02/or02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix159'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix127'
+Processing [$ADK/parts/nor04] [nor04/nor04] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix25'
+Processing [$ADK/parts/nor03_2x] [nor03_2x/nor03_2x] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix15'
+Processing [$ADK/parts/inv08] [inv08/inv08] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix649'
+Processing [$ADK/parts/buf08] [buf08/buf08] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix629'
+Processing [$ADK/parts/or03] [or03/or03] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_count_0__u1'
+Processing [$ADK/parts/latchr] [latchr/latchr] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_count_0__u2'
+Processing [$ADK/parts/inv01] [inv01/inv01] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix626'
+Processing [$ADK/parts/oai21] [oai21/oai21] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix109'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix81'
+Processing [$ADK/parts/and02] [and02/and02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_4'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_reg_PRES_STATE_5'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix169'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix105'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix61'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix591'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix131'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix191'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix593'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix608'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix11'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix151'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix37'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix617'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix29'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix660'
+Processing [$ADK/parts/buf02] [buf02/buf02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_count_0__u3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix373'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/ix371'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix647'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_ix645'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_Q_sig_0'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_M_sig'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_NEXT_STATE_3'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_adder_sig'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_count_2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/Control_lat_count_1'
+Primitive [$ADK/parts/adk_symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf)
+Primitive [$ADK/parts/adk_symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf)
+
+**** Writing </home/max/301/ECSE301_lab3/TopModel_S/TopModel/ami05a> netlist for ELDO ****
+
+Number of cells: 28
+Number of primitive instances: 1388
+
+Done...
+// Registration file '/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' closed.
+// Registration file '/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' closed.

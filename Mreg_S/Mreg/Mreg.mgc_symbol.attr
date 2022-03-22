@@ -1,5 +1,5 @@
-A 5 u mgc_symbol 622043f5ebd1.03.7f.00.01.01.00.4f.45 1 2 1 0
-V v 1 1 622043f5ebd1.03.7f.00.01.01.01.4f.45
+A 5 u mgc_symbol 6238c6cb0e0a.03.7f.00.01.01.00.48.01 1 2 1 0
+V v 1 1 6238c6cb0e0a.03.7f.00.01.01.01.48.01
 F f 1 "Mreg.smbl_1"
 O 1
-R csduv 0 "/home/max/EECS301/lab3/Mreg_S/Mreg/part" 1 Eddm_part 622043f5ec73.03.7f.00.01.01.01.4f.45 622043f5ec73.03.7f.00.01.01.00.4f.45
+R csduv 0 "/home/max/301/ECSE301_lab3/Mreg_S/Mreg/part" 1 Eddm_part 6238c6cb0f9c.03.7f.00.01.01.00.48.01 6238c6cb0f9b.03.7f.00.01.01.00.48.01
